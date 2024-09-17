@@ -1,0 +1,124 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 3,
+            "i_pos_final": 8
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "CODMAR",
+            "s_description": "CÓDIGO MARCA DE TARJETA",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 8,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "INDTIPT",
+            "s_description": "INDICADOR DE TIPO DE TARJETA",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 14
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA DEL CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 14,
+            "i_pos_final": 19
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 19,
+            "i_pos_final": 32
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "CALPART",
+            "s_description": "CALIDA DE PARTICIPACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 32,
+            "i_pos_final": 35
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICADOR DE CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 35,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "TIPBON",
+            "s_description": "TIPO DE BONIFICACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 51
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "PAN",
+            "s_description": "NÚMERO DE LA TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 51,
+            "i_pos_final": 74
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA DE LA TARJETA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 74,
+            "i_pos_final": 85
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "FECCADTAR",
+            "s_description": "FECHA DE CADUCIDAD DE LA TARJETA (AAAAMM)",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 85,
+            "i_pos_final": 92
+        },
+        {
+            "s_tipo_registro": "TV",
+            "s_nombre": "CODBLQ",
+            "s_description": "CÓDIGO DE BLOQUEO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 92,
+            "i_pos_final": 95
+        }
+    ]
+}

@@ -1,0 +1,782 @@
+{
+  "cabecera": [
+    {
+      "s_nombre": "cod-tran",
+      "s_description": "codigo transaccion (90)",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 0,
+      "i_pos_final": 2
+    },
+    {
+      "s_nombre": "bin-proces",
+      "s_description": "bin procesador",
+      "s_tipo": "Numérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 2,
+      "i_pos_final": 8
+    },
+    {
+      "s_nombre": "fec-proces",
+      "s_description": "fecha de proceso",
+      "s_tipo": "Numérico",
+      "i_long": 5,
+      "i_dec": 0,
+      "i_pos_inicial": 8,
+      "i_pos_final": 13
+    },
+    {
+      "s_nombre": "ind-cont-cin",
+      "s_description": "  ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 13,
+      "i_pos_final": 14
+    },
+    {
+      "s_nombre": "ind-gru",
+      "s_description": "indicador de continuacion de cinta",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 14,
+      "i_pos_final": 15
+    },
+    {
+      "s_nombre": "num-ver-fic",
+      "s_description": "indicador de grupo de datos",
+      "s_tipo": "Numérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 15,
+      "i_pos_final": 19
+    },
+    {
+      "s_nombre": "fec-liq",
+      "s_description": "numero de version de fichero",
+      "s_tipo": "Numérico",
+      "i_long": 5,
+      "i_dec": 0,
+      "i_pos_inicial": 19,
+      "i_pos_final": 24
+    },
+    {
+      "s_nombre": "filler",
+      "s_description": "fecha de liquidacion",
+      "s_tipo": "Alfanumérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 24,
+      "i_pos_final": 26
+    },
+    {
+      "s_nombre": "num-edi",
+      "s_description": "filler",
+      "s_tipo": "Numérico",
+      "i_long": 3,
+      "i_dec": 0,
+      "i_pos_inicial": 26,
+      "i_pos_final": 29
+    },
+    {
+      "s_nombre": "opc-test",
+      "s_description": "numero de edicion",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 29,
+      "i_pos_final": 33
+    },
+    {
+      "s_nombre": "opc-proc",
+      "s_description": "opcion test o produccion",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 33,
+      "i_pos_final": 34
+    },
+    {
+      "s_nombre": "filler",
+      "s_description": "opcion proceso",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 34,
+      "i_pos_final": 38
+    },
+    {
+      "s_nombre": "num-arch-com",
+      "s_description": "filler",
+      "s_tipo": "Numérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 38,
+      "i_pos_final": 44
+    },
+    {
+      "s_nombre": "filler",
+      "s_description": "numero de archivo comienzo",
+      "s_tipo": "Alfanumérico",
+      "i_long": 18,
+      "i_dec": 0,
+      "i_pos_inicial": 44,
+      "i_pos_final": 62
+    },
+    {
+      "s_nombre": "cod-seg",
+      "s_description": "filler",
+      "s_tipo": "Alfanumérico",
+      "i_long": 8,
+      "i_dec": 0,
+      "i_pos_inicial": 62,
+      "i_pos_final": 70
+    },
+    {
+      "s_nombre": "cod-rep",
+      "s_description": "codigo de seguridad",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 70,
+      "i_pos_final": 71
+    },
+    {
+      "s_nombre": "tipo-fic",
+      "s_description": "codigo de reparto",
+      "s_tipo": "Alfanumérico",
+      "i_long": 5,
+      "i_dec": 0,
+      "i_pos_inicial": 71,
+      "i_pos_final": 76
+    },
+    {
+      "s_nombre": "id-fic",
+      "s_description": "identidad de fichero",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 76,
+      "i_pos_final": 106
+    },
+    {
+      "s_nombre": "tipo-fic-rep",
+      "s_description": "tipo de fichero de reparto",
+      "s_tipo": "Alfanumérico",
+      "i_long": 5,
+      "i_dec": 0,
+      "i_pos_inicial": 106,
+      "i_pos_final": 111
+    },
+    {
+      "s_nombre": "filler",
+      "s_description": "filler",
+      "s_tipo": "Alfanumérico",
+      "i_long": 50,
+      "i_dec": 0,
+      "i_pos_inicial": 111,
+      "i_pos_final": 161
+    },
+    {
+      "s_nombre": "num-cinta",
+      "s_description": "numero de cinta",
+      "s_tipo": "Numérico",
+      "i_long": 7,
+      "i_dec": 0,
+      "i_pos_inicial": 161,
+      "i_pos_final": 168
+    }
+  ],
+  "detalle": [
+    {
+      "s_nombre": "visa-tc00",
+      "s_description": "transacción 00",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 0,
+      "i_pos_final": 0
+    },
+    {
+      "s_nombre": "tc00-cod-tran",
+      "s_description": "código de transacción 00",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 0,
+      "i_pos_final": 2
+    },
+    {
+      "s_nombre": "filler-tc00",
+      "s_description": "información del tc0",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 2,
+      "i_pos_final": 170
+    },
+    {
+      "s_nombre": "visa-tc01",
+      "s_description": "transacción 01",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 170,
+      "i_pos_final": 170
+    },
+    {
+      "s_nombre": "tc01-cod-tran",
+      "s_description": "código de transacción 01",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 170,
+      "i_pos_final": 172
+    },
+    {
+      "s_nombre": "filler-tc01",
+      "s_description": "información del tc1",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 172,
+      "i_pos_final": 340
+    },
+    {
+      "s_nombre": "visa-tc02",
+      "s_description": "transacción 02",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 340,
+      "i_pos_final": 340
+    },
+    {
+      "s_nombre": "tc02-cod-tran",
+      "s_description": "código de transacción 02",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 340,
+      "i_pos_final": 342
+    },
+    {
+      "s_nombre": "filler-tc02",
+      "s_description": "información del tc2",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 342,
+      "i_pos_final": 510
+    },
+    {
+      "s_nombre": "visa-tc03",
+      "s_description": "transacción 03",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 510,
+      "i_pos_final": 510
+    },
+    {
+      "s_nombre": "tc03-cod-tran",
+      "s_description": "código de transacción 03",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 510,
+      "i_pos_final": 512
+    },
+    {
+      "s_nombre": "filler-tc03",
+      "s_description": "información del tc3",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 512,
+      "i_pos_final": 680
+    },
+    {
+      "s_nombre": "visa-tc04",
+      "s_description": "transacción 04",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 680,
+      "i_pos_final": 680
+    },
+    {
+      "s_nombre": "tc04-cod-tran",
+      "s_description": "código de transacción 04",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 680,
+      "i_pos_final": 682
+    },
+    {
+      "s_nombre": "filler-tc04",
+      "s_description": "información del tc4",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 682,
+      "i_pos_final": 850
+    },
+    {
+      "s_nombre": "visa-tc05",
+      "s_description": "transacción 05",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 850,
+      "i_pos_final": 850
+    },
+    {
+      "s_nombre": "tc05-cod-tran",
+      "s_description": "código de transacción 05",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 850,
+      "i_pos_final": 852
+    },
+    {
+      "s_nombre": "filler-tc05",
+      "s_description": "información del tc5",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 852,
+      "i_pos_final": 1020
+    },
+    {
+      "s_nombre": "visa-tc06",
+      "s_description": "transacción 06",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 1020,
+      "i_pos_final": 1020
+    },
+    {
+      "s_nombre": "tc06-cod-tran",
+      "s_description": "código de transacción 06",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 1020,
+      "i_pos_final": 1022
+    },
+    {
+      "s_nombre": "filler-tc06",
+      "s_description": "información del tc6",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 1022,
+      "i_pos_final": 1190
+    },
+    {
+      "s_nombre": "visa-tc07",
+      "s_description": "transacción 07",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 1190,
+      "i_pos_final": 1190
+    },
+    {
+      "s_nombre": "tc07-cod-tran",
+      "s_description": "código de transacción 07",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 1190,
+      "i_pos_final": 1192
+    },
+    {
+      "s_nombre": "filler-tc07",
+      "s_description": "información del tc7",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 1192,
+      "i_pos_final": 1360
+    },
+    {
+      "s_nombre": "visa-tc0d",
+      "s_description": "transacción 0d",
+      "s_tipo": "Alfanumérico",
+      "i_long": 0,
+      "i_dec": 0,
+      "i_pos_inicial": 1360,
+      "i_pos_final": 1360
+    },
+    {
+      "s_nombre": "tc0d-cod-tran",
+      "s_description": "código de transacción 0d",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 1360,
+      "i_pos_final": 1362
+    },
+    {
+      "s_nombre": "filler-tc0d",
+      "s_description": "información del tcd",
+      "s_tipo": "Alfanumérico",
+      "i_long": 168,
+      "i_dec": 0,
+      "i_pos_inicial": 1362,
+      "i_pos_final": 1530
+    },
+    {
+      "s_nombre": "filler-fut",
+      "s_description": "uso futuro",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1000,
+      "i_dec": 0,
+      "i_pos_inicial": 1530,
+      "i_pos_final": 2530
+    },
+    {
+      "s_nombre": "cod-tran",
+      "s_description": "codigo transaccion",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 2530,
+      "i_pos_final": 2532
+    },
+    {
+      "s_nombre": "cual-cod-tran",
+      "s_description": "cualificador codigo transaccion",
+      "s_tipo": "Numérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 2532,
+      "i_pos_final": 2533
+    },
+    {
+      "s_nombre": "num-sec-tran",
+      "s_description": "numero de secuencia del componente de la \r\ntransaccion",
+      "s_tipo": "Numérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 2533,
+      "i_pos_final": 2534
+    },
+    {
+      "s_nombre": "bin",
+      "s_description": "bin",
+      "s_tipo": "Numérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 2534,
+      "i_pos_final": 2540
+    },
+    {
+      "s_nombre": "fec-proces",
+      "s_description": "fecha de proceso",
+      "s_tipo": "Numérico",
+      "i_long": 5,
+      "i_dec": 0,
+      "i_pos_inicial": 2540,
+      "i_pos_final": 2545
+    },
+    {
+      "s_nombre": "imp-liq-apli-tot",
+      "s_description": "importe liquido aplicado total lote:\r\n * si se trata de tc91 sera del lote\r\n * si se trata de tc92 sera del fichero\r\n * ---> para el outgoing debe ir a ceros.",
+      "s_tipo": "Numérico",
+      "i_long": 13,
+      "i_dec": 0,
+      "i_pos_inicial": 2545,
+      "i_pos_final": 2558
+    },
+    {
+      "s_nombre": "num-trans-mon",
+      "s_description": "numero de transacciones monetarias",
+      "s_tipo": "Numérico",
+      "i_long": 12,
+      "i_dec": 0,
+      "i_pos_inicial": 2558,
+      "i_pos_final": 2570
+    },
+    {
+      "s_nombre": "num-lote",
+      "s_description": "numero de lote",
+      "s_tipo": "Numérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 2570,
+      "i_pos_final": 2576
+    },
+    {
+      "s_nombre": "num-tcr",
+      "s_description": "numero de tcrs que hay",
+      "s_tipo": "Numérico",
+      "i_long": 12,
+      "i_dec": 0,
+      "i_pos_inicial": 2576,
+      "i_pos_final": 2588
+    },
+    {
+      "s_nombre": "cont-fich",
+      "s_description": "contador de ficheros",
+      "s_tipo": "Numérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 2588,
+      "i_pos_final": 2594
+    },
+    {
+      "s_nombre": "id-cen-lote",
+      "s_description": "identificador centro lote",
+      "s_tipo": "Alfanumérico",
+      "i_long": 8,
+      "i_dec": 0,
+      "i_pos_inicial": 2594,
+      "i_pos_final": 2602
+    },
+    {
+      "s_nombre": "num-trans",
+      "s_description": "numero de transacciones",
+      "s_tipo": "Numérico",
+      "i_long": 9,
+      "i_dec": 0,
+      "i_pos_inicial": 2602,
+      "i_pos_final": 2611
+    },
+    {
+      "s_nombre": "cam-reservado-1",
+      "s_description": "campo reservado1",
+      "s_tipo": "Numérico",
+      "i_long": 18,
+      "i_dec": 0,
+      "i_pos_inicial": 2611,
+      "i_pos_final": 2629
+    },
+    {
+      "s_nombre": "imp-ope-tot",
+      "s_description": "importe operacion total:\r\nsi se trata de tc91 sera del lote\r\nsi se trata de tc92 sera del fichero\r\nla suma de todos los imp-origen de los registros de \r\noperaciones.",
+      "s_tipo": "Numérico",
+      "i_long": 13,
+      "i_dec": 0,
+      "i_pos_inicial": 2629,
+      "i_pos_final": 2642
+    },
+    {
+      "s_nombre": "cam-reservado-2",
+      "s_description": "cmapo reservado2",
+      "s_tipo": "Numérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 2642,
+      "i_pos_final": 2657
+    },
+    {
+      "s_nombre": "cam-reservado-3",
+      "s_description": "cmapo reservado3",
+      "s_tipo": "Numérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 2657,
+      "i_pos_final": 2672
+    },
+    {
+      "s_nombre": "cam-reservado-4",
+      "s_description": "cmapo reservado4",
+      "s_tipo": "Numérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 2672,
+      "i_pos_final": 2687
+    },
+    {
+      "s_nombre": "filler",
+      "s_description": "filler",
+      "s_tipo": "Numérico",
+      "i_long": 7,
+      "i_dec": 0,
+      "i_pos_inicial": 2687,
+      "i_pos_final": 2694
+    },
+    {
+      "s_nombre": "filler-test",
+      "s_description": "filler",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 2694,
+      "i_pos_final": 2695
+    }
+  ],
+  "trailer": [
+    {
+      "s_nombre": "cod-tran",
+      "s_description": "codigo transaccion",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 0,
+      "i_pos_final": 2
+    },
+    {
+      "s_nombre": "cual-cod-tran",
+      "s_description": "cualificador codigo transaccion",
+      "s_tipo": "Numérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 2,
+      "i_pos_final": 3
+    },
+    {
+      "s_nombre": "num-sec-tran",
+      "s_description": "numero de secuencia del componente de la transaccion",
+      "s_tipo": "Numérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 3,
+      "i_pos_final": 4
+    },
+    {
+      "s_nombre": "bin",
+      "s_description": "bin",
+      "s_tipo": "Numérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 4,
+      "i_pos_final": 10
+    },
+    {
+      "s_nombre": "fec-proces",
+      "s_description": "fecha de proceso",
+      "s_tipo": "Numérico",
+      "i_long": 5,
+      "i_dec": 0,
+      "i_pos_inicial": 10,
+      "i_pos_final": 15
+    },
+    {
+      "s_nombre": "imp-liq-apli-tot",
+      "s_description": "importe liquido aplicado total lote:\r\n * si se trata de tc91 sera del lote\r\n * si se trata de tc92 sera del fichero\r\n * ---> para el outgoing debe ir a ceros.",
+      "s_tipo": "Numérico",
+      "i_long": 13,
+      "i_dec": 2,
+      "i_pos_inicial": 15,
+      "i_pos_final": 28
+    },
+    {
+      "s_nombre": "num-trans-mon",
+      "s_description": "numero de transacciones monetarias",
+      "s_tipo": "Numérico",
+      "i_long": 12,
+      "i_dec": 0,
+      "i_pos_inicial": 28,
+      "i_pos_final": 40
+    },
+    {
+      "s_nombre": "num-lote",
+      "s_description": "numero de lote ",
+      "s_tipo": "Numérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 40,
+      "i_pos_final": 46
+    },
+    {
+      "s_nombre": "num-tcr",
+      "s_description": "numero de tcrs que hay",
+      "s_tipo": "Numérico",
+      "i_long": 12,
+      "i_dec": 0,
+      "i_pos_inicial": 46,
+      "i_pos_final": 58
+    },
+    {
+      "s_nombre": "cont-fich",
+      "s_description": "contador de ficheros",
+      "s_tipo": "Numérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 58,
+      "i_pos_final": 64
+    },
+    {
+      "s_nombre": "id-cen-lote",
+      "s_description": "identificador centro lote",
+      "s_tipo": "Alfanumérico",
+      "i_long": 8,
+      "i_dec": 0,
+      "i_pos_inicial": 64,
+      "i_pos_final": 72
+    },
+    {
+      "s_nombre": "num-trans",
+      "s_description": "numero de transacciones ",
+      "s_tipo": "Numérico",
+      "i_long": 9,
+      "i_dec": 0,
+      "i_pos_inicial": 72,
+      "i_pos_final": 81
+    },
+    {
+      "s_nombre": "cam-reservado-1",
+      "s_description": "campo reservado 1",
+      "s_tipo": "Numérico",
+      "i_long": 18,
+      "i_dec": 0,
+      "i_pos_inicial": 81,
+      "i_pos_final": 99
+    },
+    {
+      "s_nombre": "imp-ope-tot",
+      "s_description": "importe operacion total:\r\nsi se trata de tc91 sera del lote\r\nsi se trata de tc92 sera del fichero\r\nla suma de todos los imp-origen de los registros de \r\noperaciones.",
+      "s_tipo": "Numérico",
+      "i_long": 13,
+      "i_dec": 2,
+      "i_pos_inicial": 99,
+      "i_pos_final": 112
+    },
+    {
+      "s_nombre": "cam-reservado-2",
+      "s_description": "campo reservado 2",
+      "s_tipo": "Numérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 112,
+      "i_pos_final": 127
+    },
+    {
+      "s_nombre": "cam-reservado-3",
+      "s_description": "campo reservado 3",
+      "s_tipo": "Numérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 127,
+      "i_pos_final": 142
+    },
+    {
+      "s_nombre": "cam-reservado-4",
+      "s_description": "campo reservado 4",
+      "s_tipo": "Numérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 142,
+      "i_pos_final": 157
+    },
+    {
+      "s_nombre": "filler",
+      "s_description": "filler",
+      "s_tipo": "Numérico",
+      "i_long": 7,
+      "i_dec": 0,
+      "i_pos_inicial": 157,
+      "i_pos_final": 164
+    }
+  ]
+}

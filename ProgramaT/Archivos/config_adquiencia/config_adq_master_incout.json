@@ -1,0 +1,1820 @@
+{
+    "detalle": [
+        {
+            "s_nombre": "ipmdemapaextendido",
+            "s_tipo": "Alfanumérico",
+            "i_long": 128,
+            "i_dec": 0,
+            "i_pos_inicial": 0,
+            "i_pos_final": 128
+        },
+        {
+            "s_nombre": "ipmdemti",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 128,
+            "i_pos_final": 132
+        },
+        {
+            "s_nombre": "ipmde2longpan",
+            "s_tipo": " Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 132,
+            "i_pos_final": 134
+        },
+        {
+            "s_nombre": "ipmde2pan",
+            "s_tipo": "Alfanumérico",
+            "i_long": 19,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 153
+        },
+        {
+            "s_nombre": "ipmde3codproc",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 153,
+            "i_pos_final": 159
+        },
+        {
+            "s_nombre": "ipmde4imptran",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 159,
+            "i_pos_final": 171
+        },
+        {
+            "s_nombre": "ipmde5impconc",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 171,
+            "i_pos_final": 183
+        },
+        {
+            "s_nombre": "ipmde6impfaccli",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 183,
+            "i_pos_final": 195
+        },
+        {
+            "s_nombre": "ipmde8comifaccli",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 195,
+            "i_pos_final": 203
+        },
+        {
+            "s_nombre": "ipmde9tasaconc",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 203,
+            "i_pos_final": 211
+        },
+        {
+            "s_nombre": "ipmde10tasafaccli",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 211,
+            "i_pos_final": 219
+        },
+        {
+            "s_nombre": "ipmde12fechortran",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 219,
+            "i_pos_final": 231
+        },
+        {
+            "s_nombre": "ipmde14fecven",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 231,
+            "i_pos_final": 235
+        },
+        {
+            "s_nombre": "ipmde22datpoi",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 235,
+            "i_pos_final": 247
+        },
+        {
+            "s_nombre": "ipmde23numsectarj",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 247,
+            "i_pos_final": 250
+        },
+        {
+            "s_nombre": "ipmde24codfun",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 250,
+            "i_pos_final": 253
+        },
+        {
+            "s_nombre": "ipmde25codmen",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 253,
+            "i_pos_final": 257
+        },
+        {
+            "s_nombre": "ipmde26codact",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 257,
+            "i_pos_final": 261
+        },
+        {
+            "s_nombre": "ipmde30imporitran",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 261,
+            "i_pos_final": 273
+        },
+        {
+            "s_nombre": "ipmde30imporiconc",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 285
+        },
+        {
+            "s_nombre": "ipmde31longnumref",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 285,
+            "i_pos_final": 287
+        },
+        {
+            "s_nombre": "ipmde31numref",
+            "s_tipo": "Alfanumérico",
+            "i_long": 99,
+            "i_dec": 0,
+            "i_pos_inicial": 287,
+            "i_pos_final": 386
+        },
+        {
+            "s_nombre": "ipmde32longnumicaadq",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 386,
+            "i_pos_final": 388
+        },
+        {
+            "s_nombre": "ipmde32numicaadq",
+            "s_tipo": "Alfanumérico",
+            "i_long": 11,
+            "i_dec": 0,
+            "i_pos_inicial": 388,
+            "i_pos_final": 399
+        },
+        {
+            "s_nombre": "ipmde33longnumicaenv",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 399,
+            "i_pos_final": 401
+        },
+        {
+            "s_nombre": "ipmde33numicaenv",
+            "s_tipo": "Alfanumérico",
+            "i_long": 11,
+            "i_dec": 0,
+            "i_pos_inicial": 401,
+            "i_pos_final": 412
+        },
+        {
+            "s_nombre": "ipmde37numrefrecu",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 412,
+            "i_pos_final": 424
+        },
+        {
+            "s_nombre": "ipmde38codaut",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 424,
+            "i_pos_final": 430
+        },
+        {
+            "s_nombre": "ipmde40extsercod",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 430,
+            "i_pos_final": 433
+        },
+        {
+            "s_nombre": "ipmde41codterm",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 433,
+            "i_pos_final": 441
+        },
+        {
+            "s_nombre": "ipmde42codcom",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 441,
+            "i_pos_final": 456
+        },
+        {
+            "s_nombre": "ipmde43longdatcom",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 456,
+            "i_pos_final": 458
+        },
+        {
+            "s_nombre": "ipmde43datcom",
+            "s_tipo": "Alfanumérico",
+            "i_long": 99,
+            "i_dec": 0,
+            "i_pos_inicial": 458,
+            "i_pos_final": 557
+        },
+        {
+            "s_nombre": "ipmde49clamontran",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 557,
+            "i_pos_final": 560
+        },
+        {
+            "s_nombre": "ipmde50clamonconc",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 560,
+            "i_pos_final": 563
+        },
+        {
+            "s_nombre": "ipmde51clamonfaccli",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 563,
+            "i_pos_final": 566
+        },
+        {
+            "s_nombre": "ipmde54longamountadd",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 566,
+            "i_pos_final": 569
+        },
+        {
+            "s_nombre": "ipmde54amountadd",
+            "s_tipo": "Numérico",
+            "i_long": 48,
+            "i_dec": 0,
+            "i_pos_inicial": 569,
+            "i_pos_final": 617
+        },
+        {
+            "s_nombre": "ipmde55longdatchip",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 617,
+            "i_pos_final": 620
+        },
+        {
+            "s_nombre": "ipmde55datchip",
+            "s_tipo": "Alfanumérico",
+            "i_long": 255,
+            "i_dec": 0,
+            "i_pos_inicial": 620,
+            "i_pos_final": 875
+        },
+        {
+            "s_nombre": "ipmde63longdurtran",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 875,
+            "i_pos_final": 878
+        },
+        {
+            "s_nombre": "ipmde63durtran",
+            "s_tipo": "Alfanumérico",
+            "i_long": 16,
+            "i_dec": 0,
+            "i_pos_inicial": 878,
+            "i_pos_final": 894
+        },
+        {
+            "s_nombre": "ipmde71nummsg",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 894,
+            "i_pos_final": 902
+        },
+        {
+            "s_nombre": "ipmde72longdatosmen",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 902,
+            "i_pos_final": 905
+        },
+        {
+            "s_nombre": "ipmde72datosmen",
+            "s_tipo": "Alfanumérico",
+            "i_long": 999,
+            "i_dec": 0,
+            "i_pos_inicial": 905,
+            "i_pos_final": 1904
+        },
+        {
+            "s_nombre": "ipmde73fechaacc",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 1904,
+            "i_pos_final": 1910
+        },
+        {
+            "s_nombre": "ipmde93longnumicarec",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 1910,
+            "i_pos_final": 1912
+        },
+        {
+            "s_nombre": "ipmde93numicarec",
+            "s_tipo": "Alfanumérico",
+            "i_long": 11,
+            "i_dec": 0,
+            "i_pos_inicial": 1912,
+            "i_pos_final": 1923
+        },
+        {
+            "s_nombre": "ipmde94longnumicaenv",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 1923,
+            "i_pos_final": 1925
+        },
+        {
+            "s_nombre": "ipmde94numicaenv",
+            "s_tipo": "Alfanumérico",
+            "i_long": 11,
+            "i_dec": 0,
+            "i_pos_inicial": 1925,
+            "i_pos_final": 1936
+        },
+        {
+            "s_nombre": "ipmde95longnrefch",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 1936,
+            "i_pos_final": 1938
+        },
+        {
+            "s_nombre": "ipmde95nrefch",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 1938,
+            "i_pos_final": 1948
+        },
+        {
+            "s_nombre": "ipmde100longnumicarec",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 1948,
+            "i_pos_final": 1950
+        },
+        {
+            "s_nombre": "ipmde100numicarec",
+            "s_tipo": "Alfanumérico",
+            "i_long": 11,
+            "i_dec": 0,
+            "i_pos_inicial": 1950,
+            "i_pos_final": 1961
+        },
+        {
+            "s_nombre": "ipmde111longdatos",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 1961,
+            "i_pos_final": 1964
+        },
+        {
+            "s_nombre": "ipmde111ajusteconversion",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 1964,
+            "i_pos_final": 1976
+        },
+        {
+            "s_nombre": "ipmde124longdatos",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 1976,
+            "i_pos_final": 1979
+        },
+        {
+            "s_nombre": "ipmde124datos",
+            "s_tipo": "Alfanumérico",
+            "i_long": 999,
+            "i_dec": 0,
+            "i_pos_inicial": 1979,
+            "i_pos_final": 2978
+        },
+        {
+            "s_nombre": "ipmpd1longpaypassmapp",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 2978,
+            "i_pos_final": 2981
+        },
+        {
+            "s_nombre": "ipmpd1paypassmapping",
+            "s_tipo": "Alfanumérico",
+            "i_long": 21,
+            "i_dec": 0,
+            "i_pos_inicial": 2981,
+            "i_pos_final": 3002
+        },
+        {
+            "s_nombre": "ipmpd2longproductid",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3002,
+            "i_pos_final": 3005
+        },
+        {
+            "s_nombre": "ipmpd2productid",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3005,
+            "i_pos_final": 3008
+        },
+        {
+            "s_nombre": "ipmpd3longlicensedprodid",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3008,
+            "i_pos_final": 3011
+        },
+        {
+            "s_nombre": "ipmpd3licensedproductid",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3011,
+            "i_pos_final": 3014
+        },
+        {
+            "s_nombre": "ipmpd5longtbinderror",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3014,
+            "i_pos_final": 3017
+        },
+        {
+            "s_nombre": "ipmpd5tbinderror",
+            "s_tipo": "Alfanumérico",
+            "i_long": 140,
+            "i_dec": 0,
+            "i_pos_inicial": 3017,
+            "i_pos_final": 3157
+        },
+        {
+            "s_nombre": "ipmpd20fecvigiccr",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 3157,
+            "i_pos_final": 3163
+        },
+        {
+            "s_nombre": "ipmpd21porceniccr",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 3163,
+            "i_pos_final": 3170
+        },
+        {
+            "s_nombre": "ipmpd22indpagrec",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 3170,
+            "i_pos_final": 3171
+        },
+        {
+            "s_nombre": "ipmpd23tipterm",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3171,
+            "i_pos_final": 3174
+        },
+        {
+            "s_nombre": "ipmpd25longrevermen",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3174,
+            "i_pos_final": 3177
+        },
+        {
+            "s_nombre": "ipmpd25revermen",
+            "s_tipo": "Alfanumérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 3177,
+            "i_pos_final": 3184
+        },
+        {
+            "s_nombre": "ipmpd26longreverarc",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3184,
+            "i_pos_final": 3187
+        },
+        {
+            "s_nombre": "ipmpd26reverarc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 3187,
+            "i_pos_final": 3194
+        },
+        {
+            "s_nombre": "ipmpd43idinscrip",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3194,
+            "i_pos_final": 3197
+        },
+        {
+            "s_nombre": "ipmpd52securitycommercind",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3197,
+            "i_pos_final": 3200
+        },
+        {
+            "s_nombre": "ipmpd56longelectind",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3200,
+            "i_pos_final": 3203
+        },
+        {
+            "s_nombre": "ipmpd56electind",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 3203,
+            "i_pos_final": 3204
+        },
+        {
+            "s_nombre": "ipmpd57longtrncatind",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3204,
+            "i_pos_final": 3207
+        },
+        {
+            "s_nombre": "ipmpd57trncatind",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 3207,
+            "i_pos_final": 3209
+        },
+        {
+            "s_nombre": "ipmpd105idarchivo",
+            "s_tipo": "Numérico",
+            "i_long": 25,
+            "i_dec": 0,
+            "i_pos_inicial": 3209,
+            "i_pos_final": 3234
+        },
+        {
+            "s_nombre": "ipmpd110idtransmision",
+            "s_tipo": "Numérico",
+            "i_long": 25,
+            "i_dec": 0,
+            "i_pos_inicial": 3234,
+            "i_pos_final": 3259
+        },
+        {
+            "s_nombre": "ipmpd122modproces",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 3259,
+            "i_pos_final": 3260
+        },
+        {
+            "s_nombre": "ipmpd137longctrolcargos",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3260,
+            "i_pos_final": 3263
+        },
+        {
+            "s_nombre": "ipmpd137ctrolcargos",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 3263,
+            "i_pos_final": 3283
+        },
+        {
+            "s_nombre": "ipmpd138nmenfte",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 3283,
+            "i_pos_final": 3291
+        },
+        {
+            "s_nombre": "ipmpd146longtbcomitran",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3291,
+            "i_pos_final": 3294
+        },
+        {
+            "s_nombre": "ipmpd146tbcomitran",
+            "s_tipo": "Numérico",
+            "i_long": 468,
+            "i_dec": 0,
+            "i_pos_inicial": 3294,
+            "i_pos_final": 3762
+        },
+        {
+            "s_nombre": "ipmpd148longtbexpmon",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3762,
+            "i_pos_final": 3765
+        },
+        {
+            "s_nombre": "ipmpd148tbexpmon",
+            "s_tipo": "Alfanumérico",
+            "i_long": 60,
+            "i_dec": 0,
+            "i_pos_inicial": 3765,
+            "i_pos_final": 3825
+        },
+        {
+            "s_nombre": "ipmpd149longclamonori",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3825,
+            "i_pos_final": 3828
+        },
+        {
+            "s_nombre": "ipmpd149clamonori",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 3828,
+            "i_pos_final": 3834
+        },
+        {
+            "s_nombre": "ipmpd157longclamonint",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 3834,
+            "i_pos_final": 3837
+        },
+        {
+            "s_nombre": "ipmpd157clamonint",
+            "s_tipo": "Alfanumérico",
+            "i_long": 168,
+            "i_dec": 0,
+            "i_pos_inicial": 3837,
+            "i_pos_final": 4005
+        },
+        {
+            "s_nombre": "ipmpd158longactvcom",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4005,
+            "i_pos_final": 4008
+        },
+        {
+            "s_nombre": "ipmpd158actvcom",
+            "s_tipo": "Alfanumérico",
+            "i_long": 31,
+            "i_dec": 0,
+            "i_pos_inicial": 4008,
+            "i_pos_final": 4039
+        },
+        {
+            "s_nombre": "ipmpd159datliqui1",
+            "s_tipo": "Alfanumérico",
+            "i_long": 67,
+            "i_dec": 0,
+            "i_pos_inicial": 4039,
+            "i_pos_final": 4106
+        },
+        {
+            "s_nombre": "ipmpd164tbtascruz",
+            "s_tipo": "Alfanumérico",
+            "i_long": 23,
+            "i_dec": 0,
+            "i_pos_inicial": 4106,
+            "i_pos_final": 4129
+        },
+        {
+            "s_nombre": "ipmpd165longindliq",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4129,
+            "i_pos_final": 4132
+        },
+        {
+            "s_nombre": "ipmpd165indliq",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 4132,
+            "i_pos_final": 4162
+        },
+        {
+            "s_nombre": "ipmpd170longinfcom",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4162,
+            "i_pos_final": 4165
+        },
+        {
+            "s_nombre": "ipmpd170infcom",
+            "s_tipo": "Alfanumérico",
+            "i_long": 73,
+            "i_dec": 0,
+            "i_pos_inicial": 4165,
+            "i_pos_final": 4238
+        },
+        {
+            "s_nombre": "ipmpd171longinfcomalt",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4238,
+            "i_pos_final": 4241
+        },
+        {
+            "s_nombre": "ipmpd171infcomalt",
+            "s_tipo": "Alfanumérico",
+            "i_long": 201,
+            "i_dec": 0,
+            "i_pos_inicial": 4241,
+            "i_pos_final": 4442
+        },
+        {
+            "s_nombre": "ipmpd172longnomproexclu",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4442,
+            "i_pos_final": 4445
+        },
+        {
+            "s_nombre": "ipmpd172nomproexclu",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 4445,
+            "i_pos_final": 4475
+        },
+        {
+            "s_nombre": "ipmpd173longnomcorpo",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4475,
+            "i_pos_final": 4478
+        },
+        {
+            "s_nombre": "ipmpd173nomcorpo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 4478,
+            "i_pos_final": 4508
+        },
+        {
+            "s_nombre": "ipmpd174ndunbrad",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 4508,
+            "i_pos_final": 4523
+        },
+        {
+            "s_nombre": "ipmpd175longweb",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4523,
+            "i_pos_final": 4526
+        },
+        {
+            "s_nombre": "ipmpd175web",
+            "s_tipo": "Alfanumérico",
+            "i_long": 255,
+            "i_dec": 0,
+            "i_pos_inicial": 4526,
+            "i_pos_final": 4781
+        },
+        {
+            "s_nombre": "ipmpd176longtiermerchid",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4781,
+            "i_pos_final": 4784
+        },
+        {
+            "s_nombre": "ipmpd176tiermerchid",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 4784,
+            "i_pos_final": 4790
+        },
+        {
+            "s_nombre": "ipmpd177longcrossborder",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4790,
+            "i_pos_final": 4793
+        },
+        {
+            "s_nombre": "ipmpd177crossborder",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 4793,
+            "i_pos_final": 4795
+        },
+        {
+            "s_nombre": "ipmpd189tlfpoi",
+            "s_tipo": "Alfanumérico",
+            "i_long": 41,
+            "i_dec": 0,
+            "i_pos_inicial": 4795,
+            "i_pos_final": 4836
+        },
+        {
+            "s_nombre": "ipmpd190longcodprom",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4836,
+            "i_pos_final": 4839
+        },
+        {
+            "s_nombre": "ipmpd190codprom",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 4839,
+            "i_pos_final": 4845
+        },
+        {
+            "s_nombre": "ipmpd191formato",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 4845,
+            "i_pos_final": 4846
+        },
+        {
+            "s_nombre": "ipmpd216ubicacep",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 4846,
+            "i_pos_final": 4875
+        },
+        {
+            "s_nombre": "ipmpd218initranind",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 4875,
+            "i_pos_final": 4879
+        },
+        {
+            "s_nombre": "ipmpd200longfecnotfraud",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4879,
+            "i_pos_final": 4882
+        },
+        {
+            "s_nombre": "ipmpd200fecnotfraud",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 4882,
+            "i_pos_final": 4888
+        },
+        {
+            "s_nombre": "ipmpd210longtransitprog",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4888,
+            "i_pos_final": 4891
+        },
+        {
+            "s_nombre": "ipmpd210transitprog",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 4891,
+            "i_pos_final": 4895
+        },
+        {
+            "s_nombre": "ipmpd228tipodocrec",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 4895,
+            "i_pos_final": 4896
+        },
+        {
+            "s_nombre": "ipmpd230tipodoccum",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 4896,
+            "i_pos_final": 4897
+        },
+        {
+            "s_nombre": "ipmpd241longnumcontrol",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4897,
+            "i_pos_final": 4900
+        },
+        {
+            "s_nombre": "pmpd241numcontrol",
+            "s_tipo": "Alfanumérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 4900,
+            "i_pos_final": 4907
+        },
+        {
+            "s_nombre": "ipmpd242indcontrol",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 4907,
+            "i_pos_final": 4908
+        },
+        {
+            "s_nombre": "ipmpd243datresrec",
+            "s_tipo": "Alfanumérico",
+            "i_long": 38,
+            "i_dec": 0,
+            "i_pos_inicial": 4908,
+            "i_pos_final": 4946
+        },
+        {
+            "s_nombre": "ipmpd244fecchargeb",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 4946,
+            "i_pos_final": 4958
+        },
+        {
+            "s_nombre": "ipmpd260indexclusion",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 4958,
+            "i_pos_final": 4962
+        },
+        {
+            "s_nombre": "ipmpd262inddocu",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 4962,
+            "i_pos_final": 4963
+        },
+        {
+            "s_nombre": "ipmpd263ciclointercambio",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 4963,
+            "i_pos_final": 4978
+        },
+        {
+            "s_nombre": "ipmpd264motsolrec",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 4978,
+            "i_pos_final": 4982
+        },
+        {
+            "s_nombre": "ipmpd265longdatprecc",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 4982,
+            "i_pos_final": 4985
+        },
+        {
+            "s_nombre": "ipmpd265datprecc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 110,
+            "i_dec": 0,
+            "i_pos_inicial": 4985,
+            "i_pos_final": 5095
+        },
+        {
+            "s_nombre": "ipmpd266dat1chargb",
+            "s_tipo": "Alfanumérico",
+            "i_long": 127,
+            "i_dec": 0,
+            "i_pos_inicial": 5095,
+            "i_pos_final": 5222
+        },
+        {
+            "s_nombre": "ipmpd267dat2precc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 127,
+            "i_dec": 0,
+            "i_pos_inicial": 5222,
+            "i_pos_final": 5349
+        },
+        {
+            "s_nombre": "ipmpd268impparcial",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 5349,
+            "i_pos_final": 5364
+        },
+        {
+            "s_nombre": "ipmpd270longembinterchdata",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 5364,
+            "i_pos_final": 5367
+        },
+        {
+            "s_nombre": "ipmpd270embinterchdata",
+            "s_tipo": "Alfanumérico",
+            "i_long": 91,
+            "i_dec": 0,
+            "i_pos_inicial": 5367,
+            "i_pos_final": 5458
+        },
+        {
+            "s_nombre": "ipmpd280idfuente",
+            "s_tipo": "Numérico",
+            "i_long": 25,
+            "i_dec": 0,
+            "i_pos_inicial": 5458,
+            "i_pos_final": 5483
+        },
+        {
+            "s_nombre": "ipmpd300archconc",
+            "s_tipo": "Numérico",
+            "i_long": 25,
+            "i_dec": 0,
+            "i_pos_inicial": 5483,
+            "i_pos_final": 5508
+        },
+        {
+            "s_nombre": "ipmpd301imptotarc",
+            "s_tipo": "Numérico",
+            "i_long": 16,
+            "i_dec": 0,
+            "i_pos_inicial": 5508,
+            "i_pos_final": 5524
+        },
+        {
+            "s_nombre": "ipmpd302actmiembro",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 5524,
+            "i_pos_final": 5525
+        },
+        {
+            "s_nombre": "ipmpd306numtotmenj",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 5525,
+            "i_pos_final": 5533
+        },
+        {
+            "s_nombre": "ipmpd358longactcomer",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 5533,
+            "i_pos_final": 5536
+        },
+        {
+            "s_nombre": "ipmpd358actcomer",
+            "s_tipo": "Alfanumérico",
+            "i_long": 31,
+            "i_dec": 0,
+            "i_pos_inicial": 5536,
+            "i_pos_final": 5567
+        },
+        {
+            "s_nombre": "ipmpd370rangocta",
+            "s_tipo": "Alfanumérico",
+            "i_long": 38,
+            "i_dec": 0,
+            "i_pos_inicial": 5567,
+            "i_pos_final": 5605
+        },
+        {
+            "s_nombre": "ipmpd372functran",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 5605,
+            "i_pos_final": 5612
+        },
+        {
+            "s_nombre": "ipmpd374tipotran",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 5612,
+            "i_pos_final": 5614
+        },
+        {
+            "s_nombre": "ipmpd378indorirev",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 5614,
+            "i_pos_final": 5615
+        },
+        {
+            "s_nombre": "ipmpd380montotrand",
+            "s_tipo": "Alfanumérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 5615,
+            "i_pos_final": 5632
+        },
+        {
+            "s_nombre": "ipmpd381montotranc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 5632,
+            "i_pos_final": 5649
+        },
+        {
+            "s_nombre": "ipmpd384montonetatran",
+            "s_tipo": "Alfanumérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 5649,
+            "i_pos_final": 5666
+        },
+        {
+            "s_nombre": "ipmpd390montoconcd",
+            "s_tipo": "Alfanumérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 5666,
+            "i_pos_final": 5683
+        },
+        {
+            "s_nombre": "ipmpd391montoconcc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 5683,
+            "i_pos_final": 5700
+        },
+        {
+            "s_nombre": "ipmpd392tbcomiconcd",
+            "s_tipo": "Alfanumérico",
+            "i_long": 216,
+            "i_dec": 0,
+            "i_pos_inicial": 5700,
+            "i_pos_final": 5916
+        },
+        {
+            "s_nombre": "ipmpd393tbcomiconcc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 216,
+            "i_dec": 0,
+            "i_pos_inicial": 5916,
+            "i_pos_final": 6132
+        },
+        {
+            "s_nombre": "ipmpd394montonetaconc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 6132,
+            "i_pos_final": 6149
+        },
+        {
+            "s_nombre": "ipmpd395totalcomiconc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 16,
+            "i_dec": 0,
+            "i_pos_inicial": 6149,
+            "i_pos_final": 6165
+        },
+        {
+            "s_nombre": "ipmpd396netoconc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 6165,
+            "i_pos_final": 6182
+        },
+        {
+            "s_nombre": "ipmpd400nrotrand",
+            "s_tipo": "Numérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 6182,
+            "i_pos_final": 6192
+        },
+        {
+            "s_nombre": "ipmpd401nrotranc",
+            "s_tipo": "Numérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 6192,
+            "i_pos_final": 6202
+        },
+        {
+            "s_nombre": "ipmpd402tottran",
+            "s_tipo": "Numérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 6202,
+            "i_pos_final": 6212
+        },
+        {
+            "s_nombre": "ipmpd501adendas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 16,
+            "i_dec": 0,
+            "i_pos_inicial": 6212,
+            "i_pos_final": 6228
+        },
+        {
+            "s_nombre": "ipmpd502longcustomid",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6228,
+            "i_pos_final": 6231
+        },
+        {
+            "s_nombre": "ipmpd502customid",
+            "s_tipo": "Alfanumérico",
+            "i_long": 82,
+            "i_dec": 0,
+            "i_pos_inicial": 6231,
+            "i_pos_final": 6313
+        },
+        {
+            "s_nombre": "ipmpd597tasas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 6313,
+            "i_pos_final": 6327
+        },
+        {
+            "s_nombre": "ipmpd623producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 35,
+            "i_dec": 0,
+            "i_pos_inicial": 6327,
+            "i_pos_final": 6362
+        },
+        {
+            "s_nombre": "ipmpd629longleccuentakm",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6362,
+            "i_pos_final": 6365
+        },
+        {
+            "s_nombre": "ipmpd629leccuentakm",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 6365,
+            "i_pos_final": 6372
+        },
+        {
+            "s_nombre": "ipmpd160longsettldata",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6372,
+            "i_pos_final": 6375
+        },
+        {
+            "s_nombre": "ipmpd160settldata",
+            "s_tipo": "Numérico",
+            "i_long": 108,
+            "i_dec": 0,
+            "i_pos_inicial": 6375,
+            "i_pos_final": 6483
+        },
+        {
+            "s_nombre": "ipmpd178longaltcarddescr",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6483,
+            "i_pos_final": 6486
+        },
+        {
+            "s_nombre": "ipmpd178altcarddescr",
+            "s_tipo": "Alfanumérico",
+            "i_long": 201,
+            "i_dec": 0,
+            "i_pos_inicial": 6486,
+            "i_pos_final": 6687
+        },
+        {
+            "s_nombre": "ipmpd195longinstalldata",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6687,
+            "i_pos_final": 6690
+        },
+        {
+            "s_nombre": "ipmpd195installdata",
+            "s_tipo": "Alfanumérico",
+            "i_long": 27,
+            "i_dec": 0,
+            "i_pos_inicial": 6690,
+            "i_pos_final": 6717
+        },
+        {
+            "s_nombre": "ipmpd196longmobilephone",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6717,
+            "i_pos_final": 6720
+        },
+        {
+            "s_nombre": "ipmpd196mobilephone",
+            "s_tipo": "Alfanumérico",
+            "i_long": 47,
+            "i_dec": 0,
+            "i_pos_inicial": 6720,
+            "i_pos_final": 6767
+        },
+        {
+            "s_nombre": "ipmpd197nationalusetax",
+            "s_tipo": "Numérico",
+            "i_long": 53,
+            "i_dec": 0,
+            "i_pos_inicial": 6767,
+            "i_pos_final": 6820
+        },
+        {
+            "s_nombre": "ipmpd071convchipmagnetic",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6820,
+            "i_pos_final": 6824
+        },
+        {
+            "s_nombre": "ipmpd080longamounttax",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6824,
+            "i_pos_final": 6827
+        },
+        {
+            "s_nombre": "ipmpd080amounttax",
+            "s_tipo": "Alfanumérico",
+            "i_long": 60,
+            "i_dec": 0,
+            "i_pos_inicial": 6827,
+            "i_pos_final": 6887
+        },
+        {
+            "s_nombre": "ipmpd192paymenttrnxind",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6887,
+            "i_pos_final": 6890
+        },
+        {
+            "s_nombre": "ipmpd044longindpartprog",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6890,
+            "i_pos_final": 6893
+        },
+        {
+            "s_nombre": "ipmpd044indpartprog",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 6893,
+            "i_pos_final": 6913
+        },
+        {
+            "s_nombre": "ipmpd194longpagremoto",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 6913,
+            "i_pos_final": 6914
+        },
+        {
+            "s_nombre": "ipmpd194pagremoto",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 6914,
+            "i_pos_final": 6915
+        },
+        {
+            "s_nombre": "ipmpd198longtipdisp",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 6915,
+            "i_pos_final": 6917
+        },
+        {
+            "s_nombre": "ipmpd198tipdisp",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 6917,
+            "i_pos_final": 6919
+        },
+        {
+            "s_nombre": "ipmpd200longfecnotfraud",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6919,
+            "i_pos_final": 6922
+        },
+        {
+            "s_nombre": "ipmpd200fraudnotication",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 6922,
+            "i_pos_final": 6930
+        },
+        {
+            "s_nombre": "ipmpd207longpaypasstran",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6930,
+            "i_pos_final": 6933
+        },
+        {
+            "s_nombre": "ipmpd207paypasstransact",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 6933,
+            "i_pos_final": 6934
+        },
+        {
+            "s_nombre": "ipmpd210longtransitprog",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6934,
+            "i_pos_final": 6937
+        },
+        {
+            "s_nombre": "ipmpd210transitprog",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6937,
+            "i_pos_final": 6941
+        },
+        {
+            "s_nombre": "ipmpd058longtokenlev",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6941,
+            "i_pos_final": 6944
+        },
+        {
+            "s_nombre": "ipmpd058tokenasslevel",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 6944,
+            "i_pos_final": 6946
+        },
+        {
+            "s_nombre": "ipmpd059longtokenid",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6946,
+            "i_pos_final": 6949
+        },
+        {
+            "s_nombre": "ipmpd059tokenrequid",
+            "s_tipo": "Alfanumérico",
+            "i_long": 11,
+            "i_dec": 0,
+            "i_pos_inicial": 6949,
+            "i_pos_final": 6960
+        },
+        {
+            "s_nombre": "ipmpd208longaddmercdat",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6960,
+            "i_pos_final": 6963
+        },
+        {
+            "s_nombre": "ipmpd208addmercdat",
+            "s_tipo": "Alfanumérico",
+            "i_long": 26,
+            "i_dec": 0,
+            "i_pos_inicial": 6963,
+            "i_pos_final": 6989
+        },
+        {
+            "s_nombre": "ipmpd209longindsalorid",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 6989,
+            "i_pos_final": 6992
+        },
+        {
+            "s_nombre": "ipmpd209indsalorid",
+            "s_tipo": "Alfanumérico",
+            "i_long": 11,
+            "i_dec": 0,
+            "i_pos_inicial": 6992,
+            "i_pos_final": 7003
+        },
+        {
+            "s_nombre": "ipmpd072longindaut",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7003,
+            "i_pos_final": 7006
+        },
+        {
+            "s_nombre": "ipmpd072indaut",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 7006,
+            "i_pos_final": 7007
+        },
+        {
+            "s_nombre": "ipmpd181longinspaydat",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7007,
+            "i_pos_final": 7010
+        },
+        {
+            "s_nombre": "ipmpd181inspaydat",
+            "s_tipo": "Alfanumérico",
+            "i_long": 68,
+            "i_dec": 0,
+            "i_pos_inicial": 7010,
+            "i_pos_final": 7078
+        },
+        {
+            "s_nombre": "ipmpd017longtraintcla",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7078,
+            "i_pos_final": 7081
+        },
+        {
+            "s_nombre": "ipmpd017traintcla",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 7081,
+            "i_pos_final": 7083
+        },
+        {
+            "s_nombre": "ipmpd180longrfc",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7083,
+            "i_pos_final": 7086
+        },
+        {
+            "s_nombre": "ipmpd180rfc",
+            "s_tipo": "Alfanumérico",
+            "i_long": 13,
+            "i_dec": 0,
+            "i_pos_inicial": 7086,
+            "i_pos_final": 7099
+        },
+        {
+            "s_nombre": "ipmpd202longpansxe",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7099,
+            "i_pos_final": 7102
+        },
+        {
+            "s_nombre": "ipmpd202pansxe",
+            "s_tipo": "Alfanumérico",
+            "i_long": 19,
+            "i_dec": 0,
+            "i_pos_inicial": 7102,
+            "i_pos_final": 7121
+        },
+        {
+            "s_nombre": "ipmpd204longamountsxe",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7121,
+            "i_pos_final": 7124
+        },
+        {
+            "s_nombre": "ipmpd204amountsxe",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 7124,
+            "i_pos_final": 7136
+        },
+        {
+            "s_nombre": "ipmpd205longmsgsxe",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7136,
+            "i_pos_final": 7139
+        },
+        {
+            "s_nombre": "ipmpd205msgsxe",
+            "s_tipo": "Alfanumérico",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 7139,
+            "i_pos_final": 7153
+        },
+        {
+            "s_nombre": "ipmpd206longpansxe",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7153,
+            "i_pos_final": 7156
+        },
+        {
+            "s_nombre": "ipmpd206latepresensxe",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 7156,
+            "i_pos_final": 7160
+        },
+        {
+            "s_nombre": "ipmpd225longreascodesxe",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7160,
+            "i_pos_final": 7163
+        },
+        {
+            "s_nombre": "ipmpd225reascodesxe",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 7163,
+            "i_pos_final": 7167
+        },
+        {
+            "s_nombre": "ipmpd1000longarnoriginal",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 7167,
+            "i_pos_final": 7170
+        },
+        {
+            "s_nombre": "ipmpd1000arnoriginal",
+            "s_tipo": "Alfanumérico",
+            "i_long": 23,
+            "i_dec": 0,
+            "i_pos_inicial": 7170,
+            "i_pos_final": 7193
+        }
+    ]
+}

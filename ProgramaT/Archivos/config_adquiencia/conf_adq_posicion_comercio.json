@@ -1,0 +1,3834 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NOMCOMRED ",
+            "s_description": "Nombre reducido del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 27,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 204
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODCADENA ",
+            "s_description": "Código de cadena comercial",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 204,
+            "i_pos_final": 208
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "DESCADENA ",
+            "s_description": "Descripción de cadena comercial",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 208,
+            "i_pos_final": 239
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODHOLDING ",
+            "s_description": "Código de Holding al que pertenece",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 239,
+            "i_pos_final": 244
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "DESHOLDING",
+            "s_description": "Descripción de holding",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 244,
+            "i_pos_final": 275
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "IDENTCLI",
+            "s_description": "Identificación de cliente en el sistema corporativo de Clientes",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 275,
+            "i_pos_final": 284
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPDOC ",
+            "s_description": "Tipo de documento identificativo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 284,
+            "i_pos_final": 288
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMDOC ",
+            "s_description": "Número de documento identificativo",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 288,
+            "i_pos_final": 309
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "PRODUCTO ",
+            "s_description": "Código de producto de comercios",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 309,
+            "i_pos_final": 312
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Código de subproducto de comercios",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 312,
+            "i_pos_final": 317
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "DESPROD ",
+            "s_description": "Descripción del producto de comercios",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 317,
+            "i_pos_final": 348
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CONPROD ",
+            "s_description": "Código de condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 348,
+            "i_pos_final": 352
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "DESCONRED ",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 352,
+            "i_pos_final": 363
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPBON ",
+            "s_description": "Tipo de bonificación",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 363,
+            "i_pos_final": 370
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPOPROV ",
+            "s_description": "Tipo de proveedor:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 370,
+            "i_pos_final": 372
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODACT ",
+            "s_description": "Código de actividad",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 372,
+            "i_pos_final": 377
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "DESACT ",
+            "s_description": "Descripción de la actividad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 377,
+            "i_pos_final": 408
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NIVAPLCG ",
+            "s_description": "Nivel de aplicación del cargo/abono",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 408,
+            "i_pos_final": 410
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "IBAN ",
+            "s_description": "Código Iban de la Cuenta de Cargo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 410,
+            "i_pos_final": 415
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CTACARGO ",
+            "s_description": "Cuenta de cargo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 415,
+            "i_pos_final": 446
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CLAMON ",
+            "s_description": "Clave de moneda de la cuenta de cargo",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 446,
+            "i_pos_final": 450
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "DESCLAMON",
+            "s_description": "Descripción Moneda",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 450,
+            "i_pos_final": 481
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "INDTIPCTA ",
+            "s_description": "Indicador de tipo de cuenta de cargo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 481,
+            "i_pos_final": 484
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "INDAJENA ",
+            "s_description": "Indicador de cuenta de domiciliación ajena (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 484,
+            "i_pos_final": 486
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODCAM ",
+            "s_description": "Código campaña",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 486,
+            "i_pos_final": 493
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECALTA ",
+            "s_description": "Fecha de alta comercio",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 493,
+            "i_pos_final": 504
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECBAJA ",
+            "s_description": "Fecha de baja",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 504,
+            "i_pos_final": 515
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "MOTBAJA ",
+            "s_description": "Motivo de baja",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 515,
+            "i_pos_final": 518
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "DESMOT ",
+            "s_description": "Descripción del motivo de baja",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 518,
+            "i_pos_final": 549
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECREACT ",
+            "s_description": "Fecha reactivación del comercio",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 549,
+            "i_pos_final": 560
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODRIE ",
+            "s_description": "Código de riesgo",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 560,
+            "i_pos_final": 563
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECULTRIE ",
+            "s_description": "Fecha última clasificación riesgo",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 563,
+            "i_pos_final": 574
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "INDCONT ",
+            "s_description": "Indicador de comercio contratado/captado:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 574,
+            "i_pos_final": 576
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODPROCESO ",
+            "s_description": "Código de proceso",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 576,
+            "i_pos_final": 579
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODGRUPO ",
+            "s_description": "Código de grupo de proceso",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 579,
+            "i_pos_final": 582
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODREGIMEN ",
+            "s_description": "Código de régimen fiscal",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 582,
+            "i_pos_final": 587
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "DESREGIMEN ",
+            "s_description": "Descripción de régimen fiscal",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 587,
+            "i_pos_final": 618
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "NIVAPLCG",
+            "s_description": "Nivel de aplicación del cargo ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 178
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "PERSCOM",
+            "s_description": "Persona de contacto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 40,
+            "i_dec": 0,
+            "i_pos_inicial": 178,
+            "i_pos_final": 219
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "PREFINTT",
+            "s_description": "Prefijo internacional teléfono de contacto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 219,
+            "i_pos_final": 223
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "TELEFONO",
+            "s_description": "Teléfono de contacto comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 223,
+            "i_pos_final": 234
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "EMAILCOM",
+            "s_description": "Email de contacto comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 40,
+            "i_dec": 0,
+            "i_pos_inicial": 234,
+            "i_pos_final": 275
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "URLCOMER",
+            "s_description": "Dirección electrónica del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 40,
+            "i_dec": 0,
+            "i_pos_inicial": 275,
+            "i_pos_final": 316
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "De laDIR",
+            "s_description": "Código ISO de país de la dirección",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 316,
+            "i_pos_final": 320
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "DESCODPAISDIR",
+            "s_description": "Descripción País de la dirección",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 320,
+            "i_pos_final": 351
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "POBLACION ",
+            "s_description": "Nombre de la población del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 35,
+            "i_dec": 0,
+            "i_pos_inicial": 351,
+            "i_pos_final": 387
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "TIPVIA",
+            "s_description": "Tipo de vía del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 387,
+            "i_pos_final": 390
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "NOMVIA ",
+            "s_description": "Nombre de la vía del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 40,
+            "i_dec": 0,
+            "i_pos_inicial": 390,
+            "i_pos_final": 431
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "NUMVIA ",
+            "s_description": "Número de la vía del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 431,
+            "i_pos_final": 438
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "EDIFICIO ",
+            "s_description": "Edificio del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 438,
+            "i_pos_final": 443
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "ESCALERA ",
+            "s_description": "Escalera del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 443,
+            "i_pos_final": 448
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "PISO ",
+            "s_description": "Piso del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 448,
+            "i_pos_final": 453
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "PUERTA ",
+            "s_description": "Puerta del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 453,
+            "i_pos_final": 458
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "RESTODIR ",
+            "s_description": "Resto de la dirección del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 40,
+            "i_dec": 0,
+            "i_pos_inicial": 458,
+            "i_pos_final": 499
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "CODPOSTAL",
+            "s_description": "Código postal del comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 499,
+            "i_pos_final": 510
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "CODENTCOB",
+            "s_description": "Código de entidad Cobranding",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 510,
+            "i_pos_final": 521
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "PDTOECOB",
+            "s_description": "Porcentaje de cesión del descuento de la entidad a entidad cobranding",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 521,
+            "i_pos_final": 529
+        },
+        {
+            "s_tipo_registro": "CR",
+            "s_nombre": "PDTOCCOB",
+            "s_description": "Porcentaje de cesión del descuento del comercio a entidad cobranding",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 529,
+            "i_pos_final": 537
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODMAR",
+            "s_description": "Código de Marca de la Tarjeta ",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 179
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DESMAR",
+            "s_description": "Descripción de Marca de la Tarjeta ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 179,
+            "i_pos_final": 210
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "INDTIPT",
+            "s_description": "Tipo de la Tarjeta",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 210,
+            "i_pos_final": 213
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DESTIPT",
+            "s_description": "Descripción del Tipo de la Tarjeta",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 213,
+            "i_pos_final": 244
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODCONECO",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 244,
+            "i_pos_final": 249
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DESCONECO",
+            "s_description": "Descripción del concepto económico",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 249,
+            "i_pos_final": 280
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de la moneda",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 280,
+            "i_pos_final": 284
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "TRAMOFIN",
+            "s_description": "Valor final de aplic. de concepto económico",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 284,
+            "i_pos_final": 302
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "TIPOACCESO",
+            "s_description": "Tipo de acceso: ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 302,
+            "i_pos_final": 304
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "PORTRAMOPAR",
+            "s_description": "% Particularizado a aplicar en imp. De tramo",
+            "s_tipo": "Numérico",
+            "i_long": 13,
+            "i_dec": 0,
+            "i_pos_inicial": 304,
+            "i_pos_final": 318
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "IMPMINPAR",
+            "s_description": "Imp. Min particularizado a aplicar en tramo",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 318,
+            "i_pos_final": 336
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "IMPMAXPAR",
+            "s_description": "Imp. Max. Particularizado a aplicar en tramo",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 336,
+            "i_pos_final": 354
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "FECALTA",
+            "s_description": "Fecha alta tarifa particularizada",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 354,
+            "i_pos_final": 365
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "INDPORPAR",
+            "s_description": "Ind. Porcentaje particularizado (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 365,
+            "i_pos_final": 367
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "INDMINPAR",
+            "s_description": "Ind. Min particularizado (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 367,
+            "i_pos_final": 369
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "INDMAXPAR",
+            "s_description": "Ind. Max particularizado (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 369,
+            "i_pos_final": 371
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "INDDEBCRE",
+            "s_description": "Indicador de Tipo Operación:",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 371,
+            "i_pos_final": 373
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "CLAMON ",
+            "s_description": "Clave de Moneda ",
+            "s_tipo": "Numérico ",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 180
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "DESCLAMON ",
+            "s_description": "Descripción moneda ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 180,
+            "i_pos_final": 193
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPORTE_30 ",
+            "s_description": "Signo Importe a 30 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 193,
+            "i_pos_final": 195
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPORTE_30 ",
+            "s_description": "Importe a 30 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 195,
+            "i_pos_final": 210
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPSTO_30 ",
+            "s_description": "Signo Importe del impuesto a 30 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 210,
+            "i_pos_final": 212
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPSTO_30 ",
+            "s_description": "Importe del impuesto a 30 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 212,
+            "i_pos_final": 227
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPDES_30 ",
+            "s_description": "Signo Importe del descuento a 30 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 227,
+            "i_pos_final": 229
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPDES_30 ",
+            "s_description": "Importe del descuento a 30 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 229,
+            "i_pos_final": 244
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPBON_30 ",
+            "s_description": "Signo Importe bonificación del descuento a 30 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 244,
+            "i_pos_final": 246
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPBON_30 ",
+            "s_description": "Importe bonificación del descuento a 30 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 246,
+            "i_pos_final": 261
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPPROPINA_3",
+            "s_description": "Signo Importe de la propina a 30 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 261,
+            "i_pos_final": 263
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPPROPINA_30 ",
+            "s_description": "Importe de la propina a 30 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 263,
+            "i_pos_final": 278
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPEXT_30 ",
+            "s_description": "Signo Importe externo a 30 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 278,
+            "i_pos_final": 280
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPEXT_30 ",
+            "s_description": "Importe externo a 30 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 280,
+            "i_pos_final": 295
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR1_30 ",
+            "s_description": "Signo Otros importes1  a 30 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 295,
+            "i_pos_final": 297
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR1_30 ",
+            "s_description": "Otros importes1  a 30 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 297,
+            "i_pos_final": 312
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR2_30 ",
+            "s_description": "Signo Otros importes2  a 30 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 312,
+            "i_pos_final": 314
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR2_30 ",
+            "s_description": "Otros importes2  a 30 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 314,
+            "i_pos_final": 329
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPORTE_60 ",
+            "s_description": "Signo Importe de 31 a 60 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 329,
+            "i_pos_final": 331
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPORTE_60 ",
+            "s_description": "Importe de 31 a 60 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 331,
+            "i_pos_final": 346
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPSTO_60 ",
+            "s_description": "Signo Importe del impuesto de 31 a 60 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 346,
+            "i_pos_final": 348
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPSTO_60 ",
+            "s_description": "Importe del impuesto de 31 a 60 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 348,
+            "i_pos_final": 363
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPDES_60 ",
+            "s_description": "Signo Importe del descuento de 31 a 60 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 363,
+            "i_pos_final": 365
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPDES_60 ",
+            "s_description": "Importe del descuento de 31 a 60 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 365,
+            "i_pos_final": 380
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPBON_60 ",
+            "s_description": "Signo Importe bonificación del descuento de 31 a 60 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 380,
+            "i_pos_final": 382
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPBON_60 ",
+            "s_description": "Importe bonificación del descuento de 31 a 60 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 382,
+            "i_pos_final": 397
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPPROPINA_6",
+            "s_description": "Signo Importe de la propina de 31 a 60 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 397,
+            "i_pos_final": 399
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPPROPINA_60 ",
+            "s_description": "Importe de la propina de 31 a 60 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 399,
+            "i_pos_final": 414
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPEXT_60 ",
+            "s_description": "Signo Importe externo de 31 a 60 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 414,
+            "i_pos_final": 416
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPEXT_60 ",
+            "s_description": "Importe externo de 31 a 60 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 416,
+            "i_pos_final": 431
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR1_60 ",
+            "s_description": "Signo Otros importes1 de 31 a 60 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 431,
+            "i_pos_final": 433
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR1_60 ",
+            "s_description": "Otros importes1 de 31 a 60 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 433,
+            "i_pos_final": 448
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR2_60 ",
+            "s_description": "Signo Otros importes2 de 31 a 60 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 448,
+            "i_pos_final": 450
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR2_60 ",
+            "s_description": "Otros importes2 de 31 a 60 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 450,
+            "i_pos_final": 465
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPORTE_90 ",
+            "s_description": "Signo Importe de 61 a 90 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 465,
+            "i_pos_final": 467
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPORTE_90 ",
+            "s_description": "Importe de 61 a 90 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 467,
+            "i_pos_final": 482
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPSTO_90 ",
+            "s_description": "Signo Importe del impuesto de 61 a 90 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 482,
+            "i_pos_final": 484
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPSTO_90 ",
+            "s_description": "Importe del impuesto de 61 a 90 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 484,
+            "i_pos_final": 499
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPDES_90 ",
+            "s_description": "Signo Importe del descuento de 61 a 90 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 499,
+            "i_pos_final": 501
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPDES_90 ",
+            "s_description": "Importe del descuento de 61 a 90 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 501,
+            "i_pos_final": 516
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPBON_90 ",
+            "s_description": "Signo Importe bonificación del descuento de 61 a 90 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 516,
+            "i_pos_final": 518
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPBON_90 ",
+            "s_description": "Importe bonificación del descuento de 61 a 90 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 518,
+            "i_pos_final": 533
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPPROPINA_9",
+            "s_description": "Signo Importe de la propina de 61 a 90 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 533,
+            "i_pos_final": 535
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPPROPINA_90 ",
+            "s_description": "Importe de la propina de 61 a 90 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 535,
+            "i_pos_final": 550
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPEXT_90 ",
+            "s_description": "Signo Importe externo de 61 a 90 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 550,
+            "i_pos_final": 552
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPEXT_90 ",
+            "s_description": "Importe externo de 61 a 90 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 552,
+            "i_pos_final": 567
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR1_90 ",
+            "s_description": "Signo Otros importes1 de 61 a 90 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 567,
+            "i_pos_final": 569
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR1_90 ",
+            "s_description": "Otros importes1 de 61 a 90 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 569,
+            "i_pos_final": 584
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR2_90 ",
+            "s_description": "Signo Otros importes2 de 61 a 90 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 584,
+            "i_pos_final": 586
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR2_90 ",
+            "s_description": "Otros importes2 de 61 a 90 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 586,
+            "i_pos_final": 601
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPORTE_120 ",
+            "s_description": "Signo Importe de 91 a 120 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 601,
+            "i_pos_final": 603
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPORTE_120 ",
+            "s_description": "Importe de 91 a 120 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 603,
+            "i_pos_final": 618
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPSTO_120 ",
+            "s_description": "Signo Importe del impuesto de 91 a 120 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 618,
+            "i_pos_final": 620
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPSTO_120 ",
+            "s_description": "Importe del impuesto de 91 a 120 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 620,
+            "i_pos_final": 635
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPDES_120 ",
+            "s_description": "Signo Importe del descuento de 91 a 120 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 635,
+            "i_pos_final": 637
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPDES_120 ",
+            "s_description": "Importe del descuento de 91 a 120 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 637,
+            "i_pos_final": 652
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPBON_120 ",
+            "s_description": "Signo Importe bonificación del descuento de 91 a 120 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 652,
+            "i_pos_final": 654
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPBON_120 ",
+            "s_description": "Importe bonificación del descuento de 91 a 120 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 654,
+            "i_pos_final": 669
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPPROPINA_1",
+            "s_description": "Signo Importe de la propina de 91 a 120 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 669,
+            "i_pos_final": 671
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPPROPINA_120 ",
+            "s_description": "Importe de la propina de 91 a 120 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 671,
+            "i_pos_final": 686
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPEXT_120 ",
+            "s_description": "Signo Importe externo de 91 a 120 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 686,
+            "i_pos_final": 688
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPEXT_120 ",
+            "s_description": "Importe externo de 91 a 120 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 688,
+            "i_pos_final": 703
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR1_120 ",
+            "s_description": "Signo Otros importes1 de 91 a 120 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 703,
+            "i_pos_final": 705
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR1_120 ",
+            "s_description": "Otros importes1 de 91 a 120 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 705,
+            "i_pos_final": 720
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR2_120 ",
+            "s_description": "Signo Otros importes2 de 91 a 120 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 720,
+            "i_pos_final": 722
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR2_120 ",
+            "s_description": "Otros importes2 de 91 a 120 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 722,
+            "i_pos_final": 737
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPORTE_150 ",
+            "s_description": "Signo Importe de 121 a 150 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 737,
+            "i_pos_final": 739
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPORTE_150 ",
+            "s_description": "Importe de 121 a 150 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 739,
+            "i_pos_final": 754
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPSTO_150 ",
+            "s_description": "Signo Importe del impuesto de 121 a 150 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 754,
+            "i_pos_final": 756
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPSTO_150 ",
+            "s_description": "Importe del impuesto de 121 a 150 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 756,
+            "i_pos_final": 771
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPDES_150 ",
+            "s_description": "Signo Importe del descuento de 121 a 150 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 771,
+            "i_pos_final": 773
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPDES_150 ",
+            "s_description": "Importe del descuento de 121 a 150 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 773,
+            "i_pos_final": 788
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPBON_150 ",
+            "s_description": "Signo Importe bonificación del descuento de 121 a 150 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 788,
+            "i_pos_final": 790
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPBON_150 ",
+            "s_description": "Importe bonificación del descuento de 121 a 150 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 790,
+            "i_pos_final": 805
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPPROPINA_1",
+            "s_description": "Signo Importe de la propina de 121 a 150 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 805,
+            "i_pos_final": 807
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPPROPINA_150 ",
+            "s_description": "Importe de la propina de 121 a 150 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 807,
+            "i_pos_final": 822
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPEXT_150 ",
+            "s_description": "Signo Importe externo de 121 a 150 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 822,
+            "i_pos_final": 824
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPEXT_150 ",
+            "s_description": "Importe externo de 121 a 150 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 824,
+            "i_pos_final": 839
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR1_150 ",
+            "s_description": "Signo Otros importes1 de 121 a 150 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 839,
+            "i_pos_final": 841
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR1_150 ",
+            "s_description": "Otros importes1 de 121 a 150 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 841,
+            "i_pos_final": 856
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR2_150 ",
+            "s_description": "Signo Otros importes2 de 121 a 150 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 856,
+            "i_pos_final": 858
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR2_150 ",
+            "s_description": "Otros importes2 de 121 a 150 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 858,
+            "i_pos_final": 873
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPORTE_180 ",
+            "s_description": "Signo Importe de 151 a 180 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 873,
+            "i_pos_final": 875
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPORTE_180 ",
+            "s_description": "Importe de 151 a 180 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 875,
+            "i_pos_final": 890
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPSTO_180 ",
+            "s_description": "Signo Importe del impuesto de 151 a 180 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 890,
+            "i_pos_final": 892
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPSTO_180 ",
+            "s_description": "Importe del impuesto de 151 a 180 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 892,
+            "i_pos_final": 907
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPDES_180 ",
+            "s_description": "Signo Importe del descuento de 151 a 180 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 907,
+            "i_pos_final": 909
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPDES_180 ",
+            "s_description": "Importe del descuento de 151 a 180 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 909,
+            "i_pos_final": 924
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPBON_180 ",
+            "s_description": "Signo Importe bonificación del descuento de 151 a 180 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 924,
+            "i_pos_final": 926
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPBON_180 ",
+            "s_description": "Importe bonificación del descuento de 151 a 180 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 926,
+            "i_pos_final": 941
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPPROPINA_1",
+            "s_description": "Signo Importe de la propina de 151 a 180 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 941,
+            "i_pos_final": 943
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPPROPINA_180 ",
+            "s_description": "Importe de la propina de 151 a 180 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 943,
+            "i_pos_final": 958
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPEXT_180 ",
+            "s_description": "Signo Importe externo de 151 a 180 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 958,
+            "i_pos_final": 960
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPEXT_180 ",
+            "s_description": "Importe externo de 151 a 180 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 960,
+            "i_pos_final": 975
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR1_180 ",
+            "s_description": "Signo Otros importes1 de 151 a 180 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 975,
+            "i_pos_final": 977
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR1_180 ",
+            "s_description": "Otros importes1 de 151 a 180 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 977,
+            "i_pos_final": 992
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "SGN_IMPOTR2_180 ",
+            "s_description": "Signo Otros importes2 de 151 a 180 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 992,
+            "i_pos_final": 994
+        },
+        {
+            "s_tipo_registro": "S1",
+            "s_nombre": "IMPOTR2_180 ",
+            "s_description": "Otros importes2 de 151 a 180 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 994,
+            "i_pos_final": 1009
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "CLAMON ",
+            "s_description": "Clave de Moneda ",
+            "s_tipo": "Numérico ",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 180
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "DESCLAMON ",
+            "s_description": "Descripción moneda ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 180,
+            "i_pos_final": 193
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPORTE_210 ",
+            "s_description": "Signo Importe de 181 a 210 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 193,
+            "i_pos_final": 195
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPORTE_210 ",
+            "s_description": "Importe de 181 a 210 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 195,
+            "i_pos_final": 210
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPSTO_210 ",
+            "s_description": "Signo Importe del impuesto de 181 a 210 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 210,
+            "i_pos_final": 212
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPSTO_210 ",
+            "s_description": "Importe del impuesto de 181 a 210 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 212,
+            "i_pos_final": 227
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPDES_210 ",
+            "s_description": "Signo Importe del descuento de 181 a 210 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 227,
+            "i_pos_final": 229
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPDES_210 ",
+            "s_description": "Importe del descuento de 181 a 210 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 229,
+            "i_pos_final": 244
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPBON_210 ",
+            "s_description": "Signo Importe bonificación del descuento de 181 a 210 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 244,
+            "i_pos_final": 246
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPBON_210 ",
+            "s_description": "Importe bonificación del descuento de 181 a 210 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 246,
+            "i_pos_final": 261
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPPROPINA_",
+            "s_description": "Signo Importe de la propina de 181 a 210 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 261,
+            "i_pos_final": 263
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPPROPINA_210 ",
+            "s_description": "Importe de la propina de 181 a 210 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 263,
+            "i_pos_final": 278
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPEXT_210 ",
+            "s_description": "Signo Importe externo de 181 a 210 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 278,
+            "i_pos_final": 280
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPEXT_201 ",
+            "s_description": "Importe externo de 151 a 210 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 280,
+            "i_pos_final": 295
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR1_210 ",
+            "s_description": "Signo Otros importes1 de 151 a 210 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 295,
+            "i_pos_final": 297
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR1_210 ",
+            "s_description": "Otros importes1 de 151 a 210 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 297,
+            "i_pos_final": 312
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR2_210 ",
+            "s_description": "Signo Otros importes2 de 151 a 210 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 312,
+            "i_pos_final": 314
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR2_210 ",
+            "s_description": "Otros importes2 de 151 a 210 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 314,
+            "i_pos_final": 329
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPORTE_240 ",
+            "s_description": "Signo Importe de 211 a 240 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 329,
+            "i_pos_final": 331
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPORTE_240 ",
+            "s_description": "Importe de 211 a 240 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 331,
+            "i_pos_final": 346
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPSTO_240 ",
+            "s_description": "Signo Importe del impuesto de 211 a 240 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 346,
+            "i_pos_final": 348
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPSTO_240 ",
+            "s_description": "Importe del impuesto de 211 a 240 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 348,
+            "i_pos_final": 363
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPDES_240 ",
+            "s_description": "Signo Importe del descuento de 211 a 240 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 363,
+            "i_pos_final": 365
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPDES_240 ",
+            "s_description": "Importe del descuento de 211 a 240 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 365,
+            "i_pos_final": 380
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPBON_240 ",
+            "s_description": "Signo Importe bonificación del descuento de 211 a 240 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 380,
+            "i_pos_final": 382
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPBON_240 ",
+            "s_description": "Importe bonificación del descuento de 211 a 240 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 382,
+            "i_pos_final": 397
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPPROPINA_",
+            "s_description": "Signo Importe de la propina de 211  a 240 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 397,
+            "i_pos_final": 399
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPPROPINA_240 ",
+            "s_description": "Importe de la propina de 211 a 240 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 399,
+            "i_pos_final": 414
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPEXT_240 ",
+            "s_description": "Signo Importe externo de 211 a 240 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 414,
+            "i_pos_final": 416
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPEXT_240 ",
+            "s_description": "Importe externo de 211 a 240 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 416,
+            "i_pos_final": 431
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR1_240 ",
+            "s_description": "Signo Otros importes1 de 211 a 240 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 431,
+            "i_pos_final": 433
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR1_240 ",
+            "s_description": "Otros importes1 de 211 a 240 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 433,
+            "i_pos_final": 448
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR2_240 ",
+            "s_description": "Signo Otros importes2 de 211 a 240 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 448,
+            "i_pos_final": 450
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR2_240 ",
+            "s_description": "Otros importes2 de 211 a 240 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 450,
+            "i_pos_final": 465
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPORTE_270 ",
+            "s_description": "Signo Importe de 241 a 270 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 465,
+            "i_pos_final": 467
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPORTE_270 ",
+            "s_description": "Importe de 241 a 270 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 467,
+            "i_pos_final": 482
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPSTO_270 ",
+            "s_description": "Signo Importe del impuesto de 241 a 270 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 482,
+            "i_pos_final": 484
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPSTO_270 ",
+            "s_description": "Importe del impuesto de 241 a 270 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 484,
+            "i_pos_final": 499
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPDES_270 ",
+            "s_description": "Signo Importe del descuento de 241 a 270 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 499,
+            "i_pos_final": 501
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPDES_270 ",
+            "s_description": "Importe del descuento de 241 a 270 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 501,
+            "i_pos_final": 516
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPBON_270 ",
+            "s_description": "Signo Importe bonificación del descuento de 241 a 270 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 516,
+            "i_pos_final": 518
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPBON_270 ",
+            "s_description": "Importe bonificación del descuento de 241 a 270 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 518,
+            "i_pos_final": 533
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPPROPINA_",
+            "s_description": "Signo Importe de la propina de 241 a 270 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 533,
+            "i_pos_final": 535
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPPROPINA_270 ",
+            "s_description": "Importe de la propina de 241 a 270 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 535,
+            "i_pos_final": 550
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPEXT_270 ",
+            "s_description": "Signo Importe externo de 241 a 270 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 550,
+            "i_pos_final": 552
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPEXT_270 ",
+            "s_description": "Importe externo de 241 a 270 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 552,
+            "i_pos_final": 567
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR1_270 ",
+            "s_description": "Signo Otros importes1 de 241 a 270 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 567,
+            "i_pos_final": 569
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR1_270 ",
+            "s_description": "Otros importes1 de 241 a 270 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 569,
+            "i_pos_final": 584
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR2_270 ",
+            "s_description": "Signo Otros importes2 de 241 a 270 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 584,
+            "i_pos_final": 586
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR2_270 ",
+            "s_description": "Otros importes2 de 241 a 270 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 586,
+            "i_pos_final": 601
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPORTE_300 ",
+            "s_description": "Signo Importe de 271 a 300 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 601,
+            "i_pos_final": 603
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPORTE_300 ",
+            "s_description": "Importe de 271 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 603,
+            "i_pos_final": 618
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPSTO_300 ",
+            "s_description": "Signo Importe del impuesto de 271 a 300 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 618,
+            "i_pos_final": 620
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPSTO_300 ",
+            "s_description": "Importe del impuesto de 271 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 620,
+            "i_pos_final": 635
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPDES_300 ",
+            "s_description": "Signo Importe del descuento de 271 a 300 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 635,
+            "i_pos_final": 637
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPDES_300 ",
+            "s_description": "Importe del descuento de 271 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 637,
+            "i_pos_final": 652
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPBON_300 ",
+            "s_description": "Signo Importe bonificación del descuento de 271 a 300 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 652,
+            "i_pos_final": 654
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPBON_300 ",
+            "s_description": "Importe bonificación del descuento de 271 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 654,
+            "i_pos_final": 669
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPPROPINA_",
+            "s_description": "Signo Importe de la propina de 271 a 300 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 669,
+            "i_pos_final": 671
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPPROPINA_300 ",
+            "s_description": "Importe de la propina de 271 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 671,
+            "i_pos_final": 686
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPEXT_300 ",
+            "s_description": "Signo Importe externo de 271 a 300 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 686,
+            "i_pos_final": 688
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPEXT_300 ",
+            "s_description": "Importe externo de 271 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 688,
+            "i_pos_final": 703
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR1_300 ",
+            "s_description": "Signo Otros importes1 de 271 a 300 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 703,
+            "i_pos_final": 705
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR1_300 ",
+            "s_description": "Otros importes1 de 271 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 705,
+            "i_pos_final": 720
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR2_300 ",
+            "s_description": "Signo Otros importes2 de 271 a 300 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 720,
+            "i_pos_final": 722
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR2_300 ",
+            "s_description": "Otros importes2 de 271 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 722,
+            "i_pos_final": 737
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPORTE_330 ",
+            "s_description": "Signo Importe de 301 a 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 737,
+            "i_pos_final": 739
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPORTE_330 ",
+            "s_description": "Importe de 301 a 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 739,
+            "i_pos_final": 754
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPSTO_330 ",
+            "s_description": "Signo Importe del impuesto de 301 a 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 754,
+            "i_pos_final": 756
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPSTO_330 ",
+            "s_description": "Importe del impuesto de 301 a 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 756,
+            "i_pos_final": 771
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPDES_330 ",
+            "s_description": "Signo Importe del descuento de 301 a 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 771,
+            "i_pos_final": 773
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPDES_330 ",
+            "s_description": "Importe del descuento de 301 a 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 773,
+            "i_pos_final": 788
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPBON_330 ",
+            "s_description": "Signo Importe bonificación del descuento de 301 a 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 788,
+            "i_pos_final": 790
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPBON_330 ",
+            "s_description": "Importe bonificación del descuento de 301 a 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 790,
+            "i_pos_final": 805
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPPROPINA_",
+            "s_description": "Signo Importe de la propina de 301 a 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 805,
+            "i_pos_final": 807
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPPROPINA_330 ",
+            "s_description": "Importe de la propina de 301 a 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 807,
+            "i_pos_final": 822
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPEXT_330 ",
+            "s_description": "Signo Importe externo de 301 a 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 822,
+            "i_pos_final": 824
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPEXT_330 ",
+            "s_description": "Importe externo de 301 a 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 824,
+            "i_pos_final": 839
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR1_330 ",
+            "s_description": "Signo Otros importes1 de 301 a 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 839,
+            "i_pos_final": 841
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR1_330 ",
+            "s_description": "Otros importes1 de 301 a 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 841,
+            "i_pos_final": 856
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR2_330 ",
+            "s_description": "Signo Otros importes2 de 301 a 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 856,
+            "i_pos_final": 858
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR2_330 ",
+            "s_description": "Otros importes2 de 301 a 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 858,
+            "i_pos_final": 873
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPORTE_360 ",
+            "s_description": "Signo Importe más de 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 873,
+            "i_pos_final": 875
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPORTE_360 ",
+            "s_description": "Importe más de 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 875,
+            "i_pos_final": 890
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPSTO_360 ",
+            "s_description": "Signo Importe del impuesto más de 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 890,
+            "i_pos_final": 892
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPSTO_360 ",
+            "s_description": "Importe del impuesto más de 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 892,
+            "i_pos_final": 907
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPDES_360 ",
+            "s_description": "Signo Importe del descuento más de 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 907,
+            "i_pos_final": 909
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPDES_360 ",
+            "s_description": "Importe del descuento más de 300 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 909,
+            "i_pos_final": 924
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPBON_360 ",
+            "s_description": "Signo Importe bonificación del descuento más de 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 924,
+            "i_pos_final": 926
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPBON_360 ",
+            "s_description": "Importe bonificación del descuento más de 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 926,
+            "i_pos_final": 941
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPPROPINA_",
+            "s_description": "Signo Importe de la propina más de 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 941,
+            "i_pos_final": 943
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPPROPINA_360 ",
+            "s_description": "Importe de la propina más de 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 943,
+            "i_pos_final": 958
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPEXT_360 ",
+            "s_description": "Signo Importe externo más de 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 958,
+            "i_pos_final": 960
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPEXT_360 ",
+            "s_description": "Importe externo más de 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 960,
+            "i_pos_final": 975
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR1_360 ",
+            "s_description": "Signo Otros importes1 más de 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 975,
+            "i_pos_final": 977
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR1_360 ",
+            "s_description": "Otros importes1 más de 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 977,
+            "i_pos_final": 992
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "SGN_IMPOTR2_360 ",
+            "s_description": "Signo Otros importes2 más de 330 días ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 992,
+            "i_pos_final": 994
+        },
+        {
+            "s_tipo_registro": "S2",
+            "s_nombre": "IMPOTR2_360 ",
+            "s_description": "Otros importes2 más de 330 días ",
+            "s_tipo": "Numérico ",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 994,
+            "i_pos_final": 1009
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "ZONACACO",
+            "s_description": "Zona a la que pertenece el comercio según la Cadena Comercial",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 185
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "RECURRENTE",
+            "s_description": "Identifica si el comercio admite operativa de compra recurrente:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 185,
+            "i_pos_final": 187
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "INDRECAP",
+            "s_description": "Indicador de si abona por Recap:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 187,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "TDOCBENE",
+            "s_description": "Tipo de identificación del beneficiario de la cuenta de abono",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 193
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "NUMDOCBEN",
+            "s_description": "Número de identificación del beneficiario de la cuenta de abono",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 193,
+            "i_pos_final": 216
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "NOMDOCBEN",
+            "s_description": "Nombre del beneficiario de la cuenta ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 40,
+            "i_dec": 0,
+            "i_pos_inicial": 216,
+            "i_pos_final": 257
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "CATEGORIASIB",
+            "s_description": "Código de categoría según la Superintendencia de bancos",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 257,
+            "i_pos_final": 266
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "CONTESPECIAL",
+            "s_description": "Identifica si el comercio es un contribuyente especial ante el SRI (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 266,
+            "i_pos_final": 268
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "RISE",
+            "s_description": "Identifica si el comercio es un contribuyente RISE ante el SRI (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 268,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "LOCPAGO",
+            "s_description": "Localidad de Pago ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 279
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "TIPCALCIVA",
+            "s_description": "Identifica como el comercio calcula la base del IVA: ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 279,
+            "i_pos_final": 281
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "IMPMAXOPE",
+            "s_description": "Importe máximo permitido en una compra",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 281,
+            "i_pos_final": 299
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "IMPLIMPISO",
+            "s_description": "Importe límite de piso para operativa ON-US",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 299,
+            "i_pos_final": 317
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "TIPCARECAP",
+            "s_description": "Tipo de cálculo del RECAP:",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 317,
+            "i_pos_final": 319
+        },
+        {
+            "s_tipo_registro": "DA",
+            "s_nombre": "CLAMONLIM",
+            "s_description": "Moneda de los Limites",
+            "s_tipo": "   Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 319,
+            "i_pos_final": 323
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "INDTIPOOPE",
+            "s_description": "Indicador de Tipo de Operación: ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 178
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "CODTIPC",
+            "s_description": "Código de operación de compra en Cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 178,
+            "i_pos_final": 183
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "DESTIPC",
+            "s_description": "Descripción de tipo de compra en cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 183,
+            "i_pos_final": 214
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "MESCARCUO",
+            "s_description": "Número de meses de carencia",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 214,
+            "i_pos_final": 217
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "TIPOCALCU",
+            "s_description": "Tipo de cálculo de financiación ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 217,
+            "i_pos_final": 226
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "INDINTCAR",
+            "s_description": "Indicador de cálculo de intereses (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 226,
+            "i_pos_final": 228
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "INDFECINICAR",
+            "s_description": "Indicador de fecha de inicio ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 228,
+            "i_pos_final": 230
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "INDINCEXCA",
+            "s_description": "Ind de inclu/exclu de códigos de actividad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 230,
+            "i_pos_final": 232
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "INDINCEXCO",
+            "s_description": "Ind de inclu/exclu de códigos de comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 232,
+            "i_pos_final": 234
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "IMPMINCOMCUO",
+            "s_description": "Importe mínimo de compra en cuotas",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 234,
+            "i_pos_final": 252
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "IMPMAXCOMCUO",
+            "s_description": "Importe máximo de compra en cuotas",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 252,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "CUOTAMIN",
+            "s_description": "Importe mínimo de cuota",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 288
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "CUOTAMAX",
+            "s_description": "Importe máximo de cuota",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 288,
+            "i_pos_final": 306
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "NUMMESMINCUO",
+            "s_description": "Número de meses mínimo para la financiación",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 306,
+            "i_pos_final": 309
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "NUMMESMAXCUO",
+            "s_description": "Número de meses máximo para la financiación",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 309,
+            "i_pos_final": 312
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "TIPOFACLIQ",
+            "s_description": "Tipo de factura en liquidación ",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 312,
+            "i_pos_final": 317
+        },
+        {
+            "s_tipo_registro": "OC",
+            "s_nombre": "TIPOFACESP",
+            "s_description": "Tipo de cálculo de intereses ",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 317,
+            "i_pos_final": 322
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "CODMAR ",
+            "s_description": "Código de Marca de la Tarjeta  ",
+            "s_tipo": "Numérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 179
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "DESMAR ",
+            "s_description": "Descripción de Marca de la Tarjeta  ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 179,
+            "i_pos_final": 210
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "INDTIPT ",
+            "s_description": "Tipo de la Tarjeta ",
+            "s_tipo": "Numérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 210,
+            "i_pos_final": 213
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "DESTIPT ",
+            "s_description": "Descripción del Tipo de la Tarjeta ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 213,
+            "i_pos_final": 244
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "CODTIPC",
+            "s_description": "Código de Tipo de Compra en Cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 244,
+            "i_pos_final": 249
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "DESTIPC",
+            "s_description": "Descripción de tipo de compra en cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 249,
+            "i_pos_final": 280
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "TIPOACCESO ",
+            "s_description": "Tipo de acceso:",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 280,
+            "i_pos_final": 282
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "CODCONECO ",
+            "s_description": "Código de concepto económico ",
+            "s_tipo": "Numérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 282,
+            "i_pos_final": 287
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "DESCONECO ",
+            "s_description": "Descripción del concepto económico ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 287,
+            "i_pos_final": 318
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "CLAMON ",
+            "s_description": "Clave de la moneda ",
+            "s_tipo": "Numérico ",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 318,
+            "i_pos_final": 322
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "IMPMINPART ",
+            "s_description": "Importe mínimo particularizado a aplicar en tramo ",
+            "s_tipo": "Numérico ",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 322,
+            "i_pos_final": 340
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "IMPMAXPART ",
+            "s_description": "Importe máximo particularizado a aplicar en tramo ",
+            "s_tipo": "Numérico ",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 340,
+            "i_pos_final": 358
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "TRAMOFIN-IMP ",
+            "s_description": "Extremo Final de Tramo de Importe ",
+            "s_tipo": "Numérico ",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 358,
+            "i_pos_final": 376
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "TRAMOFIN-MES ",
+            "s_description": "Extremo final de Tramo de Nº de Meses ",
+            "s_tipo": "Numérico ",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 376,
+            "i_pos_final": 380
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "PORTRAMO-IMP ",
+            "s_description": "Porcentaje a aplicar al importe para el tramo ",
+            "s_tipo": "Numérico ",
+            "i_long": 13,
+            "i_dec": 0,
+            "i_pos_inicial": 380,
+            "i_pos_final": 394
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "PORTRAMO-MES ",
+            "s_description": "Porcentaje a aplicar al mes para el tramo ",
+            "s_tipo": "Numérico ",
+            "i_long": 13,
+            "i_dec": 0,
+            "i_pos_inicial": 394,
+            "i_pos_final": 408
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "INDMINPAR ",
+            "s_description": "Indicador importe mínimo particularizado (‘S’",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 408,
+            "i_pos_final": 410
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "INDMAXPAR ",
+            "s_description": "Indicador máximo particularizado (‘S’ /’N’)",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 410,
+            "i_pos_final": 412
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "INDPORPAR ",
+            "s_description": "Indicador porcentaje particularizado (‘S’ /’N’)",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 412,
+            "i_pos_final": 414
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "FECALTA ",
+            "s_description": "Fecha alta tarifa particularizada ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 414,
+            "i_pos_final": 425
+        },
+        {
+            "s_tipo_registro": "DP",
+            "s_nombre": "INDDEBCRE",
+            "s_description": "Indicador de Tipo Operación:",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 425,
+            "i_pos_final": 427
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "CODENT ",
+            "s_description": "CÓDIGO DE ENTIDAD ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "CENTALTA ",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "CUENTA ",
+            "s_description": "CUENTA DE TARJETA ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "CODCOM ",
+            "s_description": "CÓDIGO DE COMERCIO ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 160
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 160,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico ",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "CODMAR",
+            "s_description": "Código de Marca de la Tarjeta",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 179
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "DESMAR",
+            "s_description": "Descripción de Marca de la Tarjeta",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 179,
+            "i_pos_final": 210
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "CLASE",
+            "s_description": "Clase de la Tarjeta:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 210,
+            "i_pos_final": 212
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "FECHAALTAADQ",
+            "s_description": "Fecha de Alta de Adquirencia",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 212,
+            "i_pos_final": 223
+        },
+        {
+            "s_tipo_registro": "MT",
+            "s_nombre": "FECHABAJAADQ",
+            "s_description": "Fecha de Baja de Adquirencia",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 223,
+            "i_pos_final": 234
+        }
+    ]
+}

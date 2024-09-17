@@ -1,0 +1,454 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CODENT       ",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 3,
+            "i_pos_final": 8
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CENTALTA     ",
+            "s_description": "CENTRO DE ALTA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 8,
+            "i_pos_final": 13
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CUENTA       ",
+            "s_description": "CÓDIGO DE LA CUENTA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 13,
+            "i_pos_final": 26
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "NUMBENCTA    ",
+            "s_description": "NÚMERO DE BENEFICIARIO",
+            "s_tipo": "Numérico",
+            "i_long": 5,
+            "i_dec": 0,
+            "i_pos_inicial": 26,
+            "i_pos_final": 32
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IDENTCLI     ",
+            "s_description": "IDENTIFICADOR DE CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 32,
+            "i_pos_final": 41
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "PAN          ",
+            "s_description": "NÚMERO DE TARJETA (OFUSCADO)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 41,
+            "i_pos_final": 64
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "FECCADTAR    ",
+            "s_description": "FECHA DE CADUCIDAD",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 64,
+            "i_pos_final": 71
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "FECTRN       ",
+            "s_description": "FECHA LOCAL DE LA OPERACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 71,
+            "i_pos_final": 82
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "HORTRN       ",
+            "s_description": "HORA LOCAL DE LA OPERACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 82,
+            "i_pos_final": 91
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "FECPROCES    ",
+            "s_description": "FECHA DE PROCESO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 91,
+            "i_pos_final": 102
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "HORAPROCESO  ",
+            "s_description": "HORA DE PROCESO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 102,
+            "i_pos_final": 111
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPTRN       ",
+            "s_description": "IMPORTE DE LA TRANSACCIÓN EN MONEDA TITULAR",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 111,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CLAMONTRN    ",
+            "s_description": "CODIGO ISO DE LA MONEDA TITULAR",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 133
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPDIV       ",
+            "s_description": "IMPORTE DE LA TRANSACCIÓN EN MONEDA ORIGINAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 133,
+            "i_pos_final": 151
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CLAMONDIV    ",
+            "s_description": "CODIGO ISO DE LA MONEDA TITULAR",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 151,
+            "i_pos_final": 155
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "TIPMEDIO     ",
+            "s_description": "MEDIO DE COMUNICACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 155,
+            "i_pos_final": 158
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "TIPMEDIODES  ",
+            "s_description": "DESCRIPCIÓN DEL MEDIO DE COMUNICACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 158,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CODEVENT     ",
+            "s_description": "CÓDIGO DE EVENTO DE NOTIFICACIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 194
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "DESEVENT     ",
+            "s_description": "DESCRIPCIÓN DEL EVENETO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 194,
+            "i_pos_final": 225
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "DESEVENTRED  ",
+            "s_description": "DESCRIPCIÓN REDUCIDA DEL EVENTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 225,
+            "i_pos_final": 236
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "REFDOC       ",
+            "s_description": "DOCUMENTO DE REFERENCIA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 236,
+            "i_pos_final": 257
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "NUMFINAN     ",
+            "s_description": "NÚMERO DE FINANCIACIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 257,
+            "i_pos_final": 261
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "PORINT       ",
+            "s_description": "PORCENTAJE DE INTERÉS MENSUAL",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 261,
+            "i_pos_final": 265
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "TAE          ",
+            "s_description": "Tae/cae",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 265,
+            "i_pos_final": 269
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPINTTOTAL  ",
+            "s_description": "IMPORTE TOTAL DE INTERESES",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 269,
+            "i_pos_final": 287
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPCUOTA     ",
+            "s_description": "IMPORTE DE LA CUOTA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 287,
+            "i_pos_final": 305
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "TOTCUOTAS    ",
+            "s_description": "NÚMERO TOTAL DE CUOTAS",
+            "s_tipo": "Numérico",
+            "i_long": 9,
+            "i_dec": 0,
+            "i_pos_inicial": 305,
+            "i_pos_final": 315
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPCOMIS     ",
+            "s_description": "IMPORTE DE COMISIONES",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 315,
+            "i_pos_final": 333
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "FECALTCOMP   ",
+            "s_description": "FECHA DE ALTA DE LA COMPRA A PLAZOS",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 333,
+            "i_pos_final": 344
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "FECPROCUO    ",
+            "s_description": "FECHA DE PRÓXIMA CUOTA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 344,
+            "i_pos_final": 355
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPCOMAPE    ",
+            "s_description": "IMPORTE DE LA COMISIÓN DE APERTURA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 355,
+            "i_pos_final": 373
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "LIMCRECTA    ",
+            "s_description": "LÍMITE DE CRÉDITO DE LA CUENTA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 373,
+            "i_pos_final": 391
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "FORPAGO      ",
+            "s_description": "FORMA DE PAGO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 391,
+            "i_pos_final": 394
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPFPAGOA    ",
+            "s_description": "IMPORTE FIJO DE PAGO APLAZADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 394,
+            "i_pos_final": 412
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "PORPAGOA     ",
+            "s_description": "PORCENTAJE DE PAGO APLAZADO",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 412,
+            "i_pos_final": 420
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPMINPAGOA  ",
+            "s_description": "IMPORTE MÍNIMO DE PAGO APLAZADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 420,
+            "i_pos_final": 438
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CODCOM       ",
+            "s_description": "CÓDIGO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 438,
+            "i_pos_final": 454
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "NOMCOMRED    ",
+            "s_description": "NOMBRE DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 27,
+            "i_dec": 0,
+            "i_pos_inicial": 454,
+            "i_pos_final": 482
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "NOMPOB       ",
+            "s_description": "POBLACIÓN DEL COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 26,
+            "i_dec": 0,
+            "i_pos_inicial": 482,
+            "i_pos_final": 509
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CODPAIS      ",
+            "s_description": "PAÍS DEL COMERCIO",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 509,
+            "i_pos_final": 513
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "NUMSECHIS    ",
+            "s_description": "SECUENCIAL DE NOTIFICACIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 513,
+            "i_pos_final": 529
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CODPUBLI     ",
+            "s_description": "CÓDIGO DE PUBLICIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 529,
+            "i_pos_final": 540
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "CODNOTIF     ",
+            "s_description": "CÓDIGO DE NOTIFICACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 540,
+            "i_pos_final": 551
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "FECCAR       ",
+            "s_description": "FECHA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 551,
+            "i_pos_final": 562
+        },
+        {
+            "s_tipo_registro": "NT",
+            "s_nombre": "IMPCARGO     ",
+            "s_description": "IMPORTE DEL VARGO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 562,
+            "i_pos_final": 580
+        }
+    ]
+}

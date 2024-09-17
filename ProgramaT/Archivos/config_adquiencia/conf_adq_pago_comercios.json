@@ -1,0 +1,974 @@
+{
+  "detalle": [
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "CODENT",
+      "s_description": " Código de Entidad",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 121,
+      "i_pos_final": 126
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "CODHOLDING",
+      "s_description": " Código de Holding (opcional)",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 126,
+      "i_pos_final": 131
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "CODCADENA",
+      "s_description": " Código de Cadena Comercial",
+      "s_tipo": "Alfanumérico",
+      "i_long": 3,
+      "i_dec": 0,
+      "i_pos_inicial": 131,
+      "i_pos_final": 135
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "CODCOM",
+      "s_description": "Código de Comercio",
+      "s_tipo": "Alfanumérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 135,
+      "i_pos_final": 151
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "TIPOREG",
+      "s_description": "TIPO DE REGISTRO ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 151,
+      "i_pos_final": 154
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "DESHOLDING ",
+      "s_description": "Descripción de holding",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 154,
+      "i_pos_final": 185
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "DESCADENA",
+      "s_description": "Descripción de Cadena Comercial",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 185,
+      "i_pos_final": 216
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "NIVAPLCG",
+      "s_description": "Indicador de si liquida por cadena o por comercio:",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 216,
+      "i_pos_final": 218
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "IBAN",
+      "s_description": "IBAN Cuenta Abono",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 218,
+      "i_pos_final": 223
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "CTAABONO",
+      "s_description": "Cuenta Abono",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 223,
+      "i_pos_final": 254
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "CLAMON",
+      "s_description": "Clave de moneda de la cuenta de cargo",
+      "s_tipo": "Numérico",
+      "i_long": 3,
+      "i_dec": 0,
+      "i_pos_inicial": 254,
+      "i_pos_final": 258
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "DESCLAMON ",
+      "s_description": "Descripción Moneda",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 258,
+      "i_pos_final": 289
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "INDTIPCTA",
+      "s_description": "Indicador de tipo de cuenta de cargo",
+      "s_tipo": "Alfanumérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 289,
+      "i_pos_final": 292
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "INDAJENA",
+      "s_description": "Indicador de cuenta de domiciliación ajena (S/N)",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 292,
+      "i_pos_final": 294
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "NUMCOMERCIOS",
+      "s_description": "Número de Comercios en Archivo",
+      "s_tipo": "Numérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 294,
+      "i_pos_final": 299
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "TOTREGS",
+      "s_description": "Total de Registros de Detalle de la Cadena",
+      "s_tipo": "Numérico",
+      "i_long": 12,
+      "i_dec": 0,
+      "i_pos_inicial": 299,
+      "i_pos_final": 312
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "VALORTOTAL",
+      "s_description": "Valor Total de Pago a la Cadena",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 312,
+      "i_pos_final": 330
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "IDCARABO",
+      "s_description": "Identificador Cargo/Abono:",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 330,
+      "i_pos_final": 332
+    },
+    {
+      "s_tipo_registro": "CA",
+      "s_nombre": "FILLER",
+      "s_description": " ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 687,
+      "i_dec": 0,
+      "i_pos_inicial": 332,
+      "i_pos_final": 1020
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "CODENT",
+      "s_description": " Código de Entidad",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 121,
+      "i_pos_final": 126
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "CODHOLDING",
+      "s_description": " Código de Holding (opcional)",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 126,
+      "i_pos_final": 131
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "CODCADENA",
+      "s_description": " Código de Cadena Comercial",
+      "s_tipo": "Alfanumérico",
+      "i_long": 3,
+      "i_dec": 0,
+      "i_pos_inicial": 131,
+      "i_pos_final": 135
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "CODCOM",
+      "s_description": "Código de Comercio",
+      "s_tipo": "Alfanumérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 135,
+      "i_pos_final": 151
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "TIPOREG",
+      "s_description": "TIPO DE REGISTRO ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 151,
+      "i_pos_final": 154
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "NOMCOMRED",
+      "s_description": "Nombre reducido del comercio",
+      "s_tipo": "Alfanumérico",
+      "i_long": 27,
+      "i_dec": 0,
+      "i_pos_inicial": 154,
+      "i_pos_final": 182
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "POBLACION",
+      "s_description": "Población o Localidad del Comercio",
+      "s_tipo": "Alfanumérico",
+      "i_long": 35,
+      "i_dec": 0,
+      "i_pos_inicial": 182,
+      "i_pos_final": 218
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "FECPAGO",
+      "s_description": "Fecha de Pago",
+      "s_tipo": "Fecha",
+      "i_long": 10,
+      "i_dec": 0,
+      "i_pos_inicial": 218,
+      "i_pos_final": 229
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "TIPOPAGO",
+      "s_description": "Tipo de Pago",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 229,
+      "i_pos_final": 231
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "IBAN",
+      "s_description": "IBAN Cuenta Abono",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 231,
+      "i_pos_final": 236
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "CTAABONO",
+      "s_description": "Cuenta Abono",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 236,
+      "i_pos_final": 267
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "CLAMON",
+      "s_description": "Clave de moneda de la cuenta de cargo",
+      "s_tipo": "Numérico",
+      "i_long": 3,
+      "i_dec": 0,
+      "i_pos_inicial": 267,
+      "i_pos_final": 271
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "INDTIPCTA",
+      "s_description": "Indicador de tipo de cuenta de cargo",
+      "s_tipo": "Alfanumérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 271,
+      "i_pos_final": 274
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "INDAJENA",
+      "s_description": "Indicador de cuenta de domiciliación ajena (S/N)",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 274,
+      "i_pos_final": 276
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "TOTREGS",
+      "s_description": "Total de Registros de Detalle del comercio",
+      "s_tipo": "Numérico",
+      "i_long": 12,
+      "i_dec": 0,
+      "i_pos_inicial": 276,
+      "i_pos_final": 289
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "VALORTOTAL",
+      "s_description": "Valor Total de Pago al comercio",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 289,
+      "i_pos_final": 307
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "IDCARABO",
+      "s_description": "Identificador Cargo/Abono:",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 307,
+      "i_pos_final": 309
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "INDRECAP",
+      "s_description": "Indicador de si abona por Recap:",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 309,
+      "i_pos_final": 311
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "LOCPAGO",
+      "s_description": "Localidad de Pago",
+      "s_tipo": "Alfanumérico",
+      "i_long": 8,
+      "i_dec": 0,
+      "i_pos_inicial": 311,
+      "i_pos_final": 320
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "IDCRIREM",
+      "s_description": "Criterio de Remesado",
+      "s_tipo": "Alfanumérico ",
+      "i_long": 8,
+      "i_dec": 0,
+      "i_pos_inicial": 320,
+      "i_pos_final": 329
+    },
+    {
+      "s_tipo_registro": "CO",
+      "s_nombre": "FILLER",
+      "s_description": " ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 692,
+      "i_dec": 0,
+      "i_pos_inicial": 329,
+      "i_pos_final": 1022
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "CODENT",
+      "s_description": " Código de Entidad",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 121,
+      "i_pos_final": 126
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "CODHOLDING",
+      "s_description": " Código de Holding (opcional)",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 126,
+      "i_pos_final": 131
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "CODCADENA",
+      "s_description": " Código de Cadena Comercial",
+      "s_tipo": "Alfanumérico",
+      "i_long": 3,
+      "i_dec": 0,
+      "i_pos_inicial": 131,
+      "i_pos_final": 135
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "CODCOM",
+      "s_description": "Código de Comercio",
+      "s_tipo": "Alfanumérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 135,
+      "i_pos_final": 151
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "TIPOREG",
+      "s_description": "TIPO DE REGISTRO ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 151,
+      "i_pos_final": 154
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VOUCHER",
+      "s_description": "Número de Voucher",
+      "s_tipo": "Alfanumérico",
+      "i_long": 23,
+      "i_dec": 0,
+      "i_pos_inicial": 154,
+      "i_pos_final": 178
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "NUMREFREM",
+      "s_description": "Número de referencia de la remesa",
+      "s_tipo": "Numérico",
+      "i_long": 10,
+      "i_dec": 0,
+      "i_pos_inicial": 178,
+      "i_pos_final": 189
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "NUMREFFACREM",
+      "s_description": "Número referencia factura",
+      "s_tipo": "Numérico",
+      "i_long": 5,
+      "i_dec": 0,
+      "i_pos_inicial": 189,
+      "i_pos_final": 195
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "TIPFRAN",
+      "s_description": "Tipo de franquicia",
+      "s_tipo": "Numérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 195,
+      "i_pos_final": 200
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "DESFRA",
+      "s_description": "Descripción de la franquicia",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 200,
+      "i_pos_final": 231
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "PAN",
+      "s_description": "PAN de la tarjeta ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 22,
+      "i_dec": 0,
+      "i_pos_inicial": 231,
+      "i_pos_final": 254
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "INDNORCOR",
+      "s_description": "Indicador de normal o correctora: ",
+      "s_tipo": "Numérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 254,
+      "i_pos_final": 256
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "TIPOFAC",
+      "s_description": "Tipo de factura",
+      "s_tipo": "Numérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 256,
+      "i_pos_final": 261
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "DESTIPFAC",
+      "s_description": "Descripción del tipo de factura",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 261,
+      "i_pos_final": 292
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "TIPOFACSIST",
+      "s_description": "Tipo de factura de sistema",
+      "s_tipo": "Numérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 292,
+      "i_pos_final": 297
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "SIGNO",
+      "s_description": "Signo del importe (+/-)",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 297,
+      "i_pos_final": 299
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "CLAMON",
+      "s_description": "Clave de moneda",
+      "s_tipo": "Numérico",
+      "i_long": 3,
+      "i_dec": 0,
+      "i_pos_inicial": 299,
+      "i_pos_final": 303
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALORLIQ",
+      "s_description": "Valor Liquidado",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 303,
+      "i_pos_final": 321
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALORCONS",
+      "s_description": "Valor Consumo (Valor de la Cuota en Ops. Abonadas en Cuotas)",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 321,
+      "i_pos_final": 339
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALORCOM",
+      "s_description": "Valor Comisión",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 339,
+      "i_pos_final": 357
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALORRETF",
+      "s_description": "Valor Retenido Fuente",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 357,
+      "i_pos_final": 375
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALORIVA",
+      "s_description": "Valor IVA",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 375,
+      "i_pos_final": 393
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALORRETIVA",
+      "s_description": "Valor Retenido IVA",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 393,
+      "i_pos_final": 411
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "TIPOCRED",
+      "s_description": "Tipo de operación:",
+      "s_tipo": "Alfanumérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 411,
+      "i_pos_final": 413
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "CODTIPC",
+      "s_description": "Código de operación en cuotas",
+      "s_tipo": "Alfanumérico",
+      "i_long": 4,
+      "i_dec": 0,
+      "i_pos_inicial": 413,
+      "i_pos_final": 418
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "DESTIPC",
+      "s_description": "Descripción de tipo de compra en cuotas",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 418,
+      "i_pos_final": 449
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "TOTCUOTAS",
+      "s_description": "Número total de cuotas",
+      "s_tipo": "Numérico",
+      "i_long": 9,
+      "i_dec": 0,
+      "i_pos_inicial": 449,
+      "i_pos_final": 459
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "NUMCUOTACT",
+      "s_description": "Número de cuota liquidada",
+      "s_tipo": "Numérico",
+      "i_long": 9,
+      "i_dec": 0,
+      "i_pos_inicial": 459,
+      "i_pos_final": 469
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "CODMAR",
+      "s_description": "Marca de la tarjeta",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 469,
+      "i_pos_final": 472
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "DESMAR",
+      "s_description": "Descripción de Marca de la Tarjeta ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 472,
+      "i_pos_final": 503
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "INDTIPT",
+      "s_description": "Tipo de la tarjeta",
+      "s_tipo": "Numérico",
+      "i_long": 2,
+      "i_dec": 0,
+      "i_pos_inicial": 503,
+      "i_pos_final": 506
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "DESTIPT",
+      "s_description": "Descripción del Tipo de la Tarjeta",
+      "s_tipo": "Alfanumérico",
+      "i_long": 30,
+      "i_dec": 0,
+      "i_pos_inicial": 506,
+      "i_pos_final": 537
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "INDDEBCRE",
+      "s_description": "Indicador de Tipo Operación:",
+      "s_tipo": "Numérico",
+      "i_long": 1,
+      "i_dec": 0,
+      "i_pos_inicial": 537,
+      "i_pos_final": 539
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "TASADESC",
+      "s_description": "Tasa de Descuento Aplicada al Comercio",
+      "s_tipo": "Numérico",
+      "i_long": 7,
+      "i_dec": 0,
+      "i_pos_inicial": 539,
+      "i_pos_final": 547
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "FECLIQ",
+      "s_description": "Fecha de Liquidación",
+      "s_tipo": "Fecha",
+      "i_long": 10,
+      "i_dec": 0,
+      "i_pos_inicial": 547,
+      "i_pos_final": 558
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "FECPAGO",
+      "s_description": "Fecha de Pago",
+      "s_tipo": "Fecha",
+      "i_long": 10,
+      "i_dec": 0,
+      "i_pos_inicial": 558,
+      "i_pos_final": 569
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "FECFAC",
+      "s_description": "Fecha de Factura",
+      "s_tipo": "Fecha",
+      "i_long": 10,
+      "i_dec": 0,
+      "i_pos_inicial": 569,
+      "i_pos_final": 580
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALIVACOM",
+      "s_description": "Valor IVA Comisión",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 580,
+      "i_pos_final": 598
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "NUMAUT ",
+      "s_description": "Número de autorización",
+      "s_tipo": "Alfanumérico",
+      "i_long": 6,
+      "i_dec": 0,
+      "i_pos_inicial": 598,
+      "i_pos_final": 605
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "NUMSECREC",
+      "s_description": "Número Secuencial de Recibo Interno SAT",
+      "s_tipo": "Numérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 605,
+      "i_pos_final": 621
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "SECOPE",
+      "s_description": "Secuencia de la operación",
+      "s_tipo": "Numérico",
+      "i_long": 12,
+      "i_dec": 0,
+      "i_pos_inicial": 621,
+      "i_pos_final": 634
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALORTOTAL",
+      "s_description": "Valor Total (Valor de la Cuota en Ops. Abonadas en Cuotas)",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 634,
+      "i_pos_final": 652
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALPROPINA",
+      "s_description": "Valor de la Propina (Valor de la Cuota en Ops. Abonadas en Cuotas)",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 652,
+      "i_pos_final": 670
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "IMPCONIVA",
+      "s_description": "Monto que Calcula IVA",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 670,
+      "i_pos_final": 688
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "COSTOFIJO",
+      "s_description": "Valor de Costo Fijo (Valor de la Cuota en Ops. Abonadas en Cuotas)",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 688,
+      "i_pos_final": 706
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALBASEDES",
+      "s_description": "Valor Base del Descuento (Valor de la Cuota en Ops. Abonadas en Cuotas)",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 706,
+      "i_pos_final": 724
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "PRTRETIVA",
+      "s_description": "Porcentaje de Retención de IVA",
+      "s_tipo": "Numérico",
+      "i_long": 7,
+      "i_dec": 0,
+      "i_pos_inicial": 724,
+      "i_pos_final": 732
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "PRTRETFTE",
+      "s_description": "Porcentaje de Retención de Fuente",
+      "s_tipo": "Numérico",
+      "i_long": 7,
+      "i_dec": 0,
+      "i_pos_inicial": 732,
+      "i_pos_final": 740
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "PRTIVACOM",
+      "s_description": "Porcentaje de IVA de Comisión",
+      "s_tipo": "Numérico",
+      "i_long": 7,
+      "i_dec": 0,
+      "i_pos_inicial": 740,
+      "i_pos_final": 748
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "NUMABONOS",
+      "s_description": "Número de Abonos al Comercio",
+      "s_tipo": "Numérico ",
+      "i_long": 3,
+      "i_dec": 0,
+      "i_pos_inicial": 748,
+      "i_pos_final": 752
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "RECAP",
+      "s_description": "RECAP de la factura",
+      "s_tipo": "Alfanumérico",
+      "i_long": 20,
+      "i_dec": 0,
+      "i_pos_inicial": 752,
+      "i_pos_final": 773
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "CODHASH2",
+      "s_description": "Código Hash Recibido",
+      "s_tipo": "Alfanumérico",
+      "i_long": 64,
+      "i_dec": 0,
+      "i_pos_inicial": 773,
+      "i_pos_final": 838
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "IMPSINIVA",
+      "s_description": "Monto que No Calcula IVA",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 838,
+      "i_pos_final": 856
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALOTROIMP",
+      "s_description": "Valor de Otros Impuestos / Servicio",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 856,
+      "i_pos_final": 874
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "NUMRECRCAP",
+      "s_description": "Número Identificación de Recibo ",
+      "s_tipo": "Numérico",
+      "i_long": 15,
+      "i_dec": 0,
+      "i_pos_inicial": 874,
+      "i_pos_final": 890
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "VALORTASAS",
+      "s_description": "Valor Tasa",
+      "s_tipo": "Numérico",
+      "i_long": 17,
+      "i_dec": 0,
+      "i_pos_inicial": 890,
+      "i_pos_final": 908
+    },
+    {
+      "s_tipo_registro": "FA",
+      "s_nombre": "FILLER",
+      "s_description": " ",
+      "s_tipo": "Alfanumérico",
+      "i_long": 149,
+      "i_dec": 0,
+      "i_pos_inicial": 908,
+      "i_pos_final": 1058
+    }
+  ]
+}

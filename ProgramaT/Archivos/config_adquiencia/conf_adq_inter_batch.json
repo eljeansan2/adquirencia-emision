@@ -1,0 +1,137 @@
+{
+    "detalle_Cabecera":[
+        {
+            "s_tipo_registro": " ", 
+            "s_nombre": "CODENT",
+            "i_long": 4,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 0,
+            "i_pos_final": 4
+        },
+        {
+            "s_tipo_registro": " ", 
+            "s_nombre": "NSECFIC",
+            "i_long": 10,
+            "i_dec": 0,
+            "s_tipo": "Numérico",
+            "i_pos_inicial": 4,
+            "i_pos_final": 14
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "TIPOCINTA",
+            "i_long": 2,
+            "i_dec": 0,
+            "s_tipo": "Numérico",
+            "i_pos_inicial": 14,
+            "i_pos_final": 16
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "TIPOREG",
+            "i_long": 1,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 16,
+            "i_pos_final": 17
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "FECENVIO",
+            "i_long": 10,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 17,
+            "i_pos_final": 27
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "HORAENVIO",
+            "i_long": 8,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 27,
+            "i_pos_final": 35
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "NUMREGTOT",
+            "i_long": 12,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 35,
+            "i_pos_final": 47
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "NUMREGTOT",
+            "i_long": 12,
+            "i_dec": 0,
+            "s_tipo": "Numérico",
+            "i_pos_inicial": 35,
+            "i_pos_final": 47
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "OTROSDATOSCAB",
+            "i_long": 951,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 47,
+            "i_pos_final": 998
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "ESTADOCINTA",
+            "i_long": 1,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 998,
+            "i_pos_final": 999
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "VALIDACION",
+            "i_long": 1,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 999,
+            "i_pos_final": 1000
+        }
+    ],
+    "detalle_Registro":[
+        {
+            "s_tipo_registro": " ", 
+            "s_nombre": "CODENT",
+            "i_long": 4,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 0,
+            "i_pos_final": 4
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "NSECFIC",
+            "i_long": 10,
+            "i_dec": 0,
+            "s_tipo": "Numérico",
+            "i_pos_inicial": 4,
+            "i_pos_final": 14
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "TIPOCINTA",
+            "i_long": 2,
+            "i_dec": 0,
+            "s_tipo": "Numérico",
+            "i_pos_inicial": 14,
+            "i_pos_final": 16
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "TIPOREG",
+            "i_long": 1,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 16,
+            "i_pos_final": 17
+        },{
+            "s_tipo_registro": " ", 
+            "s_nombre": "NUMREGPROC",
+            "i_long": 12,
+            "i_dec": 0,
+            "s_tipo": "Alfanumérico",
+            "i_pos_inicial": 108,
+            "i_pos_final": 120
+        }
+    ]
+}

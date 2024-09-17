@@ -1,0 +1,154 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "TIPOREGI",
+            "s_description": "Identifica el tipo de registro para que sea tratado por los procesos. ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 3,
+            "i_pos_final": 5
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "CODENTID",
+            "s_description": "Código de Entidad.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 5,
+            "i_pos_final": 14
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "CODCINTA",
+            "s_description": "Código de Cinta.  Código reservado que identifica la cinta relacionada con el proceso que la trata o genera.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 14,
+            "i_pos_final": 17
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "NUMSECUE",
+            "s_description": "Número de secuencia de cinta.",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 17,
+            "i_pos_final": 26
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "CODPROGR",
+            "s_description": "Código del programa.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 26,
+            "i_pos_final": 35
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "CODCUENT",
+            "s_description": "Código de la Cuenta a bloquear/desbloquear.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 35,
+            "i_pos_final": 56
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "TIPOOPER",
+            "s_description": "Indica si se trata de una operación de bloqueo o de desbloqueo. Los posibles valores son B/D.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 56,
+            "i_pos_final": 58
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "INDBLQAC",
+            "s_description": "Indica si se trata de un bloqueo de acumulación. (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 58,
+            "i_pos_final": 60
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "INDLIBER",
+            "s_description": "Sólo aplica si para TIPOOPER=D y INDBLQAC= S.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 60,
+            "i_pos_final": 62
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "INDBLQRD",
+            "s_description": "Indica si se trata de un bloqueo de redención. (S/N) ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 62,
+            "i_pos_final": 64
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "TXTBLQACUM",
+            "s_description": "SI INDBLQAC = N, irá a espacios. SI INDBLQAC = S, (bloqueo de acumulación) permite indicar el texto asociado a dicho bloqueo.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 120,
+            "i_dec": 0,
+            "i_pos_inicial": 64,
+            "i_pos_final": 185
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "TXTBLQCJE",
+            "s_description": "SI INDBLQRD = N, irá a espacios. SI",
+            "s_tipo": "Alfanumérico",
+            "i_long": 120,
+            "i_dec": 0,
+            "i_pos_inicial": 185,
+            "i_pos_final": 306
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "MODALIDAD",
+            "s_description": "Indica el tipo de tratamiento a realizar.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 306,
+            "i_pos_final": 308
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "TIPIDCLI",
+            "s_description": "Tipo de identificador de cliente. ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 308,
+            "i_pos_final": 311
+        },
+        {
+            "s_tipo_registro": "BL",
+            "s_nombre": "IDCLIENT",
+            "s_description": "Identificador de cliente.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 311,
+            "i_pos_final": 332
+        }
+    ]
+}

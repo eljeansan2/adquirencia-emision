@@ -1,0 +1,1014 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODHOLDING",
+            "s_description": "CÓDIGO DE HOLDING AL QUE PERTENECE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODCADENA",
+            "s_description": "CÓDIGO DE LA CADENA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 15
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODCOM",
+            "s_description": "CÓDIGO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 15,
+            "i_pos_final": 31
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 31,
+            "i_pos_final": 36
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 36,
+            "i_pos_final": 49
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 49,
+            "i_pos_final": 52
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 52,
+            "i_pos_final": 65
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 65,
+            "i_pos_final": 70
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODHOLDING",
+            "s_description": "CÓDIGO DE HOLDING AL QUE PERTENECE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 70,
+            "i_pos_final": 75
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODCADENA",
+            "s_description": "CÓDIGO DE CADENA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 75,
+            "i_pos_final": 79
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODCOM",
+            "s_description": "CÓDIGO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 79,
+            "i_pos_final": 95
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "NOMCOMRED",
+            "s_description": "NOMBRE COMERCIO REDUCIDO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 27,
+            "i_dec": 0,
+            "i_pos_inicial": 95,
+            "i_pos_final": 123
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "PRODUCTO",
+            "s_description": "CÓDIGO DE PRODUCTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 123,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "SUBPRODU",
+            "s_description": "CÓDIGO DE SUBPRODUCTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CONPROD",
+            "s_description": "CÓDIGO DE CONDICIÓN ECONÓMICA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 135
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "TIPBON",
+            "s_description": "TIPO DE BONIFICACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 135,
+            "i_pos_final": 142
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "TIPOPROV",
+            "s_description": "TIPO DE PROVEEDOR.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 142,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICACIÓN DE CLIENTE ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 153
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "IBAN",
+            "s_description": "IBAN DE LA CUENTA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 153,
+            "i_pos_final": 158
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CTACARGO",
+            "s_description": "CUENTA DE CARGO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 158,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CLAMON",
+            "s_description": "CLAVE DE MONEDA DE CUENTA CARGO",
+            "s_tipo": "Numérico ",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 193
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "INDTIPCTA",
+            "s_description": "INDICADOR DE TIPO DE CUENTA CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 193,
+            "i_pos_final": 196
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "INDAJENA",
+            "s_description": "INDICADOR DE CUENTA DE DOMICILIACIÓN AJENA(S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 196,
+            "i_pos_final": 198
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODCAM",
+            "s_description": "CÓDIGO CAMPAÑA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 198,
+            "i_pos_final": 205
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "NUMMAQ",
+            "s_description": "NÚMERO DE MÁQUINAS MANUALES",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 205,
+            "i_pos_final": 208
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "NUMTPV",
+            "s_description": "NÚMERO DE TPVS",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 208,
+            "i_pos_final": 211
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA COMERCIO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 211,
+            "i_pos_final": 222
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "FECBAJA",
+            "s_description": "FECHA DE BAJA ",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 222,
+            "i_pos_final": 233
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "MOTBAJA",
+            "s_description": "MOTIVO DE BAJA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 233,
+            "i_pos_final": 236
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "FECREACT",
+            "s_description": "FECHA REACTIVACIÓN DEL COMERCIO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 236,
+            "i_pos_final": 247
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODRIE",
+            "s_description": "CÓDIGO DE RIESGO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 247,
+            "i_pos_final": 250
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "FECULTRIE",
+            "s_description": "FECHA ÚLTIMA CLASIFICACIÓN RIESGO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 250,
+            "i_pos_final": 261
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "NUMEXTCOM",
+            "s_description": "NÚMERO DE EXTRACTO DE COMERCIO",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 261,
+            "i_pos_final": 265
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "FECULTREM",
+            "s_description": "FECHA ÚLTIMA REMESA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 265,
+            "i_pos_final": 276
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODFUC ",
+            "s_description": "CÓDIGO DE FUC",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 276,
+            "i_pos_final": 292
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "INDCONT",
+            "s_description": "INDICADOR COMERCIO CONTRATADO/CAPTADO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 292,
+            "i_pos_final": 294
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODTERDEF",
+            "s_description": "CÓDIGO DE TERMINAL POR DEFECTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 16,
+            "i_dec": 0,
+            "i_pos_inicial": 294,
+            "i_pos_final": 311
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODPROCESO",
+            "s_description": "CÓDIGO DE PROCESO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 311,
+            "i_pos_final": 314
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODGRUPO",
+            "s_description": "CÓDIGO DE GRUPO DE PROCESO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 314,
+            "i_pos_final": 317
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "INDENVEXT",
+            "s_description": "INDICADOR DE ENVÍO DIARIO DEL EXTRACTO DE MOVIMIENTOS (S/N) ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 317,
+            "i_pos_final": 319
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODACT",
+            "s_description": "CÓDIGO DE ACTIVIDAD",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 319,
+            "i_pos_final": 324
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "CODREGIMEN",
+            "s_description": "CÓDIGO DE RÉGIMEN FISCAL",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 324,
+            "i_pos_final": 329
+        },
+        {
+            "s_tipo_registro": "CP",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 14,
+            "i_dec": 0,
+            "i_pos_inicial": 329,
+            "i_pos_final": 344
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CODHOLDING",
+            "s_description": "CÓDIGO DE HOLDING AL QUE PERTENECE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CODCADENA",
+            "s_description": "CÓDIGO DE LA CADENA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 15
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CODCOM",
+            "s_description": "CÓDIGO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 15,
+            "i_pos_final": 31
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 31,
+            "i_pos_final": 36
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 36,
+            "i_pos_final": 49
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 49,
+            "i_pos_final": 52
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 52,
+            "i_pos_final": 65
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 65,
+            "i_pos_final": 70
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CODHOLDING",
+            "s_description": "CÓDIGO DE HOLDING AL QUE PERTENECE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 70,
+            "i_pos_final": 75
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CODCADENA",
+            "s_description": "CÓDIGO DE CADENA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 75,
+            "i_pos_final": 79
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CODCOM",
+            "s_description": "CÓDIGO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 79,
+            "i_pos_final": 95
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "NUMEXTCOM",
+            "s_description": "NÚMERO DE EXTRACTOS DE COMERCIO",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 95,
+            "i_pos_final": 99
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "FECEXTCOM",
+            "s_description": "FECHA DE EXTRACTO COMERCIO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 99,
+            "i_pos_final": 110
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "INDSITEXTCOM",
+            "s_description": "INDICADOR SITUACIÓN DEL EXTRACTO. VALORES:",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 110,
+            "i_pos_final": 112
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "NUMULTMOV",
+            "s_description": "NÚMERO DE ÚLTIMO MOVIMIENTO",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 112,
+            "i_pos_final": 120
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA ",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 120,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "FECEXT",
+            "s_description": "FECHA DE EXTRACTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 142
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "FECVALCAR",
+            "s_description": "FECHA VALOR APUNTE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 142,
+            "i_pos_final": 153
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "FECLIQ",
+            "s_description": "FECHA DE LIQUIDACIÓN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 153,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "FECCAREXT",
+            "s_description": "FECHA CARGO EXTRACTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 175
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "IBAN",
+            "s_description": "IBAN DE LA CUENTA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 175,
+            "i_pos_final": 180
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "CTACARGO",
+            "s_description": "CUENTA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 180,
+            "i_pos_final": 211
+        },
+        {
+            "s_tipo_registro": "EC",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 18,
+            "i_dec": 0,
+            "i_pos_inicial": 211,
+            "i_pos_final": 230
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODHOLDING",
+            "s_description": "CÓDIGO DE HOLDING AL QUE PERTENECE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODCADENA",
+            "s_description": "CÓDIGO DE LA CADENA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 15
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODCOM",
+            "s_description": "CÓDIGO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 15,
+            "i_pos_final": 31
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 31,
+            "i_pos_final": 36
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 36,
+            "i_pos_final": 49
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 49,
+            "i_pos_final": 52
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 52,
+            "i_pos_final": 65
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 65,
+            "i_pos_final": 70
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODHOLDING",
+            "s_description": "CÓDIGO DE HOLDING AL QUE PERTENECE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 70,
+            "i_pos_final": 75
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODCADENA",
+            "s_description": "CÓDIGO DE CADENA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 75,
+            "i_pos_final": 79
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODCOM",
+            "s_description": "CÓDIGO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 79,
+            "i_pos_final": 95
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "NUMEXTCOM",
+            "s_description": "NÚMERO DE EXTRACTOS DE COMERCIO",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 95,
+            "i_pos_final": 99
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "FECMOVEXTC",
+            "s_description": "FECHA DE MOVIMIENTO EXTRACTO COMERCIO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 99,
+            "i_pos_final": 110
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "FECCONTA",
+            "s_description": "FECHA CONTABLE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 110,
+            "i_pos_final": 121
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "NUMMOVEXTCO",
+            "s_description": "NÚMERO DE MOVIMIENTOS DE EXTRACTO DE COMERCIOS ",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "INDTIPO",
+            "s_description": "INDICADOR DE REMESA O CONCEPTO: DOMINIOS: ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "NUMREFREM",
+            "s_description": "NÚMERO REFERENCIA DE LA REMESA",
+            "s_tipo": "Numérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 142
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "NUMREFFAC",
+            "s_description": "NÚMERO REFERENCIA FACTURA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 23,
+            "i_dec": 0,
+            "i_pos_inicial": 142,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "PAN",
+            "s_description": "PAN DE LA TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CODCONECO",
+            "s_description": "CÓDIGO DE CONCEPTO ECONÓMICO ",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 194
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "TIPOFAC",
+            "s_description": "TIPO DE FACTURA",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 194,
+            "i_pos_final": 199
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "DESMOVEXTCO",
+            "s_description": "DESCRIPCIÓN DEL MOVIMIENTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 199,
+            "i_pos_final": 230
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "SIGNO",
+            "s_description": "SIGNO DEL IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 230,
+            "i_pos_final": 232
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "INDNORCOR",
+            "s_description": "INDICADOR DE NORMAL O CORRECTORA: ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 232,
+            "i_pos_final": 234
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "IMPMVTEXCO",
+            "s_description": "IMPORTE ",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 234,
+            "i_pos_final": 252
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "IMPIMPSTO",
+            "s_description": "IMPORTE DEL IMPUESTO",
+            "s_tipo": "Numérico ",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 252,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "CLAMON",
+            "s_description": "CLAVE DE MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 274
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "INDANULMOV",
+            "s_description": "INDICADOR DE MOVIMIENTO ANULADO",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 274,
+            "i_pos_final": 276
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "INDENVPAS",
+            "s_description": "INDICADOR DE MOVIMIENTO ENVIADO (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 276,
+            "i_pos_final": 278
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "DEPARTAMENTO",
+            "s_description": "CÓDIGO DE DEPARTAMENTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 278,
+            "i_pos_final": 283
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "IMPIMPSTO-2",
+            "s_description": "IMPORTE DEL IMPUESTO (IMPUESTO EXTERNO 2)",
+            "s_tipo": "Numérico ",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 283,
+            "i_pos_final": 301
+        },
+        {
+            "s_tipo_registro": "EM",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 301,
+            "i_pos_final": 306
+        }
+    ]
+}

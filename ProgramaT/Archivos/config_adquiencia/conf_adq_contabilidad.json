@@ -1,0 +1,764 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODENT",
+            "s_description": "Código de entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODGRU",
+            "s_description": "Código de grupo contable",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 9
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODCCN",
+            "s_description": "Concepto contable",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 9,
+            "i_pos_final": 14
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "IMPORTE",
+            "s_description": "Importe ",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 14,
+            "i_pos_final": 32
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 32,
+            "i_pos_final": 36
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECALTA",
+            "s_description": "Fecha grabación del registro",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 36,
+            "i_pos_final": 47
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECCONTA",
+            "s_description": "Fecha Contable (AAAA-MM-DD)",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 47,
+            "i_pos_final": 58
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECOPER",
+            "s_description": "Fecha De La Operación (AAAA-MM-DD)",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 58,
+            "i_pos_final": 69
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "IMPORI",
+            "s_description": "Importe original de la operación",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 69,
+            "i_pos_final": 87
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CLAMONORI",
+            "s_description": "Clave moneda original",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 87,
+            "i_pos_final": 91
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CMBAPLIORI",
+            "s_description": "Cambio aplicado paso de moneda",
+            "s_tipo": "Numérico",
+            "i_long": 9,
+            "i_dec": 0,
+            "i_pos_inicial": 91,
+            "i_pos_final": 101
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "IMPEMI",
+            "s_description": "Importe recepción de la operación",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 101,
+            "i_pos_final": 119
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CLAMONEMI",
+            "s_description": "Clave moneda emisor",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 119,
+            "i_pos_final": 123
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CMBAPLIEMI",
+            "s_description": "Cambio aplicado paso de moneda emisor",
+            "s_tipo": "Numérico",
+            "i_long": 9,
+            "i_dec": 0,
+            "i_pos_inicial": 123,
+            "i_pos_final": 133
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "INDNORCOR",
+            "s_description": "Indicador de normal o correctora:",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 133,
+            "i_pos_final": 135
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPOFAC",
+            "s_description": "Tipo de factura",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 135,
+            "i_pos_final": 140
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "INDAPLDEBCRE",
+            "s_description": "Indicador de operatividad de la tarjeta",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 140,
+            "i_pos_final": 142
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODACT",
+            "s_description": "Código actividad ISO",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 142,
+            "i_pos_final": 147
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODCONECO",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 147,
+            "i_pos_final": 152
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "SECOPE",
+            "s_description": "Secuencia de la operación",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 152,
+            "i_pos_final": 165
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "OFIOPE",
+            "s_description": "Oficina que genera la operación",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 165,
+            "i_pos_final": 170
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "IDTERM",
+            "s_description": "Identificador de terminal",
+            "s_tipo": "Alfanumérico",
+            "i_long": 16,
+            "i_dec": 0,
+            "i_pos_inicial": 170,
+            "i_pos_final": 187
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "SIAIDCD",
+            "s_description": "Código identificación de sia ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 19,
+            "i_dec": 0,
+            "i_pos_inicial": 187,
+            "i_pos_final": 207
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMCINTA",
+            "s_description": "Número de cinta",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 207,
+            "i_pos_final": 225
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "SECLOTE",
+            "s_description": "Lote dentro de la cinta",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 225,
+            "i_pos_final": 232
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CENTALTA",
+            "s_description": "Centro alta cuenta tarjeta",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 232,
+            "i_pos_final": 237
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CUENTA",
+            "s_description": "Cuenta de tarjeta",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 237,
+            "i_pos_final": 250
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "PAN",
+            "s_description": "Número de tarjeta",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 250,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMEXTCTA",
+            "s_description": "Número de extracto de crédito",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 277
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMMOV",
+            "s_description": "Número movimiento crédito o débito",
+            "s_tipo": "Numérico",
+            "i_long": 9,
+            "i_dec": 0,
+            "i_pos_inicial": 277,
+            "i_pos_final": 287
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMOPECUO",
+            "s_description": "Número operación en cuotas",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 287,
+            "i_pos_final": 294
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECINI",
+            "s_description": "Fecha inicio",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 294,
+            "i_pos_final": 305
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FECFIN",
+            "s_description": "Fecha fin",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 305,
+            "i_pos_final": 316
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODCOM",
+            "s_description": "Código de comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 316,
+            "i_pos_final": 332
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CENTALTACOM",
+            "s_description": "Alta contrato comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 332,
+            "i_pos_final": 337
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CUENTACOM",
+            "s_description": "Contrato comercio",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 337,
+            "i_pos_final": 350
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMEXTCOM",
+            "s_description": "Número extracto comercio",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 350,
+            "i_pos_final": 354
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMMOVEXTCO",
+            "s_description": "Número movimiento extracto comercio",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 354,
+            "i_pos_final": 362
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMREFREM",
+            "s_description": "Número referencia remesa",
+            "s_tipo": "Numérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 362,
+            "i_pos_final": 373
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMREFFACREM",
+            "s_description": "Número referencia de la factura",
+            "s_tipo": "Numérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 373,
+            "i_pos_final": 384
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMINC",
+            "s_description": "Número incidencia",
+            "s_tipo": "Numérico",
+            "i_long": 9,
+            "i_dec": 0,
+            "i_pos_inicial": 384,
+            "i_pos_final": 394
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMSECREC",
+            "s_description": "Número secuencia de recibo",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 394,
+            "i_pos_final": 410
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMSECIMP",
+            "s_description": "Número secuencia de recibo impagado",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 410,
+            "i_pos_final": 426
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODMAR",
+            "s_description": "Código marca de tarjeta",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 426,
+            "i_pos_final": 429
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "INDTIPT",
+            "s_description": "Indicador tipo de tarjeta",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 429,
+            "i_pos_final": 432
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 432,
+            "i_pos_final": 435
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Código de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 435,
+            "i_pos_final": 440
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 440,
+            "i_pos_final": 442
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CONPROD",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 442,
+            "i_pos_final": 446
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPFRAN",
+            "s_description": "Tipo de franquicia",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 446,
+            "i_pos_final": 451
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODRAZON",
+            "s_description": "Código de razón",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 451,
+            "i_pos_final": 456
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPOREM",
+            "s_description": "Tipo de remesa",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 456,
+            "i_pos_final": 458
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODESTCTA",
+            "s_description": "Código estado de cuenta de tarjeta",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 458,
+            "i_pos_final": 461
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODPAIS",
+            "s_description": "Código de país",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 461,
+            "i_pos_final": 465
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPOCLI",
+            "s_description": "Tipo de cliente",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 465,
+            "i_pos_final": 470
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "IDENTCLI",
+            "s_description": "Identificador de cliente",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 470,
+            "i_pos_final": 479
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "ORIGENOPE",
+            "s_description": "Origen de operación",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 479,
+            "i_pos_final": 484
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "PROGRAMA",
+            "s_description": "Nombre de programa",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 484,
+            "i_pos_final": 493
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "IMPCON",
+            "s_description": "Importe en moneda contable",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 493,
+            "i_pos_final": 511
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CLAMONCON",
+            "s_description": "Clave moneda contable",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 511,
+            "i_pos_final": 515
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CMBAPLI",
+            "s_description": "Cambio aplicado",
+            "s_tipo": "Numérico",
+            "i_long": 9,
+            "i_dec": 0,
+            "i_pos_inicial": 515,
+            "i_pos_final": 525
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CUENTADEBE",
+            "s_description": "Cuenta SAT Debe",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 525,
+            "i_pos_final": 532
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CUENTAHABER",
+            "s_description": "Cuenta SAT Haber",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 532,
+            "i_pos_final": 539
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "OFIIMPDEB",
+            "s_description": "Oficina Imputación DEBE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 539,
+            "i_pos_final": 544
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "OFIIMPHAB",
+            "s_description": "Oficina Imputación Haber",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 544,
+            "i_pos_final": 549
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "INDNACINT",
+            "s_description": "Indicador operador",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 549,
+            "i_pos_final": 551
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "NUMOPER",
+            "s_description": "Número  de  registros  que  componen  la",
+            "s_tipo": "Numérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 551,
+            "i_pos_final": 562
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "SIGNO",
+            "s_description": "Signo del registro contable ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 562,
+            "i_pos_final": 564
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "LINREF",
+            "s_description": "Referencia de tipo de línea",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 564,
+            "i_pos_final": 573
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "TIPOLIN",
+            "s_description": "Tipo de línea",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 573,
+            "i_pos_final": 578
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CLASIFEXT",
+            "s_description": "Clasificación externa",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 578,
+            "i_pos_final": 580
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 580,
+            "i_pos_final": 585
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CUENTADEB",
+            "s_description": "Cuenta débito Entidad",
+            "s_tipo": "Numérico",
+            "i_long": 25,
+            "i_dec": 0,
+            "i_pos_inicial": 585,
+            "i_pos_final": 611
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CUENTACRE",
+            "s_description": "Cuenta crédito Entidad",
+            "s_tipo": "Numérico",
+            "i_long": 25,
+            "i_dec": 0,
+            "i_pos_inicial": 611,
+            "i_pos_final": 637
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "CODREGIMEN",
+            "s_description": "Código de régimen fiscal",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 637,
+            "i_pos_final": 642
+        },
+        {
+            "s_tipo_registro": "CO",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": " ",
+            "i_long": 46,
+            "i_dec": 0,
+            "i_pos_inicial": 642,
+            "i_pos_final": 689
+        }
+    ]
+}

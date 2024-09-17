@@ -1,0 +1,88 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "i_empresa",
+            "s_descripcion": "",
+            "s_tipo": "int",
+            "i_long": "10",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "1"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "d_fec_proceso",
+            "s_descripcion": "",
+            "s_tipo": "datetime",
+            "i_long": "23",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "2"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "i_ca_comercio",
+            "s_descripcion": "",
+            "s_tipo": "int",
+            "i_long": "10",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "3"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "s_ca_tipoafiliacion",
+            "s_descripcion": "",
+            "s_tipo": "varchar(8)",
+            "i_long": "8",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "4"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "s_ca_estado",
+            "s_descripcion": "",
+            "s_tipo": "varchar(8)",
+            "i_long": "8",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "5"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "m_ca_comision_rotativa",
+            "s_descripcion": "",
+            "s_tipo": "money",
+            "i_long": "31",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "6"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "m_ca_valorfijo",
+            "s_descripcion": "",
+            "s_tipo": "money",
+            "i_long": "31",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "7"
+        }
+    ]
+}

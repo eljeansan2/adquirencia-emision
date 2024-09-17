@@ -1,0 +1,754 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "CALPART",
+            "s_description": "CALIDAD DE PARTICIPACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 9
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICACIÓN DEL CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 9,
+            "i_pos_final": 18
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA DEL CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 18,
+            "i_pos_final": 23
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE MEDIOS DE PAGO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 23,
+            "i_pos_final": 36
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "IND-ENVIO",
+            "s_description": "INDICADOR DE ENVÍO (LLEVARÁ UNA ‘O’ SI VA A IR A OFICINA EN LUGAR DE AL CLIENTE)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 36,
+            "i_pos_final": 38
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "CENTRO",
+            "s_description": "CENTRO DE ENVÍO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 38,
+            "i_pos_final": 43
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "TIPO-CAR",
+            "s_description": "TIPO DE CARTA",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 43,
+            "i_pos_final": 45
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "DATOS",
+            "s_description": "DATOS VARIABLES",
+            "s_tipo": "Alfanumérico",
+            "i_long": 254,
+            "i_dec": 0,
+            "i_pos_inicial": 45,
+            "i_pos_final": 300
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "CODMAR",
+            "s_description": "CÓDIGO DE MARCA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 300,
+            "i_pos_final": 303
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "INDTIPT",
+            "s_description": "TIPO DE TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 303,
+            "i_pos_final": 306
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "PAN",
+            "s_description": "NÚMERO DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 306,
+            "i_pos_final": 329
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "VISAPHONE",
+            "s_description": "CÓDIGO VISAPHONE",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 329,
+            "i_pos_final": 334
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "CRIPPIN",
+            "s_description": "CRIPTOGRAMA DEL PIN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 16,
+            "i_dec": 0,
+            "i_pos_inicial": 334,
+            "i_pos_final": 351
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "MOTCARPIN",
+            "s_description": "MOTIVO DE LA CARTA DE PIN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 351,
+            "i_pos_final": 354
+        },
+        {
+            "s_tipo_registro": "1",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 206,
+            "i_dec": 0,
+            "i_pos_inicial": 354,
+            "i_pos_final": 561
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 0,
+            "i_pos_final": 5
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "CALPART",
+            "s_description": "CALIDAD DE PARTICIPACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 5,
+            "i_pos_final": 8
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICACIÓN DEL CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 8,
+            "i_pos_final": 17
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA DEL CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 17,
+            "i_pos_final": 22
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE MEDIOS DE PAGO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 22,
+            "i_pos_final": 35
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "IND-ENVIO",
+            "s_description": "INDICADOR DE ENVÍO (LLEVARÁ UNA ‘O’ SI VA A IR A OFICINA EN LUGAR DE AL CLIENTE)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 35,
+            "i_pos_final": 37
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "CENTRO",
+            "s_description": "CENTRO DE ENVÍO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 37,
+            "i_pos_final": 42
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "TIPO-CAR",
+            "s_description": "TIPO DE CARTA",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 42,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "DATOS",
+            "s_description": "DATOS VARIABLES",
+            "s_tipo": "Alfanumérico",
+            "i_long": 254,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 299
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "CODMAR",
+            "s_description": "CÓDIGO DE MARCA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 299,
+            "i_pos_final": 302
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "INDTIPT",
+            "s_description": "TIPO DE TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 302,
+            "i_pos_final": 305
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "PAN",
+            "s_description": "NÚMERO DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 305,
+            "i_pos_final": 328
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "FECEFE",
+            "s_description": "FECHA DE EFECTIVIDAD DE LA TARJETA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 328,
+            "i_pos_final": 339
+        },
+        {
+            "s_tipo_registro": "2",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 218,
+            "i_dec": 0,
+            "i_pos_inicial": 339,
+            "i_pos_final": 558
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 0,
+            "i_pos_final": 5
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "CALPART",
+            "s_description": "CALIDAD DE PARTICIPACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 5,
+            "i_pos_final": 8
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICACIÓN DEL CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 8,
+            "i_pos_final": 17
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA DEL CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 17,
+            "i_pos_final": 22
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE MEDIOS DE PAGO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 22,
+            "i_pos_final": 35
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "IND-ENVIO",
+            "s_description": "INDICADOR DE ENVÍO (LLEVARÁ UNA ‘O’ SI VA A IR A OFICINA EN LUGAR DE AL CLIENTE)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 35,
+            "i_pos_final": 37
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "CENTRO",
+            "s_description": "CENTRO DE ENVÍO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 37,
+            "i_pos_final": 42
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "TIPO-CAR",
+            "s_description": "TIPO DE CARTA",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 42,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "DATOS",
+            "s_description": "DATOS VARIABLES",
+            "s_tipo": "Alfanumérico",
+            "i_long": 254,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 299
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "PAN",
+            "s_description": "NÚMERO DE LA TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 299,
+            "i_pos_final": 322
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "CODBLQ",
+            "s_description": "CÓDIGO DE BLOQUEO",
+            "s_tipo": "Numérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 322,
+            "i_pos_final": 325
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "DESCRIPCIÓN",
+            "s_description": "DESCRIPCIÓN DEL BLOQUEO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 325,
+            "i_pos_final": 356
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "INDAPLEMISOR",
+            "s_description": "INDICADOR DE APLICACIÓN EN VERTIENTE EMISOR",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 356,
+            "i_pos_final": 358
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "FECBLQ",
+            "s_description": "FECHA DE BLOQUEO ",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 358,
+            "i_pos_final": 369
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "HORABLQ",
+            "s_description": "HORA DE BLOQUEO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 369,
+            "i_pos_final": 378
+        },
+        {
+            "s_tipo_registro": "3",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 181,
+            "i_dec": 0,
+            "i_pos_inicial": 378,
+            "i_pos_final": 560
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 0,
+            "i_pos_final": 5
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "CALPART",
+            "s_description": "CALIDAD DE PARTICIPACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 5,
+            "i_pos_final": 8
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICACIÓN DEL CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 8,
+            "i_pos_final": 17
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA DEL CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 17,
+            "i_pos_final": 22
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE MEDIOS DE PAGO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 22,
+            "i_pos_final": 35
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "IND-ENVIO",
+            "s_description": "INDICADOR DE ENVÍO (LLEVARÁ UNA ‘O’ SI VA A IR A OFICINA EN LUGAR DE AL CLIENTE)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 35,
+            "i_pos_final": 37
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "CENTRO",
+            "s_description": "CENTRO DE ENVÍO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 37,
+            "i_pos_final": 42
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "TIPO-CAR",
+            "s_description": "TIPO DE CARTA",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 42,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "DATOS",
+            "s_description": "DATOS VARIABLES",
+            "s_tipo": "Alfanumérico",
+            "i_long": 254,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 299
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "FECIMPAGO",
+            "s_description": "FECHA DE IMPAGO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 299,
+            "i_pos_final": 310
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "IMPREC",
+            "s_description": "IMPORTE TOTAL DEL RECIBO IMPAGADO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 310,
+            "i_pos_final": 328
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "IMPAGO",
+            "s_description": "IMPORTE TOTAL EN IMPAGO, INCLUYE",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 328,
+            "i_pos_final": 346
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "CLAMON",
+            "s_description": "CLAVE DE MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 346,
+            "i_pos_final": 350
+        },
+        {
+            "s_tipo_registro": "4",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 207,
+            "i_dec": 0,
+            "i_pos_inicial": 350,
+            "i_pos_final": 558
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 0,
+            "i_pos_final": 5
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "CALPART",
+            "s_description": "CALIDAD DE PARTICIPACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 5,
+            "i_pos_final": 8
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICACIÓN DEL CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 8,
+            "i_pos_final": 17
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA DEL CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 17,
+            "i_pos_final": 22
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE MEDIOS DE PAGO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 22,
+            "i_pos_final": 35
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "IND-ENVIO",
+            "s_description": "INDICADOR DE ENVÍO (LLEVARÁ UNA ‘O’ SI VA A IR A OFICINA EN LUGAR DE AL CLIENTE)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 35,
+            "i_pos_final": 37
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "CENTRO",
+            "s_description": "CENTRO DE ENVÍO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 37,
+            "i_pos_final": 42
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "TIPO-CAR",
+            "s_description": "TIPO DE CARTA",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 42,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "DATOS",
+            "s_description": "DATOS VARIABLES",
+            "s_tipo": "Alfanumérico",
+            "i_long": 254,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 299
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "CODMAR",
+            "s_description": "CÓDIGO DE MARCA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 299,
+            "i_pos_final": 302
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "INDTIPT",
+            "s_description": "TIPO DE TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 302,
+            "i_pos_final": 305
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "PAN",
+            "s_description": "NÚMERO DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 305,
+            "i_pos_final": 328
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "FECCADTAR",
+            "s_description": "FECHA DE CADUCIDAD DE LA TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 328,
+            "i_pos_final": 335
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "CVV2",
+            "s_description": "CÓDIGO DE CVV2",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 335,
+            "i_pos_final": 339
+        },
+        {
+            "s_tipo_registro": "6",
+            "s_nombre": "FILLER",
+            "s_description": " ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 219,
+            "i_dec": 0,
+            "i_pos_inicial": 339,
+            "i_pos_final": 559
+        }
+    ]
+}

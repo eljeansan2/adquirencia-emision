@@ -1,0 +1,5204 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FECULTCAR",
+            "s_description": "FECHA ÚLTIMO PAGO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 51
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "PRODUCTO",
+            "s_description": "CÓDIGO DE PRODUCTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 51,
+            "i_pos_final": 54
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "SUBPRODU",
+            "s_description": "CÓDIGO DE SUBPRODUCTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 54,
+            "i_pos_final": 59
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESPRODU",
+            "s_description": "DESCRIPCIÓN DEL PRODUCTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 59,
+            "i_pos_final": 90
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "TIPOCTO",
+            "s_description": "TIPO DE CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 90,
+            "i_pos_final": 111
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FECPROVEN",
+            "s_description": "FECHA DE PRÓXIMO VENCIMIENTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 111,
+            "i_pos_final": 122
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FECULTVEN",
+            "s_description": "FECHA DE ÚLTIMO VENCIMIENTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 122,
+            "i_pos_final": 133
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FECRESOL",
+            "s_description": "FECHA DE RESOLUCIÓN DEL CONTRATO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 133,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICADOR DEL CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 153
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CODBLQ",
+            "s_description": "CÓDIGO DE BLOQUEO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 153,
+            "i_pos_final": 156
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESBLQ",
+            "s_description": "DESCRIPCIÓN DEL BLOQUEO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 156,
+            "i_pos_final": 187
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "INDBLQOPE",
+            "s_description": "INDICADOR DE BLOQUEO DE OPERATIVIDAD ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 187,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESBLQOPE",
+            "s_description": "DESCRIPCIÓN DE BLOQUEO DE OPERATIVIDAD:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 25,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 215
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CODESTCTA",
+            "s_description": "CÓDIGO DE ESTADO DEL CONTRATO DE TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 215,
+            "i_pos_final": 218
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESESTCTA",
+            "s_description": "DESCRIPCIÓN ESTADO DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 218,
+            "i_pos_final": 249
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CLASIFCONT",
+            "s_description": "CLASIFICACIÓN CONTABLE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 249,
+            "i_pos_final": 251
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESCLASIFCONT",
+            "s_description": "DESCRIPCIÓN  CLASIFICACIÓN CONTABLE:",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 251,
+            "i_pos_final": 282
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FECULTESTCTA",
+            "s_description": "FECHA ÚLTIMO CAMBIO DE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 282,
+            "i_pos_final": 293
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CODCONVEN",
+            "s_description": "CÓDIGO DE CONVENIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 293,
+            "i_pos_final": 298
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESCONVENRED",
+            "s_description": "DESCRIPCIÓN DE CONVENIO REDUCIDA (MPDT168)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 298,
+            "i_pos_final": 309
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "INDCTAEMP",
+            "s_description": "INDICADOR DE CUENTA DE EMPRESA",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 309,
+            "i_pos_final": 311
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESINDCTAEMP",
+            "s_description": "DESCRIPCIÓN INDICADOR CUENTA DE EMPRESA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 311,
+            "i_pos_final": 332
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CODBUS",
+            "s_description": "CÓDIGO DE ESTRUCTURA BUSINESS",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 332,
+            "i_pos_final": 341
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESESTBUS",
+            "s_description": "DESCRIPCIÓN DE LA ESTRUCTURA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 341,
+            "i_pos_final": 372
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CODELEMENTO",
+            "s_description": "CÓDIGO DE ELEMENTO DENTRO DE LA ESTRUCTURA BUSINESS",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 372,
+            "i_pos_final": 377
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "TIPROLCUENTA",
+            "s_description": "TIPO DE ROL DE LA CUENTA EN LA ESTRUCTURA BUSINESS",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 377,
+            "i_pos_final": 379
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESROLCUENTA",
+            "s_description": "DESCRIPCIÓN DE ROL DE LA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 379,
+            "i_pos_final": 400
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "INDDOMCARCRE",
+            "s_description": "INDICADOR DE DOMICILIACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 400,
+            "i_pos_final": 402
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FORPAGO",
+            "s_description": "FORMA DE PAGO DEL EXTRACTO DE CRÉDITO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 402,
+            "i_pos_final": 405
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESFORPAGO",
+            "s_description": "DESCRIPCIÓN DE LA FORMA DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 405,
+            "i_pos_final": 421
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "INDSITCTA",
+            "s_description": "INDICADOR DE SITUACIÓN DEL CONTRATO",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 421,
+            "i_pos_final": 423
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESSITCTA",
+            "s_description": "DESCRIPCIÓN INDICADOR DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 423,
+            "i_pos_final": 454
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "OFIGESTORA",
+            "s_description": "OFICINA GESTORA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 454,
+            "i_pos_final": 459
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "CONPROD",
+            "s_description": "CONDICIÓN ECONÓMICA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 459,
+            "i_pos_final": 463
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "DESCON",
+            "s_description": "DESCRIPCIÓN DE LA CONDICIÓN ECONÓMICA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 463,
+            "i_pos_final": 514
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FECBAJA",
+            "s_description": "FECHA DE BAJA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 514,
+            "i_pos_final": 525
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 525,
+            "i_pos_final": 536
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "INDTIPOCTO",
+            "s_description": "INDICADOR  TIPO CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 536,
+            "i_pos_final": 538
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "INTGENMORA",
+            "s_description": "INTERES GENERACION MORA",
+            "s_tipo": "Numérico",
+            "i_long": 13,
+            "i_dec": 0,
+            "i_pos_inicial": 538,
+            "i_pos_final": 552
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "PORPAGOA",
+            "s_description": "  PORCENTAJE PAGO",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 552,
+            "i_pos_final": 560
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "IMPPAGO",
+            "s_description": "IMPORTE FIJO PAGO",
+            "s_tipo": "Numérico ",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 560,
+            "i_pos_final": 578
+        },
+        {
+            "s_tipo_registro": "CU",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 349,
+            "i_dec": 0,
+            "i_pos_inicial": 578,
+            "i_pos_final": 928
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICADOR DE CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 49
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "TIPDIREC",
+            "s_description": "TIPO DE MEDIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 49,
+            "i_pos_final": 52
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DESTIPDIREC",
+            "s_description": "DESCRIPCIÓN TIPO DE MEDIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 52,
+            "i_pos_final": 83
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "NUMSEC",
+            "s_description": "NÚMERO SECUENCIAL DEL REGISTRO",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 83,
+            "i_pos_final": 87
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODUSO ",
+            "s_description": "CÓDIGO DE USO DE LA DIRECCIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 87,
+            "i_pos_final": 90
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DESCODUSO",
+            "s_description": "DESCRIPCIÓN CÓDIGO DE USO DE LA DIRECCIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 90,
+            "i_pos_final": 121
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 132
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DIREMAIL",
+            "s_description": "DIRECCIÓN DE EMAIL",
+            "s_tipo": "Alfanumérico",
+            "i_long": 100,
+            "i_dec": 0,
+            "i_pos_inicial": 132,
+            "i_pos_final": 233
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CARACTER",
+            "s_description": "CARÁCTER",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 233,
+            "i_pos_final": 235
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DESCARACTER",
+            "s_description": "DESCRIPCION CARÁCTER ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 235,
+            "i_pos_final": 266
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "TIPDIRECC",
+            "s_description": "TIPO DE DIRECCIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 266,
+            "i_pos_final": 269
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DESTIPDIRECC",
+            "s_description": "DESCRIPCION TIPO DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 269,
+            "i_pos_final": 300
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "TIPLOCAL",
+            "s_description": "TIPO DE LOCAL",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 300,
+            "i_pos_final": 303
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODPAISDIR",
+            "s_description": "PAÍS DE DIRECCIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 303,
+            "i_pos_final": 307
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "NOMPAISDIR",
+            "s_description": "NOMBRE DEL PAIS ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 307,
+            "i_pos_final": 328
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODREGION",
+            "s_description": "REGIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 328,
+            "i_pos_final": 332
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODPROV",
+            "s_description": "CÓDIGO DE PROVINCIA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 332,
+            "i_pos_final": 335
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DESPROV",
+            "s_description": "PROVINCIA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 335,
+            "i_pos_final": 366
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "POBLACION",
+            "s_description": "POBLACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 35,
+            "i_dec": 0,
+            "i_pos_inicial": 366,
+            "i_pos_final": 402
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "TIPVIA",
+            "s_description": "TIPO DE VÍA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 402,
+            "i_pos_final": 405
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "NOMVIA",
+            "s_description": "NOMBRE DE VÍA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 40,
+            "i_dec": 0,
+            "i_pos_inicial": 405,
+            "i_pos_final": 446
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "NUMVIA",
+            "s_description": "NÚMERO DE VÍA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 446,
+            "i_pos_final": 453
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "EMPRESA",
+            "s_description": "EMPRESA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 453,
+            "i_pos_final": 457
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CENTRO",
+            "s_description": "CENTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 457,
+            "i_pos_final": 462
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "DEPARTAM",
+            "s_description": "DEPARTAMENTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 462,
+            "i_pos_final": 467
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "EDIFICIO",
+            "s_description": "EDIFICIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 467,
+            "i_pos_final": 472
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "ESCALERA",
+            "s_description": "ESCALERA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 472,
+            "i_pos_final": 477
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "PISO",
+            "s_description": "PISO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 477,
+            "i_pos_final": 482
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "PUERTA",
+            "s_description": "PUERTA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 482,
+            "i_pos_final": 487
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "RESTODIR",
+            "s_description": "RESTO DIRECCIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 40,
+            "i_dec": 0,
+            "i_pos_inicial": 487,
+            "i_pos_final": 528
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODPOSTAL",
+            "s_description": "CÓDIGO POSTAL",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 528,
+            "i_pos_final": 539
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "CODAPTCOR",
+            "s_description": "APARTADO DE CORREOS",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 539,
+            "i_pos_final": 550
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "VIACOMP",
+            "s_description": "VIA COMPLETA/ DIRECCIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 550,
+            "i_pos_final": 601
+        },
+        {
+            "s_tipo_registro": "DC",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 318,
+            "i_dec": 0,
+            "i_pos_inicial": 601,
+            "i_pos_final": 920
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "CLAMON1",
+            "s_description": "CLAVE DE MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "DESCLAMON1 ",
+            "s_description": "DESCRIPCIÓN DE LA DIVISA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 75
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "LIMCRECTA1",
+            "s_description": "LÍMITE DE CRÉDITO CUENTA TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 75,
+            "i_pos_final": 93
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "LIMCRECTATEM1",
+            "s_description": "LÍMITE DE CRÉDITO CUENTA TARJETA. TEMPORAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 93,
+            "i_pos_final": 111
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "FECINITEM1",
+            "s_description": "INICIO VIGENCIA DE LÍMITES",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 111,
+            "i_pos_final": 122
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "FECFINTEM1",
+            "s_description": "FIN VIGENCIA DE LÍMITES",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 122,
+            "i_pos_final": 133
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALAUTCRE1",
+            "s_description": "SIGNO SALDO DE CRÉDITO AUTORIZADO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 133,
+            "i_pos_final": 135
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALAUTCRE1",
+            "s_description": "SALDO DE CRÉDITO AUTORIZADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 135,
+            "i_pos_final": 153
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALDISCRE1",
+            "s_description": "SIGNO SALDO DE CRÉDITO DISPUESTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 153,
+            "i_pos_final": 155
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALDISCRE1",
+            "s_description": "SALDO DE CRÉDITO DISPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 155,
+            "i_pos_final": 173
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALDISPOCRE1",
+            "s_description": "SIGNO SALDO DE CRÉDITO DISPONIBLE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 173,
+            "i_pos_final": 175
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALDISPOCRE1",
+            "s_description": "SALDO DE CRÉDITO DISPONIBLE",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 175,
+            "i_pos_final": 193
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "LIMCRECTAC1",
+            "s_description": "LÍMITE DE CRÉDITO COMPRA EN CUOTAS",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 193,
+            "i_pos_final": 211
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALAUTCREC1",
+            "s_description": "SIGNO SALDO DE COMPRA EN CUOTAS AUTORIZADO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 211,
+            "i_pos_final": 213
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALAUTCREC1",
+            "s_description": "SALDO DE COMPRA EN CUOTAS AUTORIZADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 213,
+            "i_pos_final": 231
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALDISCREC1",
+            "s_description": "SIGNO SALDO DE COMPRA EN CUOTAS DISPUESTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 231,
+            "i_pos_final": 233
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALDISCREC1",
+            "s_description": "SALDO DE COMPRA EN CUOTAS DISPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 233,
+            "i_pos_final": 251
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALDISPOCREC1",
+            "s_description": "SIGNO SALDO DE COMPRA EN CUOTAS DISPONIBLE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 251,
+            "i_pos_final": 253
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALDISPOCREC1",
+            "s_description": "SALDO DE COMPRA EN CUOTAS DISPONIBLE",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 253,
+            "i_pos_final": 271
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "IBAN1",
+            "s_description": "IBAN DE LA CUENTA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 271,
+            "i_pos_final": 276
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "CTACARGO1",
+            "s_description": "CUENTA DE CARGO O DOMICILIACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 276,
+            "i_pos_final": 307
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "CLAMON2",
+            "s_description": "CLAVE DE MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 307,
+            "i_pos_final": 311
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "DESCLAMON2 ",
+            "s_description": "DESCRIPCIÓN DE LA DIVISA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 311,
+            "i_pos_final": 342
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "LIMCRECTA2",
+            "s_description": "LÍMITE DE CRÉDITO CUENTA TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 342,
+            "i_pos_final": 360
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "LIMCRECTATEM2",
+            "s_description": "LÍMITE DE CRÉDITO CUENTA TARJETA. TEMPORAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 360,
+            "i_pos_final": 378
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "FECINITEM2",
+            "s_description": "INICIO VIGENCIA DE LÍMITES",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 378,
+            "i_pos_final": 389
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "FECFINTEM2",
+            "s_description": "FIN VIGENCIA DE LÍMITES",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 389,
+            "i_pos_final": 400
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALAUTCRE2",
+            "s_description": "SIGNO SALDO DE CRÉDITO AUTORIZADO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 400,
+            "i_pos_final": 402
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALAUTCRE2",
+            "s_description": "SALDO DE CRÉDITO AUTORIZADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 402,
+            "i_pos_final": 420
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALDISCRE2",
+            "s_description": "SIGNO SALDO DE CRÉDITO DISPUESTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 420,
+            "i_pos_final": 422
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALDISCRE2",
+            "s_description": "SALDO DE CRÉDITO DISPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 422,
+            "i_pos_final": 440
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALDISPOCRE2",
+            "s_description": "SIGNO SALDO DE CRÉDITO DISPONIBLE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 440,
+            "i_pos_final": 442
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALDISPOCRE2",
+            "s_description": "SALDO DE CRÉDITO DISPONIBLE",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 442,
+            "i_pos_final": 460
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "LIMCRECTAC2",
+            "s_description": "LÍMITE DE CRÉDITO COMPRA EN CUOTAS",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 460,
+            "i_pos_final": 478
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALAUTCREC2",
+            "s_description": "SIGNO SALDO DE COMPRA EN CUOTAS AUTORIZADO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 478,
+            "i_pos_final": 480
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALAUTCREC2",
+            "s_description": "SALDO DE COMPRA EN CUOTAS AUTORIZADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 480,
+            "i_pos_final": 498
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALDISCREC2",
+            "s_description": "SIGNO SALDO DE COMPRA EN CUOTAS DISPUESTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 498,
+            "i_pos_final": 500
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALDISCREC2",
+            "s_description": "SALDO DE COMPRA EN CUOTAS DISPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 500,
+            "i_pos_final": 518
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SIG-SALDISPOCREC2",
+            "s_description": "SIGNO SALDO DE COMPRA EN CUOTAS DISPONIBLE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 518,
+            "i_pos_final": 520
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "SALDISPOCREC2",
+            "s_description": "SALDO DE COMPRA EN CUOTAS DISPONIBLE",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 520,
+            "i_pos_final": 538
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "IBAN2",
+            "s_description": "IBAN DE LA CUENTA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 538,
+            "i_pos_final": 543
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "CTACARGO2",
+            "s_description": "CUENTA DE CARGO O DOMICILIACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 543,
+            "i_pos_final": 574
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "FECSALACRE1",
+            "s_description": "INICIO VIGENCIA DE SALDO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 574,
+            "i_pos_final": 585
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "FECSALACRE2",
+            "s_description": "INICIO VIGENCIA DE SALDO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 585,
+            "i_pos_final": 596
+        },
+        {
+            "s_tipo_registro": "LC",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 334,
+            "i_dec": 0,
+            "i_pos_inicial": 596,
+            "i_pos_final": 931
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "NUMSECIMP1",
+            "s_description": "NÚMERO DE SECUENCIA DEL RECIBO IMPAGADO DE MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 56
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CLAMON1",
+            "s_description": "CLAVE DE MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 56,
+            "i_pos_final": 60
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESCLAMON1",
+            "s_description": "DESCRIPCIÓN DE MONEDA1",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 60,
+            "i_pos_final": 91
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "SIG-IMPORTE1",
+            "s_description": "SIGNO  DEL  IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 91,
+            "i_pos_final": 93
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPORTE1",
+            "s_description": "IMPORTE  TRASPASADO  A",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 93,
+            "i_pos_final": 111
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "SIG-IMPORTETOT1",
+            "s_description": "SIGNO  DEL  IMPORTE  TOTAL TRASPASADO MONEDA1",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 111,
+            "i_pos_final": 113
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPORTETOT1",
+            "s_description": "IMPORTE TOTAL CONGELADO DE COBRO MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 113,
+            "i_pos_final": 131
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPAPL1",
+            "s_description": "IMPORTE APLICADO MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 131,
+            "i_pos_final": 149
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "NUMULTMOV1",
+            "s_description": "NÚMERO  DE  ÚLTIMO",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 149,
+            "i_pos_final": 157
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECULTAPL1",
+            "s_description": "FECHA DE ÚLTIMA APLICACIÓN PAGO MONEDA1",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 157,
+            "i_pos_final": 168
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECBAJA1",
+            "s_description": "FECHA  DE  BAJA  EN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 168,
+            "i_pos_final": 179
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "MOTBAJA1",
+            "s_description": "CÓDIGO DE MOTIVO DE BAJA MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 179,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "NUMSECIMP2",
+            "s_description": "NÚMERO DE SECUENCIA DEL RECIBO IMPAGADO DE MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 198
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CLAMON2",
+            "s_description": "CLAVE DE MONEDA2",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 198,
+            "i_pos_final": 202
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESCLAMON2",
+            "s_description": "DESCRIPCIÓN DE MONEDA2",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 202,
+            "i_pos_final": 233
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "SIG-IMPORTE2",
+            "s_description": "SIGNO  DEL  IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 233,
+            "i_pos_final": 235
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPORTE2",
+            "s_description": "IMPORTE  TRASPASADO  A",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 235,
+            "i_pos_final": 253
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "SIG-IMPORTETOT2",
+            "s_description": "SIGNO  DEL  IMPORTE  TOTAL TRASPASADO MONEDA2",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 253,
+            "i_pos_final": 255
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPORTETOT2",
+            "s_description": "IMPORTE TOTAL CONGELADO DE COBRO MONEDA2",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 255,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPAPL2",
+            "s_description": "IMPORTE APLICADO MONEDA2",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 291
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "NUMULTMOV2",
+            "s_description": "NÚMERO  DE  ÚLTIMO",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 291,
+            "i_pos_final": 299
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECULTAPL2",
+            "s_description": "FECHA DE ÚLTIMA APLICACIÓN PAGO MONEDA2",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 299,
+            "i_pos_final": 310
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECBAJA2",
+            "s_description": "FECHA  DE  BAJA  EN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 310,
+            "i_pos_final": 321
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "MOTBAJA2",
+            "s_description": "CÓDIGO DE MOTIVO DE BAJA MONEDA2",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 321,
+            "i_pos_final": 324
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA  DE  ALTA  EN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 324,
+            "i_pos_final": 335
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO  DISPONIBLE  DEL",
+            "s_tipo": "Alfanumérico",
+            "i_long": 576,
+            "i_dec": 0,
+            "i_pos_inicial": 335,
+            "i_pos_final": 912
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "NUMBENCTA",
+            "s_description": "NÚMERO DE BENEFICIARIO DENTRO DE LA CUENTA",
+            "s_tipo": "Numérico",
+            "i_long": 5,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 46
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "IDENTCLI",
+            "s_description": "IDENTIFICACIÓN DE CLIENTE EN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 46,
+            "i_pos_final": 55
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "CALPART",
+            "s_description": "CALIDAD DE PARTICIPACIÓN. ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 55,
+            "i_pos_final": 58
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "DESCALPART",
+            "s_description": "DESCRIPCIÓN DE CALIDAD DE PARTICIPACIÓN:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 58,
+            "i_pos_final": 74
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "CODMAR",
+            "s_description": "CÓDIGO MARCA DE TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 74,
+            "i_pos_final": 77
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "DESMAR",
+            "s_description": "DESCRIPCIÓN DE LA MARCA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 77,
+            "i_pos_final": 108
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "INDTIPT",
+            "s_description": "INDICADOR DE TIPO DE TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 108,
+            "i_pos_final": 111
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "DESTIPT",
+            "s_description": "DESCRIPCIÓN DEL TIPO DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 111,
+            "i_pos_final": 142
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "PAN",
+            "s_description": "PAN DE LA TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 142,
+            "i_pos_final": 165
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA DE LA TARJETA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 165,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECULTUSO",
+            "s_description": "FECHA DE ÚLTIMO USO DE LA TARJETA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 187
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "INDSITTAR",
+            "s_description": "INDICADOR DE SITUACIÓN ",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 187,
+            "i_pos_final": 190
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "DESSITTAR ",
+            "s_description": "DESCRIPCIÓN DE LA SITUACIÓN DE LA TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 190,
+            "i_pos_final": 221
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "CODBLQ",
+            "s_description": "INDICADOR DE BLOQUEO ",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 221,
+            "i_pos_final": 224
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "DESBLQ",
+            "s_description": "DESCRIPCIÓN DEL BLOQUEO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 224,
+            "i_pos_final": 255
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECCADTAR",
+            "s_description": "FECHA DE CADUCIDAD DE LA TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 255,
+            "i_pos_final": 262
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "INDDEBCRE",
+            "s_description": "INDICADOR DE OPERATIVIDAD DE LA TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 262,
+            "i_pos_final": 264
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "DESDEBCRE",
+            "s_description": "DESCRIPCIÓN INDICADOR DE OPERATIVIDAD DE LA TARJETA:",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 264,
+            "i_pos_final": 280
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "NUMPLASTICO ",
+            "s_description": "NÚMERO DE PLÁSTICO  ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 280,
+            "i_pos_final": 293
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "CLAMON",
+            "s_description": "CLAVE DE MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 293,
+            "i_pos_final": 297
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "DESCLAMON ",
+            "s_description": "DESCRIPCIÓN DE LA DIVISA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 297,
+            "i_pos_final": 328
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "MAXDIACAJ",
+            "s_description": "MÁXIMO DIARIO DE CAJERO",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 328,
+            "i_pos_final": 335
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "NUMOPERCAJ",
+            "s_description": "NÚMERO DE OPERACIONES EN CAJERO",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 335,
+            "i_pos_final": 342
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "MAXOPER",
+            "s_description": "MÁXIMO NÚMERO DE",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 342,
+            "i_pos_final": 349
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "NUMOPER",
+            "s_description": "NÚMERO DE OPERACIONES POR PERIODO",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 349,
+            "i_pos_final": 356
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "MAXODIA",
+            "s_description": "MÁXIMO NÚMERO DE OPERACIONES POR DIA",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 356,
+            "i_pos_final": 363
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "NUMODIA",
+            "s_description": "NÚMERO DE OPERACIONES",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 363,
+            "i_pos_final": 370
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "OFFSET1",
+            "s_description": "OFFSET1",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 370,
+            "i_pos_final": 383
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMDIACAJ",
+            "s_description": "LÍMITE DIARIO EN CAJERO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 383,
+            "i_pos_final": 401
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SALDIACAJ",
+            "s_description": "SALDO DIARIO DE CAJERO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 401,
+            "i_pos_final": 419
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMCRETAR",
+            "s_description": "LÍMITE DE CRÉDITO DE TARJETA. LÍMITE GLOBAL DE LA TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 419,
+            "i_pos_final": 437
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMCRETARTEM",
+            "s_description": "LÍMITE DE CRÉDITO TEMPORAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 437,
+            "i_pos_final": 455
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECINICRETAR",
+            "s_description": "INICIO VIGENCIA LÍMITE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 455,
+            "i_pos_final": 466
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECFINCRETAR",
+            "s_description": "FIN VIGENCIA LÍMITE TEMPORAL CRÉDITO DE LA TARJETA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 466,
+            "i_pos_final": 477
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMCREMES",
+            "s_description": "LÍMITE DE CRÉDITO MENSUAL.",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 477,
+            "i_pos_final": 495
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMCREMESTEM",
+            "s_description": "LÍMITE DE CRÉDITO TEMPORAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 495,
+            "i_pos_final": 513
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECINICREMES",
+            "s_description": "INICIO VIGENCIA LÍMITE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 513,
+            "i_pos_final": 524
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECFINCREMES",
+            "s_description": "FIN VIGENCIA LÍMITE TEMPORAL CRÉDITO MENSUAL",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 524,
+            "i_pos_final": 535
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMDEBMES",
+            "s_description": "LÍMITE DE DÉBITO MENSUAL.",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 535,
+            "i_pos_final": 553
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMDEBMESTEM",
+            "s_description": "LÍMITE DE DÉBITO TEMPORAL MENSUAL ",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 553,
+            "i_pos_final": 571
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECINIDEBMES",
+            "s_description": "INICIO VIGENCIA LÍMITE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 571,
+            "i_pos_final": 582
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECFINDEBMES",
+            "s_description": "FIN VIGENCIA LÍMITE TEMPORAL DÉBITO MENSUAL",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 582,
+            "i_pos_final": 593
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECAUTDIA",
+            "s_description": "FECHA DE AUTORIZACIÓN DIARIA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 593,
+            "i_pos_final": 604
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMCREDIA",
+            "s_description": "LÍMITE DE CRÉDITO DIARIO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 604,
+            "i_pos_final": 622
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMCREDIATEM",
+            "s_description": "LÍMITE DE CRÉDITO TEMPORAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 622,
+            "i_pos_final": 640
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECINICREDIA",
+            "s_description": "INICIO VIGENCIA LÍMITE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 640,
+            "i_pos_final": 651
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECFINCREDIA",
+            "s_description": "FIN VIGENCIA LÍMITE TEMPORAL CRÉDITO DIARIO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 651,
+            "i_pos_final": 662
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMDEBDIA",
+            "s_description": "LÍMITE DE DÉBITO DIARIO.",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 662,
+            "i_pos_final": 680
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "LIMDEBDIATEM",
+            "s_description": "LÍMITE DE DÉBITO TEMPORAL DIARIO ",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 680,
+            "i_pos_final": 698
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECINIDEBDIA",
+            "s_description": "INICIO VIGENCIA LÍMITE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 698,
+            "i_pos_final": 709
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FECFINDEBDIA",
+            "s_description": "FIN VIGENCIA LÍMITE TEMPORAL DÉBITO MENSUAL",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 709,
+            "i_pos_final": 720
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SALAUTCREMES",
+            "s_description": "SALDO AUTORIZADO A CRÉDITO MENSUAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 720,
+            "i_pos_final": 738
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SALAUTDEBMES",
+            "s_description": "SALDO AUTORIZADO A DÉBITO MENSUAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 738,
+            "i_pos_final": 756
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SALAUTCRED",
+            "s_description": "SALDO AUTORIZADO A CRÉDITO DIARIO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 756,
+            "i_pos_final": 774
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SALAUTDEBD",
+            "s_description": "SALDO AUTORIZADO A DÉBITO DIARIO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 774,
+            "i_pos_final": 792
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SIG- SALAUTPRE",
+            "s_description": "SIGNO SALDO AUTORIZADO EN PREPAGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 792,
+            "i_pos_final": 794
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SALAUTPRE",
+            "s_description": "SALDO AUTORIZADO EN PREPAGO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 794,
+            "i_pos_final": 812
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SIG- SALDISPRE",
+            "s_description": "SIGNO SALDO DISPUESTO EN PREPAGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 812,
+            "i_pos_final": 814
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SALDISPRE",
+            "s_description": "SALDO DISPUESTO EN PREPAGO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 814,
+            "i_pos_final": 832
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "IBAN",
+            "s_description": "CÓDIGO IBAN DE LA CUENTA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 832,
+            "i_pos_final": 837
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "CTACARGO",
+            "s_description": "CUENTA DE CARGO O DOMICILIACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 837,
+            "i_pos_final": 868
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "TIPCLIEN",
+            "s_description": "TIPO DE CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 868,
+            "i_pos_final": 871
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "SUBTIPCLI",
+            "s_description": "SUBTIPO DE CLIENTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 871,
+            "i_pos_final": 874
+        },
+        {
+            "s_tipo_registro": "MP",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 97,
+            "i_dec": 0,
+            "i_pos_inicial": 874,
+            "i_pos_final": 972
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "NUMBENCTA",
+            "s_description": "NÚMERO DE BENEFICIARIO DENTRO DE LA CUENTA DE",
+            "s_tipo": "Numérico",
+            "i_long": 5,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 46
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "TIPRESTRIC",
+            "s_description": "TIPO DE RESTRICCIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 46,
+            "i_pos_final": 49
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "DESTIPRESTRIC",
+            "s_description": "DESCRIPCIÓN TIPO DE RESTRICCIÓN:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 49,
+            "i_pos_final": 70
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "CODCOM",
+            "s_description": "CÓDIGO DE COMERCIO / GRUPO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 70,
+            "i_pos_final": 86
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "DESCODCOM",
+            "s_description": "DESCRIPCIÓN DEL GRUPO DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 86,
+            "i_pos_final": 117
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "CODACT",
+            "s_description": "CÓDIGO DE ACTIVIDAD",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 117,
+            "i_pos_final": 122
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "DESCODACT",
+            "s_description": "DESCRIPCIÓN DEL CÓDIGO DE ACTIVIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 122,
+            "i_pos_final": 153
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "TIPOFAC",
+            "s_description": "TIPO DE FACTURA",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 153,
+            "i_pos_final": 158
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "DESTIPFAC",
+            "s_description": "DESCRIPCIÓN DEL TIPO DE FACTURA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 158,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "SIGNO",
+            "s_description": "SIGNO DEL TIPO DE FACTURA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 191
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "CLAMON",
+            "s_description": "CLAVE DE MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 191,
+            "i_pos_final": 195
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "DESCLAMON",
+            "s_description": "DESCRIPCIÓN CLAVE DE MONEDA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 195,
+            "i_pos_final": 226
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "LIMCREMES",
+            "s_description": "LÍMITE DE CRÉDITO MENSUAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 226,
+            "i_pos_final": 244
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "LIMCREMESTEM",
+            "s_description": "LÍMITE TEMPORAL DE CRÉDITO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 244,
+            "i_pos_final": 262
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECINICREMES",
+            "s_description": "FECHA DE INICIO DE VIGENCIA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 262,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECFINCREMES",
+            "s_description": "FECHA DE FIN DE VIGENCIA DEL LÍMITE TEMPORAL DE CRÉDITO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 284
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "SALAUTCREMES",
+            "s_description": "SALDO AUTORIZADO A CRÉDITO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 284,
+            "i_pos_final": 302
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "LIMDEBMES",
+            "s_description": "LÍMITE DE DÉBITO EN EL MES",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 302,
+            "i_pos_final": 320
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "LIMDEBMESTEM",
+            "s_description": "LÍMITE TEMPORAL DE DÉBITO EN",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 320,
+            "i_pos_final": 338
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECINIDEBMES",
+            "s_description": "FECHA DE INICIO DE VIGENCIA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 338,
+            "i_pos_final": 349
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECFINDEBMES",
+            "s_description": "FECHA DE FIN DE VIGENCIA DEL",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 349,
+            "i_pos_final": 360
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "SALAUTDEBMES",
+            "s_description": "SALDO AUTORIZADO A DÉBITO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 360,
+            "i_pos_final": 378
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "MAXOPER",
+            "s_description": "NÚMERO MÁXIMO DE",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 378,
+            "i_pos_final": 385
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "NUMOPER",
+            "s_description": "NÚMERO DE OPERACIONES",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 385,
+            "i_pos_final": 392
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECAUTDIA",
+            "s_description": "FECHA DE AUTORIZACIÓN DIARIA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 392,
+            "i_pos_final": 403
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "LIMCREDIA",
+            "s_description": "LÍMITE DE CRÉDITO DIARIO PARA LA RESTRICCION DE LA TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 403,
+            "i_pos_final": 421
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "LIMCREDIATEM ",
+            "s_description": "LÍMITE TEMPORAL DE CRÉDITO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 421,
+            "i_pos_final": 439
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECINICREDIA",
+            "s_description": "FECHA DE INICIO DE VIGENCIA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 439,
+            "i_pos_final": 450
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECFINCREDIA",
+            "s_description": "FECHA DE FIN DE VIGENCIA DEL LÍMITE TEMPORAL DE CRÉDITO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 450,
+            "i_pos_final": 461
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "SALAUTCRED",
+            "s_description": "SALDO AUTORIZADO A CRÉDITO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 461,
+            "i_pos_final": 479
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "LIMDEBDIA",
+            "s_description": "LÍMITE DE DÉBITO DIARIO PARA LA RESTRICCION DE LA TARJETA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 479,
+            "i_pos_final": 497
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "LIMDEBDIATEM",
+            "s_description": "LÍMITE TEMPORAL DE DÉBITO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 497,
+            "i_pos_final": 515
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECINIDEBDIA",
+            "s_description": "FECHA DE INICIO DE VIGENCIA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 515,
+            "i_pos_final": 526
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FECFINDEBDIA",
+            "s_description": "FECHA DE FIN DE VIGENCIA DEL",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 526,
+            "i_pos_final": 537
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "SALAUTDEBD",
+            "s_description": "SALDO AUTORIZADO A DÉBITO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 537,
+            "i_pos_final": 555
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "MAXODIA",
+            "s_description": "NÚMERO MÁXIMO DE",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 555,
+            "i_pos_final": 562
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "NUMODIA",
+            "s_description": "NÚMERO DE OPERACIONES",
+            "s_tipo": "Numérico",
+            "i_long": 6,
+            "i_dec": 0,
+            "i_pos_inicial": 562,
+            "i_pos_final": 569
+        },
+        {
+            "s_tipo_registro": "RT",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 354,
+            "i_dec": 0,
+            "i_pos_inicial": 569,
+            "i_pos_final": 924
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "NUMPLASTICO",
+            "s_description": " NÚMERO DE PLÁSTICO  ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 53
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "FECENVEST",
+            "s_description": "FECHA DE ENVÍO A ESTAMPACIÓN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 53,
+            "i_pos_final": 64
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "FECRECEST",
+            "s_description": "FECHA DE RECHAZO DE ESTAMPACIÓN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 64,
+            "i_pos_final": 75
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "FECACUSER",
+            "s_description": "FECHA ACUSE DE RECIBO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 75,
+            "i_pos_final": 86
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "FECULTREN",
+            "s_description": "FECHA ÚLTIMA RENOVACIÓN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 86,
+            "i_pos_final": 97
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "FECRECTAR",
+            "s_description": "FECHA DE RECUPERACIÓN PLÁSTICO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 97,
+            "i_pos_final": 108
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "FCORETTAR",
+            "s_description": "FECHA DE COMUNICACIÓN DE RETENCIÓN DEL PLÁSTICO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 108,
+            "i_pos_final": 119
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "HCORETTAR",
+            "s_description": "HORA COMUNICACIÓN DE RETENCIÓN DEL PLÁSTICO",
+            "s_tipo": "Hora",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 119,
+            "i_pos_final": 128
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "CONDEST",
+            "s_description": "CONDICIONES DE ESTAMPACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 128,
+            "i_pos_final": 132
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "DESCONEST",
+            "s_description": "DESCRIPCIÓN DE LA CONDICIÓN DE ESTAMPACIÓN (T662)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 132,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "PC",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 733,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 897
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "NUMSECREC",
+            "s_description": "NÚMERO SECUENCIA RECIBO",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 56
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SITUAREC",
+            "s_description": "INDICADOR DE SITUACIÓN DEL RECIBO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 56,
+            "i_pos_final": 59
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESSITUAC",
+            "s_description": "DESCRIPCIÓN INDICADOR DE SITUACIÓN DEL RECIBO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 59,
+            "i_pos_final": 90
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "CLAMON",
+            "s_description": "CLAVE DE MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 90,
+            "i_pos_final": 94
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESCLAMON ",
+            "s_description": "DESCRIPCIÓN DE LA DIVISA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 94,
+            "i_pos_final": 125
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "FECEMIMOV",
+            "s_description": "FECHA DE CARGO DEL RECIBO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 125,
+            "i_pos_final": 136
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "FECVENMOV",
+            "s_description": "FECHA DE VENCIMIENTO MOVIMIENTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 136,
+            "i_pos_final": 147
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "FECIMPMOV",
+            "s_description": "FECHA DE IMPAGO (A PARTIR DE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 147,
+            "i_pos_final": 158
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPOLIN ",
+            "s_description": "TIPO DE LÍNEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 158,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESTIPOLIN",
+            "s_description": "DESCRIPCIÓN DE LA LÍNEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 194
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPIMP01",
+            "s_description": "TIPO DE IMPORTE ( SIEMPRE VALOR",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 194,
+            "i_pos_final": 197
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESIMP01",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 197,
+            "i_pos_final": 208
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SIG-IMPINI01",
+            "s_description": "SIGNO IMPORTE INICIAL CAPITAL DEL EXTRACTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 208,
+            "i_pos_final": 210
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPINI01",
+            "s_description": "IMPORTE INICIAL CAPITAL DEL EXTRACTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 210,
+            "i_pos_final": 228
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPREC01",
+            "s_description": "IMPORTE DE RECIBO CAPITAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 228,
+            "i_pos_final": 246
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPMIN01",
+            "s_description": "IMPORTE MÍNIMO CAPITAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 246,
+            "i_pos_final": 264
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPAPL01",
+            "s_description": "IMPORTE APLICADO CAPITAL",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 264,
+            "i_pos_final": 282
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPIMP02",
+            "s_description": "TIPO DE IMPORTE ( SIEMPRE VALOR",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 282,
+            "i_pos_final": 285
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESIMP02",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 285,
+            "i_pos_final": 296
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SIG-IMPINI02",
+            "s_description": "SIGNO IMPORTE INICIAL COMISIÓN DEL EXTRACTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 296,
+            "i_pos_final": 298
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPINI02",
+            "s_description": "IMPORTE INICIAL DEL EXTRACTO COMISIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 298,
+            "i_pos_final": 316
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPREC02",
+            "s_description": "IMPORTE DE RECIBO COMISIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 316,
+            "i_pos_final": 334
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPMIN02",
+            "s_description": "IMPORTE MÍNIMO COMISIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 334,
+            "i_pos_final": 352
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPAPL02",
+            "s_description": "IMPORTE APLICADO COMISIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 352,
+            "i_pos_final": 370
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPIMP03",
+            "s_description": "TIPO DE IMPORTE ( SIEMPRE VALOR",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 370,
+            "i_pos_final": 373
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESIMP03",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 373,
+            "i_pos_final": 384
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SIG-IMPINI03",
+            "s_description": "SIGNO IMPORTE INICIAL INTERÉS DEL EXTRACTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 384,
+            "i_pos_final": 386
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPINI03",
+            "s_description": "IMPORTE INICIAL DEL EXTRACTO INTERÉS",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 386,
+            "i_pos_final": 404
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPREC03",
+            "s_description": "IMPORTE DE RECIBO INTERÉS",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 404,
+            "i_pos_final": 422
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPMIN03",
+            "s_description": "IMPORTE MÍNIMO INTERÉS",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 422,
+            "i_pos_final": 440
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPAPL03",
+            "s_description": "IMPORTE APLICADO INTERÉS",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 440,
+            "i_pos_final": 458
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPIMP04",
+            "s_description": "TIPO DE IMPORTE ( SIEMPRE VALOR",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 458,
+            "i_pos_final": 461
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESIMP04",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 461,
+            "i_pos_final": 472
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SIG-IMPINI04",
+            "s_description": "SIGNO IMPORTE INICIAL IMPUESTO DEL EXTRACTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 472,
+            "i_pos_final": 474
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPINI04",
+            "s_description": "IMPORTE INICIAL IMPUESTO DEL EXTRACTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 474,
+            "i_pos_final": 492
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPREC04",
+            "s_description": "IMPORTE DE RECIBO IMPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 492,
+            "i_pos_final": 510
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPMIN04",
+            "s_description": "IMPORTE MÍNIMO IMPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 510,
+            "i_pos_final": 528
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPAPL04",
+            "s_description": "IMPORTE APLICADO IMPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 528,
+            "i_pos_final": 546
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPIMP05",
+            "s_description": "TIPO DE IMPORTE ( SIEMPRE VALOR",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 546,
+            "i_pos_final": 549
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESIMP05",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 549,
+            "i_pos_final": 560
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SIG-IMPINI05",
+            "s_description": "SIGNO IMPORTE INICIAL COMISIÓN MORA DEL EXTRACTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 560,
+            "i_pos_final": 562
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPINI05",
+            "s_description": "IMPORTE INICIAL COMISIÓN MORA  DEL EXTRACTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 562,
+            "i_pos_final": 580
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPREC05",
+            "s_description": "IMPORTE DE RECIBO COMISIÓN MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 580,
+            "i_pos_final": 598
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPMIN05",
+            "s_description": "IMPORTE MÍNIMO COMISIÓN MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 598,
+            "i_pos_final": 616
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPAPL05",
+            "s_description": "IMPORTE APLICADO COMISIÓN MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 616,
+            "i_pos_final": 634
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPIMP06",
+            "s_description": "TIPO DE IMPORTE ( SIEMPRE VALOR",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 634,
+            "i_pos_final": 637
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESIMP06",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 637,
+            "i_pos_final": 648
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SIG-IMPINI06",
+            "s_description": "SIGNO IMPORTE INICIAL INTERÉS MORA DEL EXTRACTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 648,
+            "i_pos_final": 650
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPINI06",
+            "s_description": "IMPORTE INICIAL INTERÉS MORA DEL EXTRACTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 650,
+            "i_pos_final": 668
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPREC06",
+            "s_description": "IMPORTE DE RECIBO INTERÉS MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 668,
+            "i_pos_final": 686
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPMIN06",
+            "s_description": "IMPORTE MÍNIMO INTERÉS MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 686,
+            "i_pos_final": 704
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPAPL06",
+            "s_description": "IMPORTE APLICADO INTERÉS MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 704,
+            "i_pos_final": 722
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPIMP07",
+            "s_description": "TIPO DE IMPORTE ( SIEMPRE VALOR",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 722,
+            "i_pos_final": 725
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESIMP07",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 725,
+            "i_pos_final": 736
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SIG-IMPINI07",
+            "s_description": "SIGNO IMPORTE INICIAL IMPUESTO MORA DEL EXTRACTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 736,
+            "i_pos_final": 738
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPINI07",
+            "s_description": "IMPORTE INICIAL IMPUESTO MORA DEL EXTRACTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 738,
+            "i_pos_final": 756
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPREC07",
+            "s_description": "IMPORTE DE RECIBO IMPUESTO MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 756,
+            "i_pos_final": 774
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPMIN07",
+            "s_description": "IMPORTE MÍNIMO IMPUESTO MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 774,
+            "i_pos_final": 792
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPAPL07",
+            "s_description": "IMPORTE APLICADO IMPUESTO MORA",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 792,
+            "i_pos_final": 810
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "TIPIMP08",
+            "s_description": "TIPO DE IMPORTE ( SIEMPRE VALOR",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 810,
+            "i_pos_final": 813
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "DESIMP08 ",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 813,
+            "i_pos_final": 824
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "SIG-IMPINI08",
+            "s_description": "SIGNO IMPORTE INICIAL USO FUTURO DEL EXTRACTO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 824,
+            "i_pos_final": 826
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPINI08",
+            "s_description": "IMPORTE INICIAL USO FUTURO DEL EXTRACTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 826,
+            "i_pos_final": 844
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPREC08",
+            "s_description": "IMPORTE DE RECIBO USO FUTURO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 844,
+            "i_pos_final": 862
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPMIN08",
+            "s_description": "IMPORTE MÍNIMO USO FUTURO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 862,
+            "i_pos_final": 880
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "IMPAPL08",
+            "s_description": "IMPORTE APLICADO USO FUTURO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 880,
+            "i_pos_final": 898
+        },
+        {
+            "s_tipo_registro": "DR",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 54,
+            "i_dec": 0,
+            "i_pos_inicial": 898,
+            "i_pos_final": 953
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "LINREF",
+            "s_description": "REFERENCIA DE LÍNEA ASOCIADA A LA CUENTA",
+            "s_tipo": "Numérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 49
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "TIPOLIN",
+            "s_description": "TIPO DE LÍNEA ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 49,
+            "i_pos_final": 54
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESTIPOLIN",
+            "s_description": "DESCRIPCIÓN DE LA LÍNEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 54,
+            "i_pos_final": 85
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "CODCAMCOM",
+            "s_description": "CÓDIGO DE CAMPAÑA A LA CUAL ESTÁ ASOCIADA LA LÍNEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 85,
+            "i_pos_final": 90
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESCAMCOMRED",
+            "s_description": "DESCRIPCIÓN DE LA CAMPAÑA COMERCIAL REDUCIDA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 90,
+            "i_pos_final": 101
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "INDTIPOPE",
+            "s_description": "INDICADOR DE TIPO DE OPERATIVA DE LA LÍNEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 101,
+            "i_pos_final": 103
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESTIPOPE",
+            "s_description": "DESCRIPCIÓN INDICADOR DE TIPO DE OPERATIVA DE LA LÍNEA:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 103,
+            "i_pos_final": 119
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "TIPOLIM",
+            "s_description": "INDICADOR DE TIPO DE LÍMITE DE LA LÍNEA ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 119,
+            "i_pos_final": 121
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESTIPOLIM",
+            "s_description": "DESCRIPCIÓN  INDICADOR  DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 142
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "FECINI",
+            "s_description": "FECHA DE INICIO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 142,
+            "i_pos_final": 153
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "FECFIN",
+            "s_description": "FECHA DE FIN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 153,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "CODBLQ",
+            "s_description": "CÓDIGO DE BLOQUEO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 167
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESBLQ",
+            "s_description": "DESCRIPCIÓN DEL CÓDIGO DE BLOQUEO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 167,
+            "i_pos_final": 198
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "FECBLQ",
+            "s_description": "FECHA DE ÚLTIMO BLOQUEO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 198,
+            "i_pos_final": 209
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "TEXBLQ",
+            "s_description": "COMENTARIO DE BLOQUEO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 209,
+            "i_pos_final": 240
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "CLAMON1",
+            "s_description": "MONEDA1 DE LA LÍNEA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 240,
+            "i_pos_final": 244
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESCLAMON1 ",
+            "s_description": "DESCRIPCIÓN DE LA DIVISA1",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 244,
+            "i_pos_final": 275
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "INDPORLIM1",
+            "s_description": "INDICADOR DE TIPO DE LÍMITE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 275,
+            "i_pos_final": 277
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESPORLIM1",
+            "s_description": "DESCRIPCIÓN DE INDICADOR DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 277,
+            "i_pos_final": 308
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "PORLIM1",
+            "s_description": "PORCENTAJE DE LÍMITE DEL",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 308,
+            "i_pos_final": 312
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "LIMCRELIN1",
+            "s_description": "LÍMITE DE LA LÍNEA MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 312,
+            "i_pos_final": 330
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "SIG-SALAUTLIN1",
+            "s_description": "SIGNO SALDO AUTORIZADO DE LA LÍNEA MONEDA1",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 330,
+            "i_pos_final": 332
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "SALAUTLIN1",
+            "s_description": "SALDO AUTORIZADO DE LA LÍNEA MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 332,
+            "i_pos_final": 350
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "SIG-SALDISLIN1",
+            "s_description": "SIGNO SALDO DISPUESTO DE LA LÍNEA MONEDA1",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 350,
+            "i_pos_final": 352
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "SALDISLIN1",
+            "s_description": "SALDO DISPUESTO DE LA LÍNEA MONEDA1",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 352,
+            "i_pos_final": 370
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "CLAMON2",
+            "s_description": "MONEDA2 DE LA LÍNEA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 370,
+            "i_pos_final": 374
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESCLAMON2 ",
+            "s_description": "DESCRIPCIÓN DE LA DIVISA2",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 374,
+            "i_pos_final": 405
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "INDPORLIM2",
+            "s_description": "INDICADOR DE TIPO DE LÍMITE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 405,
+            "i_pos_final": 407
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "DESPORLIM2",
+            "s_description": "DESCRIPCIÓN DE INDICADOR DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 407,
+            "i_pos_final": 438
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "PORLIM2",
+            "s_description": "PORCENTAJE DE LÍMITE DEL CONTRATO DE LA LÍNEA MONEDA2",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 438,
+            "i_pos_final": 442
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "LIMCRELIN2",
+            "s_description": "LÍMITE DE LA LÍNEA MONEDA2",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 442,
+            "i_pos_final": 460
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "SIG-SALAUTLIN2",
+            "s_description": "SIGNO SALDO AUTORIZADO DE LA LÍNEA MONEDA2",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 460,
+            "i_pos_final": 462
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "SALAUTLIN2",
+            "s_description": "SALDO AUTORIZADO DE LA LÍNEA MONEDA2",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 462,
+            "i_pos_final": 480
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "SIG-SALDISLIN2",
+            "s_description": "SIGNO SALDO DISPUESTO DE LA LÍNEA MONEDA2",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 480,
+            "i_pos_final": 482
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "SALDISLIN2",
+            "s_description": "SALDO DISPUESTO DE LA LÍNEA MONEDA2",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 482,
+            "i_pos_final": 500
+        },
+        {
+            "s_tipo_registro": "LI",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 421,
+            "i_dec": 0,
+            "i_pos_inicial": 500,
+            "i_pos_final": 922
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "CLAMON",
+            "s_description": "MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "DESCLAMON",
+            "s_description": "DESCRIPCIÓN DE MONEDA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 75
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "SITUACION",
+            "s_description": "SITUACIÓN DEL CONTRATO IMPAGADO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 75,
+            "i_pos_final": 78
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "DESSITUACION",
+            "s_description": "DESCRIPCIÓN SITUACIÓN DEL CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 78,
+            "i_pos_final": 99
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "IMPCONT",
+            "s_description": "IMPORTE TOTAL DE IMPAGO DEL CONTRATO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 99,
+            "i_pos_final": 117
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "IMPAGO",
+            "s_description": "IMPORTE TOTAL EN IMPAGO,",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 117,
+            "i_pos_final": 135
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "IMPAPL",
+            "s_description": "IMPORTE APLICADO (COBRADO)",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 135,
+            "i_pos_final": 153
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "FECULTAPL",
+            "s_description": "FECHA DE ÚLTIMA APLICACIÓN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 153,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "FECENVCOB",
+            "s_description": "FECHA DE ENVÍO A LA APLICACIÓN DE COBRANZAS",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 175
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "NUMRECIMP",
+            "s_description": "NÚMERO DE RECIBOS IMPAGADOS",
+            "s_tipo": "Numérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 175,
+            "i_pos_final": 178
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "FECVENMOV",
+            "s_description": "FECHA VENCIMIENTO PRIMER RECIBO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 178,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 200
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "NDIASIMPAG",
+            "s_description": "NUMERO DE DIAS DE IMPAGO",
+            "s_tipo": "Numérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 200,
+            "i_pos_final": 205
+        },
+        {
+            "s_tipo_registro": "IC",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 694,
+            "i_dec": 0,
+            "i_pos_inicial": 205,
+            "i_pos_final": 900
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "CLAMON",
+            "s_description": "MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "DESCLAMON",
+            "s_description": "DESCRIPCIÓN CLAVE DE MONEDA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 75
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "TIPOLIN",
+            "s_description": "TIPO DE LÍNEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 75,
+            "i_pos_final": 80
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "DESTIPOLIN",
+            "s_description": "DESCRIPCIÓN TIPO DE LINEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 80,
+            "i_pos_final": 111
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "TIPIMP",
+            "s_description": "TIPO DE IMPORTE",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 111,
+            "i_pos_final": 114
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "DESIMP",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 114,
+            "i_pos_final": 145
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "IMPORTE",
+            "s_description": "IMPORTE CORRESPONDIENTE AL TIPO DE IMPORTE",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 145,
+            "i_pos_final": 163
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "IMPAPL",
+            "s_description": "IMPORTE APLICADO AL TIPO DE IMPORTE",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 163,
+            "i_pos_final": 181
+        },
+        {
+            "s_tipo_registro": "IL",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 713,
+            "i_dec": 0,
+            "i_pos_inicial": 181,
+            "i_pos_final": 895
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "CLAMON",
+            "s_description": "MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 44
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "DESCLAMON",
+            "s_description": "DESCRIPCIÓN DE LA MONEDA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 44,
+            "i_pos_final": 75
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "NUMSECIMP",
+            "s_description": "NÚMERO SECUENCIA RECIBO IMPAGADO",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 75,
+            "i_pos_final": 91
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "NUMSECREC",
+            "s_description": "NÚMERO SECUENCIA RECIBO ORIGINAL",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 91,
+            "i_pos_final": 107
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA DEL RECIBO IMPAGADO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 107,
+            "i_pos_final": 118
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "FECEMIMOV",
+            "s_description": "FECHA EMISIÓN DEL RECIBO ",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 118,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "FECVENMOV",
+            "s_description": "FECHA DE VENCIMIENTO DEL RECIBO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 140
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "IMPREC",
+            "s_description": "IMPORTE DEL RECIBO IMPAGADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 140,
+            "i_pos_final": 158
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "IMPAGO",
+            "s_description": "IMPORTE TOTAL DEL IMPAGO.",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 158,
+            "i_pos_final": 176
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "IMPAPL",
+            "s_description": "IMPORTE APLICADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 176,
+            "i_pos_final": 194
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "FECULTAPL",
+            "s_description": "FECHA DE ÚLTIMA APLICACIÓN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 194,
+            "i_pos_final": 205
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "FECENVCOB",
+            "s_description": "FECHA DE ENVÍO A LA APLICACIÓN DE COBRANZAS",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 205,
+            "i_pos_final": 216
+        },
+        {
+            "s_tipo_registro": "RI",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 682,
+            "i_dec": 0,
+            "i_pos_inicial": 216,
+            "i_pos_final": 899
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "NUMSECIMP",
+            "s_description": "NÚMERO SECUENCIA RECIBO IMPAGADO",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 56
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "TIPOLIN",
+            "s_description": "TIPO DE LÍNEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 56,
+            "i_pos_final": 61
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "DESTIPOLIN",
+            "s_description": "DESCRIPCIÓN TIPO LINEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 61,
+            "i_pos_final": 92
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "TIPIMP",
+            "s_description": "TIPO DE IMPORTE",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 92,
+            "i_pos_final": 95
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "DESIMP",
+            "s_description": "DESCRIPCION TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 95,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "IMPORTE",
+            "s_description": "IMPORTE CORRESPONDIENTE AL TIPO DE IMPORTE",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 144
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "IMPAPL",
+            "s_description": "IMPORTE APLICADO AL TIPO DE IMPORTE",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 144,
+            "i_pos_final": 162
+        },
+        {
+            "s_tipo_registro": "RL",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 731,
+            "i_dec": 0,
+            "i_pos_inicial": 162,
+            "i_pos_final": 894
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "NUMSECIMP",
+            "s_description": "NÚMERO SECUENCIA RECIBO IMPAGADO",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 56
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "NUMMOVIMP",
+            "s_description": "NÚMERO DE MOVIMIENTO DEL RECIBO IMPAGADO",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 56,
+            "i_pos_final": 64
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "CLAMON",
+            "s_description": "MONEDA",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 64,
+            "i_pos_final": 68
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "DESCLAMON",
+            "s_description": "DESCRIPCIÓN CLAVE DE MONEDA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 68,
+            "i_pos_final": 99
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "TIPOLIN",
+            "s_description": "TIPO DE LINEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 99,
+            "i_pos_final": 104
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "DESTIPOLIN",
+            "s_description": "DESCRIPCIÓN TIPO DE LINEA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 104,
+            "i_pos_final": 135
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "INDNORCOR",
+            "s_description": "INDICADOR DE NORMAL O CORRECTORA",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 135,
+            "i_pos_final": 137
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "TIPOFAC",
+            "s_description": "TIPO DE FACTURA",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 137,
+            "i_pos_final": 142
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "DESTIPFAC",
+            "s_description": "DESCRIPCIÓN TIPO DE FACTURA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 142,
+            "i_pos_final": 173
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "FECFAC",
+            "s_description": "FECHA DEL MOVIMIENTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 173,
+            "i_pos_final": 184
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "IMPORTE",
+            "s_description": "IMPORTE DEL MOVIMIENTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 184,
+            "i_pos_final": 202
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "FECPROCES",
+            "s_description": "FECHA DE PROCESO DEL MOVIMIENTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 202,
+            "i_pos_final": 213
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "FECCONTA",
+            "s_description": "FECHA CONTABLE DEL MOVIMIENTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 213,
+            "i_pos_final": 224
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "ORIGENOPE",
+            "s_description": "ORIGEN OPERACIÓN",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 224,
+            "i_pos_final": 229
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "TIPDOCPAG",
+            "s_description": "TIPO DE DOCUMENTO DE PAGO (SÓLO PARA PAGOS)",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 229,
+            "i_pos_final": 232
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "DESCDOCPAG",
+            "s_description": "DESCRIPCIÓN TIPO DE DOCUMENTO DE PAGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 232,
+            "i_pos_final": 248
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "REFDOCPAG",
+            "s_description": "REFERENCIA DEL TIPO DE DOCUMENTO (SÓLO PAGOS)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 20,
+            "i_dec": 0,
+            "i_pos_inicial": 248,
+            "i_pos_final": 269
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "IMPAMORT",
+            "s_description": "IMPORTE AMORTIZADO (SÓLO PARA PAGOS)",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 269,
+            "i_pos_final": 287
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "TIPDEVOL",
+            "s_description": "TIPOS DE IMPAGO",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 287,
+            "i_pos_final": 290
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "DESTIPDEVOL",
+            "s_description": "DESCRIPCIÓN DE TIPO DE IMPAGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 290,
+            "i_pos_final": 321
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "FEC2PRES",
+            "s_description": "FECHA VENCIMIENTO DE 2ª PRESENTACIÓN",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 321,
+            "i_pos_final": 332
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "IMPIMPTO",
+            "s_description": "IMPORTE DEL IMPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 332,
+            "i_pos_final": 350
+        },
+        {
+            "s_tipo_registro": "MI",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 558,
+            "i_dec": 0,
+            "i_pos_inicial": 350,
+            "i_pos_final": 909
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 1,
+            "i_pos_final": 6
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 6,
+            "i_pos_final": 11
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 11,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "TIPOREG",
+            "s_description": "TIPO DE REGISTRO ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 27
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "NUMORDEN",
+            "s_description": "NÚMERO DE ORDEN ",
+            "s_tipo": "Numérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 27,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "NUMSECIMP",
+            "s_description": "NÚMERO SECUENCIA RECIBO IMPAGADO",
+            "s_tipo": "Numérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 56
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "NUMMOVIMP",
+            "s_description": "NÚMERO DE MOVIMIENTO DEL RECIBO IMPAGADO",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 56,
+            "i_pos_final": 64
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "CODCONECO",
+            "s_description": "CÓDIGO DE CONCEPTO ECONÓMICO",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 64,
+            "i_pos_final": 69
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "DESCONECO",
+            "s_description": "DESCRIPCIÓN CÓDIGO DE CONCEPTO ECONÓMICO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 69,
+            "i_pos_final": 100
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "TIPIMP",
+            "s_description": "TIPO DE IMPORTE",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 100,
+            "i_pos_final": 103
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "DESIMP",
+            "s_description": "DESCRIPCIÓN TIPO DE IMPORTE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 103,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "IMPAPLECO",
+            "s_description": "IMPORTE SOBRE EL QUE SE APLICA EL CONCEPTO ECONÓMICO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 152
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "IMPBRUECO",
+            "s_description": "IMPORTE BRUTO CALCULADO POR EL CONCEPTO ECONÓMICO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 152,
+            "i_pos_final": 170
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "IMPBONECO",
+            "s_description": "IMPORTE DE BONIFICACIÓN",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 170,
+            "i_pos_final": 188
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "IMPIMPTO",
+            "s_description": "IMPORTE DEL IMPUESTO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 188,
+            "i_pos_final": 206
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "IMPCONSOL",
+            "s_description": "IMPORTE CONSOLIDADO",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 206,
+            "i_pos_final": 224
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "PORINT",
+            "s_description": "PORCENTAJE DE INTERÉS APLICADO",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 224,
+            "i_pos_final": 232
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "INDPERCON",
+            "s_description": "INDICADOR DE CONCEPTO PERDONADO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 232,
+            "i_pos_final": 234
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "DESPERCON",
+            "s_description": "DESCRIPCIÓN DE INDICADOR DE CONCEPTO PERDONADO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 234,
+            "i_pos_final": 265
+        },
+        {
+            "s_tipo_registro": "CI",
+            "s_nombre": "FILLER",
+            "s_description": "ESPACIO DISPONIBLE DEL REGISTRO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 635,
+            "i_dec": 0,
+            "i_pos_inicial": 265,
+            "i_pos_final": 901
+        }
+    ]
+}

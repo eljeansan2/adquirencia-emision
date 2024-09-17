@@ -1,0 +1,4054 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 184
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESVERTIENTE",
+            "s_description": "Descripción de vertiente:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 184,
+            "i_pos_final": 215
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 215,
+            "i_pos_final": 219
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESCLAMON",
+            "s_description": "Descripción de la moneda",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 219,
+            "i_pos_final": 250
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "FECALTA",
+            "s_description": "Fecha de alta del producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 250,
+            "i_pos_final": 261
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDRIESGO",
+            "s_description": "Indicador de riesgo.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 261,
+            "i_pos_final": 264
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESRIESGO     ",
+            "s_description": "Descripción de INDRIESGO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 264,
+            "i_pos_final": 295
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "LIMCRECTAMIN  ",
+            "s_description": "Límite mínimo crédito cuenta tarjeta",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 295,
+            "i_pos_final": 313
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "LIMCRECTAMAX  ",
+            "s_description": "Límite máximo crédito cuenta tarjeta",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 313,
+            "i_pos_final": 331
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "LIMCRECOMPMIN ",
+            "s_description": "Límite mínimo crédito para compra en cuotas",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 331,
+            "i_pos_final": 349
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "LIMCRECOMPMAX ",
+            "s_description": "Límite máximo crédito para compra en cuotas",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 349,
+            "i_pos_final": 367
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDGARAN      ",
+            "s_description": "Indicador de garantía (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 367,
+            "i_pos_final": 369
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDCTADOMCRE  ",
+            "s_description": "Indicador de cuenta de domiciliación obligatoria para crédito (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 369,
+            "i_pos_final": 371
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "CLASEG        ",
+            "s_description": "Campo para uso futuro",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 371,
+            "i_pos_final": 375
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "TIPSEG        ",
+            "s_description": "Campo para uso futuro",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 375,
+            "i_pos_final": 379
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "FECINI        ",
+            "s_description": "Fecha de inicio",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 379,
+            "i_pos_final": 390
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "FECFIN        ",
+            "s_description": "Fecha fin de producto",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 390,
+            "i_pos_final": 401
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDCTATIP     ",
+            "s_description": "Indicador de admisión de un solo tipo de tarjeta por cuenta (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 401,
+            "i_pos_final": 403
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "IMPEXCLIMTOL  ",
+            "s_description": "Importe tolerado de exceso de límite",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 403,
+            "i_pos_final": 421
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDEXCLIM     ",
+            "s_description": "Indicador de si el exceso de límite se incorpora al pago mínimo.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 421,
+            "i_pos_final": 423
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESINDEXCLIM  ",
+            "s_description": "    Descripción de INDEXCLIM",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 423,
+            "i_pos_final": 454
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDTRAFECCAD  ",
+            "s_description": "Indicador de nivel de tratamiento de la fecha de caducidad.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 454,
+            "i_pos_final": 456
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESINDTRAFECCA",
+            "s_description": "Descripción de INDTRAFECCAD:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 456,
+            "i_pos_final": 487
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "APLICUOTA     ",
+            "s_description": "Aplicación de la cuota de tarjeta.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 487,
+            "i_pos_final": 489
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESAPLICUOTA  ",
+            "s_description": "Descripción de APLICUOTA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 489,
+            "i_pos_final": 520
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "TRASALACR     ",
+            "s_description": "Aplicación de la cuota de tarjeta.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 520,
+            "i_pos_final": 522
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESTRASALACR  ",
+            "s_description": "Descripción de TRASALACR:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 522,
+            "i_pos_final": 553
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "NUMDIADEVACR  ",
+            "s_description": "Máximo número de días para retener saldo acreedor",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 553,
+            "i_pos_final": 557
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "TRASALDIS     ",
+            "s_description": "Tratamiento saldo dispuesto.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 557,
+            "i_pos_final": 559
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESTRASALDIS  ",
+            "s_description": "Descripción de TRASALDIS:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 559,
+            "i_pos_final": 590
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDCUOUSO     ",
+            "s_description": "Indicativo de cobro cuota de emisión.",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 590,
+            "i_pos_final": 592
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESINDCUOUSO  ",
+            "s_description": "Descripción de INDCUOUSO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 592,
+            "i_pos_final": 623
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "NUMMESDEMORA  ",
+            "s_description": "Número de meses de demora en el cobro de cuota",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 623,
+            "i_pos_final": 626
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDPERCUO     ",
+            "s_description": "Indicador de admisión de periodificación de cuota (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 626,
+            "i_pos_final": 628
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "NUMMESMAX     ",
+            "s_description": "Número máximo de plazos para distribución del cobro de cuota ",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 628,
+            "i_pos_final": 631
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "NUMDIARESOL   ",
+            "s_description": "Número de días máximo para resolución",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 631,
+            "i_pos_final": 634
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDLIMUNI     ",
+            "s_description": "Indicador de límite único para dos monedas. ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 634,
+            "i_pos_final": 636
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESINDLIMUNI  ",
+            "s_description": "Descripción de INDLIMUNI",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 636,
+            "i_pos_final": 667
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDMONUNI     ",
+            "s_description": "Indicador de moneda única por contrato (S/N). ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 667,
+            "i_pos_final": 669
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDLIMITEU    ",
+            "s_description": "Indicador de límite único línea Revolving y compra cuotas (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 669,
+            "i_pos_final": 671
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "PORIMPAGA     ",
+            "s_description": "Porcentaje de tolerancia para entrada en impago",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 671,
+            "i_pos_final": 679
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "IMPMINMOR     ",
+            "s_description": "Importe mínimo para entrada en impago",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 679,
+            "i_pos_final": 697
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "IMPMINMIN     ",
+            "s_description": "Importe mínimo de pago mínimo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 697,
+            "i_pos_final": 715
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "PORTOLTOT     ",
+            "s_description": "Porcentaje de tolerancia para cubrir pago total por tipo de línea y no aplicar saldo aplazado",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 715,
+            "i_pos_final": 723
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "IMPTOLTOT     ",
+            "s_description": "Importe máximo de tolerancia para cubrir pago por tipo de línea y no aplicar saldo aplazado",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 723,
+            "i_pos_final": 741
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "IMPMAILING    ",
+            "s_description": "Importe para generar Mailing",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 741,
+            "i_pos_final": 759
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "NUMMESCAMGLIQ  ",
+            "s_description": "Número mínimo de meses que deben transcurrir entre dos cambios de grupo de liquidación",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 759,
+            "i_pos_final": 762
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "INDCTADOM      ",
+            "s_description": "Indicador de admisión de cuenta de domiciliación ajena (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 762,
+            "i_pos_final": 764
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "IMPMINSALACRTR ",
+            "s_description": "Importe mínimo por operación de saldo acreedor para traspasar",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 764,
+            "i_pos_final": 782
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "IMPMAXSALACRTR ",
+            "s_description": "Importe máximo por operación saldo acreedor para traspasar",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 782,
+            "i_pos_final": 800
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "NDIAPENDEVO    ",
+            "s_description": "Reservado para uso futuro.",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 800,
+            "i_pos_final": 804
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "GRUPOLIQ       ",
+            "s_description": "Grupo de liquidación por defecto para el producto",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 804,
+            "i_pos_final": 807
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESGRUPOLIQ    ",
+            "s_description": "Descripción de GRUPOLIQ       ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 807,
+            "i_pos_final": 838
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "FORPAGO        ",
+            "s_description": "Forma de pago por defecto para el producto",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 838,
+            "i_pos_final": 841
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESFORPAGO",
+            "s_description": "Descripción de la forma de pago",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 841,
+            "i_pos_final": 872
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "PORLIMAUTCRE   ",
+            "s_description": "% Ampliación de disponible para autorización de operaciones",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 872,
+            "i_pos_final": 880
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "NUMMESCOBCUO ",
+            "s_description": "Número de meses para la generación de la cuota de administración.",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 880,
+            "i_pos_final": 883
+        },
+        {
+            "s_tipo_registro": "PR",
+            "s_nombre": "DESPRODRED",
+            "s_description": "Descripción reducida del producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 883,
+            "i_pos_final": 894
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 184
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DESVERTIENTE",
+            "s_description": "Descripción de vertiente:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 184,
+            "i_pos_final": 215
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 215,
+            "i_pos_final": 219
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DESCLAMON",
+            "s_description": "Descripción de la moneda",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 219,
+            "i_pos_final": 250
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "INDREMUNIC",
+            "s_description": "Indicador de Remesado factura a factura. ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 250,
+            "i_pos_final": 252
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "IDCRIREM",
+            "s_description": "ID criterio de remesado ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 8,
+            "i_dec": 0,
+            "i_pos_inicial": 252,
+            "i_pos_final": 261
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "INDFORZAR",
+            "s_description": "Campo reservado para uso futuro.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 261,
+            "i_pos_final": 263
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DESINDFORZAR",
+            "s_description": "Descripción de INDFORZAR",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 263,
+            "i_pos_final": 294
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "TIPENVPASCOM",
+            "s_description": "Indicador de envío a pasivo comercios: ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 294,
+            "i_pos_final": 297
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DESTIPENVPASCOM",
+            "s_description": "Descripción tipo de envío a pasivo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 297,
+            "i_pos_final": 328
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "FECALTA",
+            "s_description": "Fecha de alta",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 328,
+            "i_pos_final": 339
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "FECINI",
+            "s_description": "Fecha de inicio para asignar producto",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 339,
+            "i_pos_final": 350
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "FECFIN",
+            "s_description": "Fecha de fin para asignar producto",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 350,
+            "i_pos_final": 361
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "INDPROACT",
+            "s_description": "Indicador de restricción de productos a códigos de actividad:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 361,
+            "i_pos_final": 363
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DESINDPROACT",
+            "s_description": "Descripción de INDPROACT",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 363,
+            "i_pos_final": 394
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "INDCTADOMCOM",
+            "s_description": "Indicador de cuenta de domiciliación obligatoria para comercios (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 394,
+            "i_pos_final": 396
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "INDCTAAJECOM",
+            "s_description": "Indicador de cuenta de domiciliación ajena permitida para comercios (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 396,
+            "i_pos_final": 398
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "INDRETDESC",
+            "s_description": "Indicador de retención de descuento",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 398,
+            "i_pos_final": 400
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "LIMCONSUL",
+            "s_description": "Límite de consulta para remesas automáticas",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 400,
+            "i_pos_final": 418
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "LIMCONSULM",
+            "s_description": "Límite de consulta para remesas manuales",
+            "s_tipo": "Numérico",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 418,
+            "i_pos_final": 436
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "NUMDIALIQ",
+            "s_description": "Días de carencia de liquidación a partir de fecha de remesa. ",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 436,
+            "i_pos_final": 440
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DIAFIJSEM",
+            "s_description": "Día fijo de la semana para abonar/cargar la remesa",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 440,
+            "i_pos_final": 442
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DIAFIJMES",
+            "s_description": "Día fijo del mes para abonar/cargar la remesa",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 442,
+            "i_pos_final": 445
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DIAFIJQUINC",
+            "s_description": "Día fijo de la quincena para abonar/cargar la remesa",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 445,
+            "i_pos_final": 448
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "TIPCOMER",
+            "s_description": "Tipo de comercio",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 448,
+            "i_pos_final": 450
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DESTIPCOMER",
+            "s_description": "Descripción TIPCOMER",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 450,
+            "i_pos_final": 481
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "INDTIPLIQ",
+            "s_description": "Indicador de tipo de liquidación",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 481,
+            "i_pos_final": 483
+        },
+        {
+            "s_tipo_registro": "PM",
+            "s_nombre": "DESINDTIPLIQ",
+            "s_description": "Descripción de INDTIPLIQ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 483,
+            "i_pos_final": 514
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 184
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "DESVERTIENTE",
+            "s_description": "Descripción de vertiente",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 184,
+            "i_pos_final": 215
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "CONPROD",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 215,
+            "i_pos_final": 219
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "DESCON",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 219,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "FECALTA",
+            "s_description": "Fecha de alta de la condición económica",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 281
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "FECINI",
+            "s_description": "Fecha de inicio de la condición económica",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 281,
+            "i_pos_final": 292
+        },
+        {
+            "s_tipo_registro": "CE",
+            "s_nombre": "FECFIN",
+            "s_description": "Fecha de fin de la condición económica",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 292,
+            "i_pos_final": 303
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "CONPROD",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 186
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESCON",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 186,
+            "i_pos_final": 237
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 237,
+            "i_pos_final": 239
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESVERTIENTE",
+            "s_description": "Descripción de vertiente ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 239,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "CODCONECO",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 275
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESCONECO",
+            "s_description": "Descripción de CODCONECO     ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 275,
+            "i_pos_final": 306
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 306,
+            "i_pos_final": 310
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESCLAMON",
+            "s_description": "Descripción de CLAMON        ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 310,
+            "i_pos_final": 341
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "IMPFIJO",
+            "s_description": "Importe fijo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 341,
+            "i_pos_final": 359
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "IMPMIN",
+            "s_description": "Importe mínimo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 359,
+            "i_pos_final": 377
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "IMPMAX",
+            "s_description": "Importe máximo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 377,
+            "i_pos_final": 395
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "PORUF",
+            "s_description": "Porcentaje de aplicación de unidad ficticia sobre el importe calculado de la aplicación del concepto económico",
+            "s_tipo": " ",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 395,
+            "i_pos_final": 403
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "FECALTA",
+            "s_description": "Fecha de alta",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 403,
+            "i_pos_final": 414
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "SIGN-REDONDEO",
+            "s_description": "Signo del redondeo (+/-)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 414,
+            "i_pos_final": 416
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "REDONDEO",
+            "s_description": "Redondeo a aplicar al importe resultante de aplicar el concepto económico.",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 416,
+            "i_pos_final": 418
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESREDONDEO",
+            "s_description": "Descripción de redondeo:",
+            "s_tipo": "",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 418,
+            "i_pos_final": 449
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "INDPORTRAMO",
+            "s_description": "Indicador de forma de utilización del campo PORTRAMO de la tabla de tramos.",
+            "s_tipo": "",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 449,
+            "i_pos_final": 451
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESINDPORTRAMO",
+            "s_description": "Descripción de INDPORTRAMO:",
+            "s_tipo": "",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 451,
+            "i_pos_final": 482
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "PORREF",
+            "s_description": "Porcentaje o divisor de referencia para cambios masivos en todos los tramos donde aparezca este concepto económico ",
+            "s_tipo": "",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 482,
+            "i_pos_final": 490
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "SIGNO",
+            "s_description": "Signo del importe (+/-)",
+            "s_tipo": "",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 490,
+            "i_pos_final": 492
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "INDBONOPE",
+            "s_description": "Indicador de bonificación por número de operaciones (S/N)",
+            "s_tipo": "",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 492,
+            "i_pos_final": 494
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "INDAPLICA",
+            "s_description": "Indicador  de  aplicación  del económico:",
+            "s_tipo": "concepto",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 494,
+            "i_pos_final": 496
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESINDAPLICA",
+            "s_description": "Descripción de INDAPLICA",
+            "s_tipo": "",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 496,
+            "i_pos_final": 527
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "CODIMPTO",
+            "s_description": "Tipo de impuesto aplicado",
+            "s_tipo": "",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 527,
+            "i_pos_final": 532
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESIMPTO",
+            "s_description": "Descripción de CODIMPTO     ",
+            "s_tipo": "",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 532,
+            "i_pos_final": 563
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "NIVAPLICA",
+            "s_description": "Nivel de aplicación:",
+            "s_tipo": "",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 563,
+            "i_pos_final": 566
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESNIVAPLICA",
+            "s_description": "Descripción de NIVAPLICA:",
+            "s_tipo": "",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 566,
+            "i_pos_final": 597
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "PROCESO",
+            "s_description": "Reservado para uso futuro.",
+            "s_tipo": "",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 597,
+            "i_pos_final": 608
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "IDEIMPAPL",
+            "s_description": "Reservado para uso futuro.",
+            "s_tipo": "",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 608,
+            "i_pos_final": 619
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "FECALTACE",
+            "s_description": "Fecha de alta concepto económico",
+            "s_tipo": "",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 619,
+            "i_pos_final": 630
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "FECINICE",
+            "s_description": "Fecha de inicio concepto económico",
+            "s_tipo": "",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 630,
+            "i_pos_final": 641
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "FECFINCE",
+            "s_description": "Fecha de fin concepto económico",
+            "s_tipo": "",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 641,
+            "i_pos_final": 652
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "INDCONFIN",
+            "s_description": "Indicador de concepto financiable (S/N)",
+            "s_tipo": "",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 652,
+            "i_pos_final": 654
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "INDAPLACR",
+            "s_description": "Indica si se siguen aplicando los conceptos con saldo acreedor (S/N). ",
+            "s_tipo": "",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 654,
+            "i_pos_final": 656
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "INDAPLIMP",
+            "s_description": "Indica  si  el  concepto  tiene  impuestos asociados (S/N)",
+            "s_tipo": "",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 656,
+            "i_pos_final": 658
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "TIPCONECO",
+            "s_description": "Tipo de concepto económico.",
+            "s_tipo": "",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 658,
+            "i_pos_final": 660
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESTIPCONECO",
+            "s_description": "Descripción de TIPCONECO:",
+            "s_tipo": "",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 660,
+            "i_pos_final": 691
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "CODCONCEP",
+            "s_description": "Código de concepto interés asociado al concepto de comisión",
+            "s_tipo": "",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 691,
+            "i_pos_final": 696
+        },
+        {
+            "s_tipo_registro": "CG",
+            "s_nombre": "DESCONCEP",
+            "s_description": "Descripción de CODCONCEP    ",
+            "s_tipo": "",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 696,
+            "i_pos_final": 727
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 184
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESVERTIENTE",
+            "s_description": "Descripción de vertiente:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 184,
+            "i_pos_final": 215
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "CONPROD",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 215,
+            "i_pos_final": 219
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESCON",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 219,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "CODMAR",
+            "s_description": "Código de marca de tarjeta",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESMAR",
+            "s_description": "Descripción de CODMAR        ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 304
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "INDTIPT",
+            "s_description": "Indicador de tipo de tarjeta",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 304,
+            "i_pos_final": 307
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESTIPT",
+            "s_description": "Descripción de INDTIPT       ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 307,
+            "i_pos_final": 338
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "CODCONECO",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 338,
+            "i_pos_final": 343
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESCONECO",
+            "s_description": "Descripción de CODCONECO     ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 343,
+            "i_pos_final": 374
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 374,
+            "i_pos_final": 378
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESCLAMON",
+            "s_description": "Descripción de CLAMON        ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 378,
+            "i_pos_final": 409
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "IMPFIJO",
+            "s_description": "Importe fijo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 409,
+            "i_pos_final": 427
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "IMPMIN",
+            "s_description": "Importe mínimo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 427,
+            "i_pos_final": 445
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "IMPMAX",
+            "s_description": "Importe máximo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 445,
+            "i_pos_final": 463
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "FECALTA",
+            "s_description": "Fecha de alta",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 463,
+            "i_pos_final": 474
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "PORUF",
+            "s_description": "Porcentaje de aplicación de unidad ficticia sobre el importe calculado de la aplicación del concepto económico.",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 474,
+            "i_pos_final": 482
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "SIGN-REDONDEO",
+            "s_description": "Signo del redondeo (+/-)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 482,
+            "i_pos_final": 484
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "REDONDEO",
+            "s_description": "Redondeo a aplicar al importe resultante de aplicar el concepto económico.",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 484,
+            "i_pos_final": 486
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESREDONDEO",
+            "s_description": "Descripción de redondeo:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 486,
+            "i_pos_final": 517
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "INDPORTRAMO",
+            "s_description": "Indicador de forma de utilización del campo PORTRAMO de la tabla de tramos.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 517,
+            "i_pos_final": 519
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESINDPORTRAM",
+            "s_description": "Descripción de INDPORTRAMO:   ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 519,
+            "i_pos_final": 550
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "PORREF",
+            "s_description": "Porcentaje o divisor de referencia para cambios masivos en todos los tramos donde aparezca este concepto económico ",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 550,
+            "i_pos_final": 558
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "SIGNO",
+            "s_description": "Signo del importe (+/-)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 558,
+            "i_pos_final": 560
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "INDBONOPE",
+            "s_description": "Indicador de bonificación por número de operaciones (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 560,
+            "i_pos_final": 562
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "INDAPLICA",
+            "s_description": "Indicador  de  aplicación  del  concepto económico. ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 562,
+            "i_pos_final": 564
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESINDAPLICA",
+            "s_description": "Descripción de INDAPLICA:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 564,
+            "i_pos_final": 595
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "CODIMPTO",
+            "s_description": "Tipo de impuesto aplicado",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 595,
+            "i_pos_final": 600
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESIMPTO",
+            "s_description": "Descripción de CODIMPTO     ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 600,
+            "i_pos_final": 631
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "NIVAPLICA",
+            "s_description": "Nivel de aplicación.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 631,
+            "i_pos_final": 634
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESNIVAPLICA",
+            "s_description": "Descripción de NIVAPLICA    ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 634,
+            "i_pos_final": 665
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "PROCESO",
+            "s_description": "Reservado para uso futuro.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 665,
+            "i_pos_final": 676
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "IDEIMPAPL",
+            "s_description": "Reservado para uso futuro.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 676,
+            "i_pos_final": 687
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "FECALTACE",
+            "s_description": "Fecha de alta concepto económico",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 687,
+            "i_pos_final": 698
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "FECINICE",
+            "s_description": "Fecha de inicio concepto económico",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 698,
+            "i_pos_final": 709
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "FECFINCE",
+            "s_description": "Fecha de fin concepto económico",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 709,
+            "i_pos_final": 720
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "INDCONFIN",
+            "s_description": "Indicador de concepto financiable (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 720,
+            "i_pos_final": 722
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "INDAPLACR",
+            "s_description": "Indica si se siguen aplicando los conceptos con saldo acreedor (S/N). ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 722,
+            "i_pos_final": 724
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "INDAPLIMP",
+            "s_description": "Indica si el concepto tiene impuestos asociados (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 724,
+            "i_pos_final": 726
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "TIPCONECO",
+            "s_description": "Tipo de concepto económico.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 726,
+            "i_pos_final": 728
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESTIPCONECO",
+            "s_description": "Descripción de TIPCONECO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 728,
+            "i_pos_final": 759
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "CODCONCEP",
+            "s_description": "Código de concepto interés asociado al concepto de comisión",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 759,
+            "i_pos_final": 764
+        },
+        {
+            "s_tipo_registro": "CT",
+            "s_nombre": "DESCONCEP",
+            "s_description": "Descripción de CODCONCEP    ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 764,
+            "i_pos_final": 795
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "CONPROD       ",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 186
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "DESCON        ",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 186,
+            "i_pos_final": 237
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "VERTIENTE     ",
+            "s_description": "Indicador de vertiente.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 237,
+            "i_pos_final": 239
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "DESVERTIENTE  ",
+            "s_description": "Descripción de vertiente ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 239,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "CODCONECO     ",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 275
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "DESCONECO     ",
+            "s_description": "Descripción de CODCONECO     ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 275,
+            "i_pos_final": 306
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "CLAMON        ",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 306,
+            "i_pos_final": 310
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "DESCLAMON     ",
+            "s_description": "Descripción de CLAMON        ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 310,
+            "i_pos_final": 341
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "CODREGIMEN",
+            "s_description": "Código de régimen fiscal",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 341,
+            "i_pos_final": 346
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "DESREGIMEN",
+            "s_description": "Descripción del régimen fiscal",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 346,
+            "i_pos_final": 377
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "CODIMPTO",
+            "s_description": "Código del tipo de impuesto",
+            "s_tipo": "Numérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 377,
+            "i_pos_final": 382
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "DESIMPTO",
+            "s_description": "Descripción del tipo de impuesto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 382,
+            "i_pos_final": 413
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "PORIMPGRAV",
+            "s_description": "Porcentaje de importe gravable por el impuesto",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 413,
+            "i_pos_final": 421
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "PORIMPTO",
+            "s_description": "Porcentaje de aplicación del impuesto",
+            "s_tipo": "Numérico",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 421,
+            "i_pos_final": 429
+        },
+        {
+            "s_tipo_registro": "RF",
+            "s_nombre": "REDONDEO",
+            "s_description": "Redondeo a aplicar al importe resultante de aplicar el impuesto: -9 – redondeo externo ",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 429,
+            "i_pos_final": 431
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "CONPROD",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 186
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "DESCON",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 186,
+            "i_pos_final": 237
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 237,
+            "i_pos_final": 239
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "DESVERTIENTE",
+            "s_description": "Descripción de vertiente:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 239,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "CODMAR",
+            "s_description": "Código de marca de tarjeta",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "DESMAR",
+            "s_description": "Descripción de CODMAR        ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 304
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "INDTIPT",
+            "s_description": "Indicador de tipo de tarjeta",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 304,
+            "i_pos_final": 307
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "DESTIPT",
+            "s_description": "Descripción de INDTIPT       ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 307,
+            "i_pos_final": 338
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "CODCONECO",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 338,
+            "i_pos_final": 343
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "DESCONECO",
+            "s_description": "Descripción de CODCONECO     ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 343,
+            "i_pos_final": 374
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "TIPOACCESO",
+            "s_description": "Tipo de acceso.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 374,
+            "i_pos_final": 376
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "DESACCESO",
+            "s_description": "Descripción de TIPOACCESO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 376,
+            "i_pos_final": 407
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 407,
+            "i_pos_final": 411
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "DESCLAMON",
+            "s_description": "Descripción de la moneda     ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 411,
+            "i_pos_final": 442
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "TRAMOFIN",
+            "s_description": "Valor final de aplicación del concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 442,
+            "i_pos_final": 460
+        },
+        {
+            "s_tipo_registro": "TR",
+            "s_nombre": "PORTRAMO",
+            "s_description": "Porcentaje, divisor o fijo a aplicar al importe para el tramo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 13,
+            "i_dec": 0,
+            "i_pos_inicial": 460,
+            "i_pos_final": 474
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CONPROD       ",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 186
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESCON        ",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 186,
+            "i_pos_final": 237
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CODTIPC       ",
+            "s_description": "Código de tipo de compra en cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 237,
+            "i_pos_final": 242
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESTIPC       ",
+            "s_description": "Descripción de CODTIPC       ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 242,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CODCONECO     ",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 278
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESCONECO     ",
+            "s_description": "Descripción de CODCONECO     ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 278,
+            "i_pos_final": 309
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CLAMON        ",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 309,
+            "i_pos_final": 313
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESCLAMON     ",
+            "s_description": "Descripción de CLAMON        ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 313,
+            "i_pos_final": 344
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "VERTIENTE     ",
+            "s_description": "Indicador de vertiente.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 344,
+            "i_pos_final": 346
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESVERTIENTE  ",
+            "s_description": "Descripción de vertiente:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 346,
+            "i_pos_final": 377
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPFIJO       ",
+            "s_description": "Importe fijo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 377,
+            "i_pos_final": 395
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPMIN        ",
+            "s_description": "Importe mínimo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 395,
+            "i_pos_final": 413
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IMPMAX        ",
+            "s_description": "Importe máximo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 413,
+            "i_pos_final": 431
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECALTA       ",
+            "s_description": "Fecha de alta",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 431,
+            "i_pos_final": 442
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "PORUF         ",
+            "s_description": "Porcentaje de aplicación de unidad ficticia sobre el importe calculado de la aplicación del concepto económico, se trata de un importe fijo definido como un porcentaje.",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 442,
+            "i_pos_final": 450
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "SIGN-REDONDEO ",
+            "s_description": "Signo del campo redondeo (+/-)         ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 450,
+            "i_pos_final": 452
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "REDONDEO      ",
+            "s_description": "Redondeo a aplicar al importe resultante de aplicar el concepto económico.",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 452,
+            "i_pos_final": 454
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESREDONDEO   ",
+            "s_description": "Descripción de redondeo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 454,
+            "i_pos_final": 485
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "TIPOACCESO    ",
+            "s_description": "Tipo de acceso",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 485,
+            "i_pos_final": 487
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESACCESO     ",
+            "s_description": "Descripción de TIPOACCESO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 487,
+            "i_pos_final": 518
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "INDCAPINTC    ",
+            "s_description": "Indicador de capitalización de concepto.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 518,
+            "i_pos_final": 520
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESCAPINTC    ",
+            "s_description": "Descripción de INDCAPINTC:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 520,
+            "i_pos_final": 551
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "INDPORTRAMO   ",
+            "s_description": "Indicador de forma de utilización del campo PORTRAMO de la tabla de tramos.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 551,
+            "i_pos_final": 553
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESINDPORTRAMO",
+            "s_description": "Descripción de INDPORTRAMO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 553,
+            "i_pos_final": 584
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "PORREF        ",
+            "s_description": "Porcentaje o divisor de referencia para cambios masivos en todos los tramos donde aparezca este concepto económico ",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 584,
+            "i_pos_final": 592
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "SIGNO         ",
+            "s_description": "Signo del importe (+/-)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 592,
+            "i_pos_final": 594
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "INDBONOPE     ",
+            "s_description": "Indicador  de  bonificación  por  número  de operaciones (s/n)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 594,
+            "i_pos_final": 596
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "INDAPLICA     ",
+            "s_description": "Indicador de aplicación del concepto económico.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 596,
+            "i_pos_final": 598
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESINDAPLICA  ",
+            "s_description": "Descripción de INDAPLICA ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 598,
+            "i_pos_final": 629
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CODIMPTO      ",
+            "s_description": "Tipo de impuesto aplicado",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 629,
+            "i_pos_final": 634
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESIMPTO      ",
+            "s_description": "Descripción de CODIMPTO     ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 634,
+            "i_pos_final": 665
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "NIVAPLICA     ",
+            "s_description": "Nivel de aplicación.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 665,
+            "i_pos_final": 668
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESNIVAPLICA  ",
+            "s_description": "Descripción de NIVAPLICA  ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 668,
+            "i_pos_final": 699
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "PROCESO       ",
+            "s_description": "Reservado para uso futuro.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 699,
+            "i_pos_final": 710
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "IDEIMPAPL     ",
+            "s_description": "Reservado para uso futuro.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 710,
+            "i_pos_final": 721
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECALTACE     ",
+            "s_description": "Fecha de alta concepto económico",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 721,
+            "i_pos_final": 732
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECINICE      ",
+            "s_description": "Fecha de inicio concepto económico",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 732,
+            "i_pos_final": 743
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "FECFINCE      ",
+            "s_description": "Fecha de fin concepto económico",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 743,
+            "i_pos_final": 754
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "INDCONFIN     ",
+            "s_description": "Indicador de concepto financiable (s/n)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 754,
+            "i_pos_final": 756
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "INDAPLACR   ",
+            "s_description": "Indica si se siguen aplicando los conceptos con saldo acreedor (s/n). ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 756,
+            "i_pos_final": 758
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "INDAPLIMP   ",
+            "s_description": "Indica si el concepto tiene impuestos asociados",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 758,
+            "i_pos_final": 760
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "TIPCONECO   ",
+            "s_description": "Tipo de concepto económico.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 760,
+            "i_pos_final": 762
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESTIPCONECO",
+            "s_description": "Descripción de TIPCONECO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 762,
+            "i_pos_final": 793
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "CODCONCEP   ",
+            "s_description": "Código de concepto interés asociado al concepto de comisión",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 793,
+            "i_pos_final": 798
+        },
+        {
+            "s_tipo_registro": "CC",
+            "s_nombre": "DESCONCEP   ",
+            "s_description": "Descripción de CODCONCEP    ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 798,
+            "i_pos_final": 829
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "CONPROD",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 186
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "DESCON",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 186,
+            "i_pos_final": 237
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "CODTIPC",
+            "s_description": "Código de tipo de compra en cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 237,
+            "i_pos_final": 242
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "DESTIPC",
+            "s_description": "Descripción de CODTIPC      ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 242,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente.",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 275
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "DESVERTIENTE",
+            "s_description": "Descripción de vertiente:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 275,
+            "i_pos_final": 306
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "CODCONECO",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 306,
+            "i_pos_final": 311
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "DESCONECO",
+            "s_description": "Descripción de CODCONECO    ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 311,
+            "i_pos_final": 342
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "TIPOACCESO",
+            "s_description": "Tipo de acceso",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 342,
+            "i_pos_final": 344
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "DESACCESO",
+            "s_description": "Descripción de TIPOACCESO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 344,
+            "i_pos_final": 375
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 375,
+            "i_pos_final": 379
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "DESCLAMON",
+            "s_description": "Descripción de CLAMON       ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 379,
+            "i_pos_final": 410
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "TRAMOFIN",
+            "s_description": "Valor final del tramo de aplicación del concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 410,
+            "i_pos_final": 428
+        },
+        {
+            "s_tipo_registro": "TT",
+            "s_nombre": "PORTRAMO",
+            "s_description": "Porcentaje/divisor a aplicar al importe del tramo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 428,
+            "i_pos_final": 436
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "CONPROD",
+            "s_description": "Condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 186
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "DESCON",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 50,
+            "i_dec": 0,
+            "i_pos_inicial": 186,
+            "i_pos_final": 237
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "CODTIPC",
+            "s_description": "Código de tipo de compra en cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 237,
+            "i_pos_final": 242
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "DESTIPC",
+            "s_description": "Descripción de CODTIPC      ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 242,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "VERTIENTE",
+            "s_description": "Indicador de vertiente",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 275
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "DESVERTIENTE",
+            "s_description": "Descripción de vertiente:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 275,
+            "i_pos_final": 306
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "CODCONECO",
+            "s_description": "Código de concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 306,
+            "i_pos_final": 311
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "DESCONECO",
+            "s_description": "Descripción de CODCONECO    ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 311,
+            "i_pos_final": 342
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "CLAMON",
+            "s_description": "Clave de moneda",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 342,
+            "i_pos_final": 346
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "DESCLAMON",
+            "s_description": "Descripción de CLAMON       ",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 346,
+            "i_pos_final": 377
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "COECALIMP",
+            "s_description": "Coeficiente de cálculo por importe",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 377,
+            "i_pos_final": 381
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "TRAMOFIN",
+            "s_description": "Valor final del tramo de aplicación del concepto económico",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 381,
+            "i_pos_final": 399
+        },
+        {
+            "s_tipo_registro": "TM",
+            "s_nombre": "PORTRAMO",
+            "s_description": "Porcentaje o divisor a aplicar al importe del tramo",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 7,
+            "i_dec": 0,
+            "i_pos_inicial": 399,
+            "i_pos_final": 407
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "GRFECABO",
+            "s_description": "Grupo fecha abono",
+            "s_tipo": "Numérico ",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 186
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "TIPOCALEND",
+            "s_description": "Tipo de calendario: S: Estándar",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 186,
+            "i_pos_final": 188
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "DESTIPOCALEN",
+            "s_description": "Descripción Tipo de Calendario",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 188,
+            "i_pos_final": 219
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "CALFABONO",
+            "s_description": "Periodicidad de pago:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 219,
+            "i_pos_final": 221
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "DESCALFABONO",
+            "s_description": "Descripción Periodicidad del pago",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 221,
+            "i_pos_final": 252
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "TOTPERIO",
+            "s_description": "Número total de periodos",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 252,
+            "i_pos_final": 255
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "NUMABONOS",
+            "s_description": "Numero de plazos de abono de la operación ",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 255,
+            "i_pos_final": 259
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "FECINI",
+            "s_description": "Fecha inicio promoción ",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 259,
+            "i_pos_final": 270
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "FECFIN",
+            "s_description": "Fecha fin promoción",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 270,
+            "i_pos_final": 281
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "FECHAFIJA",
+            "s_description": "Fecha de la promoción",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 281,
+            "i_pos_final": 292
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "FECEMISOR",
+            "s_description": "Fecha de cargo de la primera cuota al emisor",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 292,
+            "i_pos_final": 303
+        },
+        {
+            "s_tipo_registro": "GA",
+            "s_nombre": "TIPFECHA",
+            "s_description": "Indicador de fecha de cálculo para la promoción: O: Fecha Operación",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 303,
+            "i_pos_final": 305
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "GRFECABO",
+            "s_description": "Grupo fecha abono",
+            "s_tipo": "Numérico ",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 186
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "NUMPERIO",
+            "s_description": "Número de periodo",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 186,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "CARLIQ",
+            "s_description": "Carencia del abono a partir de fecha de remesa, con la misma periodicidad del calendario: días, semanas y meses ",
+            "s_tipo": "Numérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 193
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "DIAFIJSEM",
+            "s_description": "Día fijo de la semana para abonar/cargar la remesa",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 193,
+            "i_pos_final": 195
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "DIAINISEM",
+            "s_description": "Día de inicio de cálculo de la semana para el periodo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 195,
+            "i_pos_final": 197
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "DIAFINSEM",
+            "s_description": "Día de fin de cálculo de la semana para el periodo",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 197,
+            "i_pos_final": 199
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "DIAFIJMES",
+            "s_description": "Día fijo del mes para abonar/cargar la remesa",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 199,
+            "i_pos_final": 202
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "DIADESMES",
+            "s_description": "Día desde del mes para el periodo",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 202,
+            "i_pos_final": 205
+        },
+        {
+            "s_tipo_registro": "PA",
+            "s_nombre": "DIAHASMES",
+            "s_description": "Día hasta del mes para el periodo",
+            "s_tipo": "Numérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 205,
+            "i_pos_final": 208
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "CODENT",
+            "s_description": " Código de Entidad",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 121,
+            "i_pos_final": 126
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de producto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 126,
+            "i_pos_final": 129
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "SUBPRODU",
+            "s_description": "Descripción de subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 129,
+            "i_pos_final": 134
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "DESPROD",
+            "s_description": "Descripción de producto-subproducto",
+            "s_tipo": "Alfanumérico",
+            "i_long": 29,
+            "i_dec": 0,
+            "i_pos_inicial": 134,
+            "i_pos_final": 164
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "VERTIENTE",
+            "s_description": " Vertiente del producto. Posibles valores:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 164,
+            "i_pos_final": 166
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "TIPOREG",
+            "s_description": "Tipo de registros:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 166,
+            "i_pos_final": 169
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "NUMORDEN",
+            "s_description": "Secuencial de proceso de generación de la interfaz",
+            "s_tipo": "Numérico (sin signo)",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 169,
+            "i_pos_final": 182
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "PRODUCTO",
+            "s_description": "Código de operación de compra en cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 182,
+            "i_pos_final": 185
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "SUBPRODUCTO",
+            "s_description": "Código de subproducto de comercios",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 185,
+            "i_pos_final": 190
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "CONPROD",
+            "s_description": "Código de condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 190,
+            "i_pos_final": 194
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "DESCONRED",
+            "s_description": "Descripción de la condición económica",
+            "s_tipo": "Alfanumérico",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 194,
+            "i_pos_final": 205
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "CODMAR ",
+            "s_description": "Código de Marca de la Tarjeta  ",
+            "s_tipo": "Numérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 205,
+            "i_pos_final": 208
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "DESMAR ",
+            "s_description": "Descripción de Marca de la Tarjeta  ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 208,
+            "i_pos_final": 239
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "INDTIPT ",
+            "s_description": "Tipo de la Tarjeta ",
+            "s_tipo": "Numérico ",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 239,
+            "i_pos_final": 242
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "DESTIPT ",
+            "s_description": "Descripción del Tipo de la Tarjeta ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 242,
+            "i_pos_final": 273
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "CODTIPC",
+            "s_description": "Código Tipo de Compra en Cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 273,
+            "i_pos_final": 278
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "DESTIPC",
+            "s_description": "Descripción Tipo de Compra en Cuotas",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 278,
+            "i_pos_final": 309
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "CLAMON ",
+            "s_description": "Clave de la moneda ",
+            "s_tipo": "Numérico ",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 309,
+            "i_pos_final": 313
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "CODCONECO",
+            "s_description": "Código de Concepto Económico",
+            "s_tipo": "Numérico ",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 313,
+            "i_pos_final": 318
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "DESCONECO",
+            "s_description": "Descripción del Concepto Económico",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 318,
+            "i_pos_final": 349
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "FECALTA ",
+            "s_description": "Fecha alta tarifa particularizada ",
+            "s_tipo": "Alfanumérico ",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 349,
+            "i_pos_final": 360
+        },
+        {
+            "s_tipo_registro": "PP",
+            "s_nombre": "INDDEBCRE",
+            "s_description": "Indicador de Tipo Operación:",
+            "s_tipo": "Numérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 360,
+            "i_pos_final": 362
+        }
+    ]
+}

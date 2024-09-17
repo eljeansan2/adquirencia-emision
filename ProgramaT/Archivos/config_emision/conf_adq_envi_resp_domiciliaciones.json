@@ -1,0 +1,374 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 3,
+            "i_pos_final": 8
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "NUMSECREC",
+            "s_description": "NÚMERO  DE  SECUENCIA  DEL",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 8,
+            "i_pos_final": 24
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CODCOM",
+            "s_description": "CÓDIGO DE COMERCIO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 24,
+            "i_pos_final": 40
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 40,
+            "i_pos_final": 45
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE TARJETA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 45,
+            "i_pos_final": 58
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "NUMEXTCTA",
+            "s_description": "NÚMERO  DE  EXTRACTO  DE",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 58,
+            "i_pos_final": 62
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "NUMREFREM",
+            "s_description": "NÚMERO DE REFERENCIA QUE",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 62,
+            "i_pos_final": 73
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "PAN",
+            "s_description": "NÚMERO DE LA TARJETA (SÓLO PARA TARJETAS)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 22,
+            "i_dec": 0,
+            "i_pos_inicial": 73,
+            "i_pos_final": 96
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "ORIGEN",
+            "s_description": "-      ORIGEN DEL RECIBO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 96,
+            "i_pos_final": 99
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "SITUAREC",
+            "s_description": "INDICADOR DE SITUACIÓN DEL RECIBO:",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 99,
+            "i_pos_final": 102
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CODRECHPAS",
+            "s_description": "CÓDIGO DE RECHAZO DE PASIVO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 102,
+            "i_pos_final": 107
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "DESCRECH",
+            "s_description": "DESCRIPCIÓN DEL RECHAZO DE PASIVO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 107,
+            "i_pos_final": 138
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "FECRECHPAS",
+            "s_description": "FECHA DE RECHAZO PASIVO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 138,
+            "i_pos_final": 149
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "IBAN",
+            "s_description": "IBAN DE LA CUENTA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 149,
+            "i_pos_final": 154
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CTACARGO",
+            "s_description": "CUENTA DE CARGO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 154,
+            "i_pos_final": 185
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CLAMONCTACAR",
+            "s_description": "MONEDA DE LA CUENTA DE CARGO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 185,
+            "i_pos_final": 189
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "INDENVPAS",
+            "s_description": "INDICADOR DE ENVIAR A CUENTAS DE PASIVO (S/N)",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 189,
+            "i_pos_final": 191
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "NUMENVPAS",
+            "s_description": "NÚMERO DE ENVÍOS A CUENTAS DE PASIVO (SE ARRASTRA EN",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 191,
+            "i_pos_final": 194
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CODMOV",
+            "s_description": "CÓDIGO DE MOVIMIENTO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 194,
+            "i_pos_final": 196
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CODPROCED",
+            "s_description": "CÓDIGO DE PROCEDENCIA (VER COPY ATCODPRO)",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 196,
+            "i_pos_final": 199
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "FECEMIMOV",
+            "s_description": "FECHA EMISIÓN MOVIMIENTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 199,
+            "i_pos_final": 210
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "FECVENMOV",
+            "s_description": "FECHA  DE  VENCIMIENTO",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 210,
+            "i_pos_final": 221
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "FECIMPMOV",
+            "s_description": "FECHA DE IMPAGO (A PARTIR DE ESTA FECHA SIN COBRAR PASA A",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 221,
+            "i_pos_final": 232
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "IMPREC",
+            "s_description": "IMPORTE DEL RECIBO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 232,
+            "i_pos_final": 250
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "IMPMIN",
+            "s_description": "IMPORTE  MÍNIMO  PARA  NO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 250,
+            "i_pos_final": 268
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "IMPRECENV",
+            "s_description": "IMPORTE ENVIADO A PASIVO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 268,
+            "i_pos_final": 286
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "TIPOAPLI",
+            "s_description": "TIPO DE IMPORTE APLICADO:",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 286,
+            "i_pos_final": 288
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "IMPAPLICADO",
+            "s_description": "IMPORTE APLICADO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 288,
+            "i_pos_final": 306
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "FECALTA",
+            "s_description": "FECHA DE ALTA",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 306,
+            "i_pos_final": 317
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CLAMON",
+            "s_description": "CLAVE DE MONEDA DEL RECIBO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 317,
+            "i_pos_final": 321
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "INDRETSAL",
+            "s_description": "INDICADOR DE RETENCIÓN DE",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 321,
+            "i_pos_final": 323
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "NUMRETSAL",
+            "s_description": "NÚMERO DE RETENCIÓN DE SALDO ASIGNADO POR EL SISTEMA",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 323,
+            "i_pos_final": 334
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "IMPRETSAL",
+            "s_description": "IMPORTE RETENIDO EN PASIVO",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 17,
+            "i_dec": 0,
+            "i_pos_inicial": 334,
+            "i_pos_final": 352
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CLAMONRET",
+            "s_description": "CLAVE  DE  MONEDA  DE  LA",
+            "s_tipo": "Numérico con Signo",
+            "i_long": 3,
+            "i_dec": 0,
+            "i_pos_inicial": 352,
+            "i_pos_final": 356
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "FECCONTA",
+            "s_description": "FECHA CONTABLE",
+            "s_tipo": "Fecha",
+            "i_long": 10,
+            "i_dec": 0,
+            "i_pos_inicial": 356,
+            "i_pos_final": 367
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "CICLOVIDA",
+            "s_description": "CICLO DE VIDA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 15,
+            "i_dec": 0,
+            "i_pos_inicial": 367,
+            "i_pos_final": 383
+        },
+        {
+            "s_tipo_registro": "DM",
+            "s_nombre": "INDPREINC",
+            "s_description": "INDICADOR  PREAUTORIZACIÓN INCREMENTAL",
+            "s_tipo": "Alfanumérico",
+            "i_long": 1,
+            "i_dec": 0,
+            "i_pos_inicial": 383,
+            "i_pos_final": 385
+        }
+    ]
+}

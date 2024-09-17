@@ -1,0 +1,54 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "BJ",
+            "s_nombre": "CODENT",
+            "s_description": "CÓDIGO DE ENTIDAD",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 3,
+            "i_pos_final": 8
+        },
+        {
+            "s_tipo_registro": "BJ",
+            "s_nombre": "CENTALTA",
+            "s_description": "CENTRO DE ALTA DEL CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 4,
+            "i_dec": 0,
+            "i_pos_inicial": 8,
+            "i_pos_final": 13
+        },
+        {
+            "s_tipo_registro": "BJ",
+            "s_nombre": "CUENTA",
+            "s_description": "CUENTA DE CONTRATO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 12,
+            "i_dec": 0,
+            "i_pos_inicial": 13,
+            "i_pos_final": 26
+        },
+        {
+            "s_tipo_registro": "BJ",
+            "s_nombre": "MOTBAJA",
+            "s_description": "MOTIVO DE BAJA",
+            "s_tipo": "Alfanumérico",
+            "i_long": 2,
+            "i_dec": 0,
+            "i_pos_inicial": 26,
+            "i_pos_final": 29
+        },
+        {
+            "s_tipo_registro": "BJ",
+            "s_nombre": "DESMOT",
+            "s_description": "DESCRIPCIÓN DEL MOTIVO",
+            "s_tipo": "Alfanumérico",
+            "i_long": 30,
+            "i_dec": 0,
+            "i_pos_inicial": 29,
+            "i_pos_final": 60
+        }
+    ]
+}

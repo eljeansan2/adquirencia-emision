@@ -1,0 +1,3136 @@
+{
+    "ISO2": [
+        {
+            "name": "len",
+            "Len": "2",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "header",
+            "Len": "5",
+            "formatoCampo": "bcd"
+        },
+        {
+            "name": "msgType",
+            "Len": "2",
+            "formatoCampo": "bcd"
+        },
+        {
+            "name": "bitmap1",
+            "Len": "8",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "bitmap2",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "1"
+        },
+        {
+            "name": "c2_tarjeta",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "bcd",
+            "bit": "2",
+            "Proteger": "false",
+            "bcdrellenoZero": "true",
+            "bcdrellenofinal": "true"
+        },
+        {
+            "name": "c3_proccode",
+            "formatoLen": "bcd",
+            "Len": "3",
+            "formatoCampo": "bcd",
+            "bit": "3"
+        },
+        {
+            "name": "c4_monto",
+            "Len": "6",
+            "formatoCampo": "bcd",
+            "bit": "4",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c5_monto_settlement",
+            "Len": "6",
+            "formatoCampo": "bcd",
+            "bit": "5"
+        },
+        {
+            "name": "c6_monto_cardbill",
+            "Len": "6",
+            "formatoCampo": "bcd",
+            "bit": "6"
+        },
+        {
+            "name": "c7_datetime",
+            "formatoLen": "bcd",
+            "Len": "5",
+            "formatoCampo": "bcd",
+            "bit": "7"
+        },
+        {
+            "name": "c8_monto_cardbillfee",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bit": "8"
+        },
+        {
+            "name": "c9_conver_rate_settlement",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bit": "9"
+        },
+        {
+            "name": "c10_conver_rate_cardbill",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bit": "10"
+        },
+        {
+            "name": "c11_audit_number",
+            "Len": "3",
+            "formatoCampo": "bcd",
+            "bit": "11"
+        },
+        {
+            "name": "c12_hora_tran",
+            "Len": "3",
+            "formatoCampo": "bcd",
+            "bit": "12"
+        },
+        {
+            "name": "c13_fecha_tran",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bit": "13"
+        },
+        {
+            "name": "c14_exp_date",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bit": "14"
+        },
+        {
+            "name": "c15_date_settlement",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bit": "15"
+        },
+        {
+            "name": "c16_date_conversion",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bit": "16"
+        },
+        {
+            "name": "c17_date_capture",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bit": "17"
+        },
+        {
+            "name": "c18_merchant_type",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bit": "18"
+        },
+        {
+            "name": "c19_adq_inst_coutry_code",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "19"
+        },
+        {
+            "name": "c20_pan_country_code",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "20"
+        },
+        {
+            "name": "c21_forw_inst_country_code",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "21"
+        },
+        {
+            "name": "c22_pos_entry_mode",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "tipoDato": "N",
+            "bit": "22"
+        },
+        {
+            "name": "c23_card_seq_number",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "23"
+        },
+        {
+            "name": "c24_network_id",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "24"
+        },
+        {
+            "name": "c25_pos_cond_code",
+            "Len": "1",
+            "formatoCampo": "bcd",
+            "bit": "25"
+        },
+        {
+            "name": "c26_pos_pin_capture_code",
+            "Len": "1",
+            "formatoCampo": "bcd",
+            "bit": "26"
+        },
+        {
+            "name": "c28_monto_trans_fee",
+            "Len": "9",
+            "formatoCampo": "display",
+            "bit": "28"
+        },
+        {
+            "name": "c32_acq_inst_id",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bcdrellenofinal": "true",
+            "bit": "32"
+        },
+        {
+            "name": "c33_forw_inst_id",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "bcd",
+            "bit": "33"
+        },
+        {
+            "name": "c35_track2",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bcdrellenofinal": "true",
+            "bit": "35",
+            "Proteger": "true"
+        },
+        {
+            "name": "c37_reference_number",
+            "formatoLen": "display",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "37"
+        },
+        {
+            "name": "c38_autorizacion",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "38"
+        },
+        {
+            "name": "c39_resp_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "39",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c41_terminal_id",
+            "formatoLen": "display",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "41"
+        },
+        {
+            "name": "c42_card_acceptor_id",
+            "formatoLen": "display",
+            "Len": "15",
+            "formatoCampo": "display",
+            "bit": "42"
+        },
+        {
+            "name": "c43_card_acceptor_name_loc",
+            "formatoLen": "display",
+            "Len": "40",
+            "formatoCampo": "display",
+            "bit": "43"
+        },
+        {
+            "name": "c44_additional_resp_data",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "44"
+        },
+        {
+            "name": "c45_track1",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "45",
+            "Proteger": "true"
+        },
+        {
+            "name": "c48_additional_data_priv_use",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "48",
+            "Proteger": "true"
+        },
+        {
+            "name": "c49_currency_code",
+            "formatoLen": "bcd",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "49"
+        },
+        {
+            "name": "c50_currency_code_settlement",
+            "formatoLen": "bcd",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "50"
+        },
+        {
+            "name": "c51_currency_code_cardbill",
+            "formatoLen": "bcd",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "51"
+        },
+        {
+            "name": "c52_pin_data",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "52",
+            "Proteger": "true"
+        },
+        {
+            "name": "c53_security_relate_inf",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "53"
+        },
+        {
+            "name": "c54_additional_amounts",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "54"
+        },
+        {
+            "name": "c55_icc_system",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "55"
+        },
+        {
+            "name": "c57_reserved_national_use",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "57"
+        },
+        {
+            "name": "c58_reserved_national_use",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "58"
+        },
+        {
+            "name": "c59_nat_geo_data",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "59"
+        },
+        {
+            "name": "c60_advice_reason_code",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "60"
+        },
+        {
+            "name": "c61_pos_data",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "61"
+        },
+        {
+            "name": "c62_int_network_facility_data",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "62"
+        },
+        {
+            "name": "c63_banknet_data",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "63"
+        },
+        {
+            "name": "c70_net_information_code",
+            "Len": "2",
+            "formatoCampo": "bcd",
+            "bit": "70"
+        },
+        {
+            "name": "c73_date_action",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "73"
+        },
+        {
+            "name": "c90_original_data",
+            "Len": "21",
+            "formatoCampo": "bcd",
+            "bit": "90"
+        },
+        {
+            "name": "c91_file_update_code",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "91"
+        },
+        {
+            "name": "c95_replacement_amounts",
+            "Len": "42",
+            "formatoCampo": "display",
+            "bit": "95"
+        },
+        {
+            "name": "c96_message_security_code",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "96"
+        },
+        {
+            "name": "c100_recv_inst_code",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "100"
+        },
+        {
+            "name": "c101_file_name",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "101"
+        },
+        {
+            "name": "c102_account_id1",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "102"
+        },
+        {
+            "name": "c104_trans_description",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "104"
+        },
+        {
+            "name": "c105_reserved_iso",
+            "sizeLen": "1",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "105"
+        },
+        {
+            "name": "c106_reserved_iso",
+            "sizeLen": "1",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "106"
+        },
+        {
+            "name": "c107_reserved_iso",
+            "sizeLen": "1",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "107"
+        },
+        {
+            "name": "c108_reserved_iso",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "108"
+        },
+        {
+            "name": "c109_reserved_iso",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "109"
+        },
+        {
+            "name": "c110_reserved_iso",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "110"
+        },
+        {
+            "name": "c111_reserved_iso",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "111"
+        },
+        {
+            "name": "c112_additional_data",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "112"
+        },
+        {
+            "name": "c114_reserved_national_use",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "114"
+        },
+        {
+            "name": "c116_reserved_national_use",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "116"
+        },
+        {
+            "name": "c118_reserved_national_use",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "118"
+        },
+        {
+            "name": "c119_reserved_national_use",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "119"
+        },
+        {
+            "name": "c120_record_data",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "120"
+        },
+        {
+            "name": "c121_authoring_agent_id",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "121"
+        },
+        {
+            "name": "c122_additional_record_data",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "122"
+        },
+        {
+            "name": "c123_reserved",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "bin",
+            "bit": "123"
+        },
+        {
+            "name": "c124_reserved",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "124"
+        },
+        {
+            "name": "c126_private_data",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "126",
+            "Proteger": "true"
+        },
+        {
+            "name": "c127_private_data",
+            "sizeLen": "2",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "127"
+        }
+    ],
+
+    "ISO3": [
+        {
+            "name": "len",
+            "Len": "2",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "msgType",
+            "Len": "4",
+            "formatoCampo": "display"
+        },
+        {
+            "name": "bitmap1",
+            "Len": "8",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "bitmap2",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "1"
+        },
+        {
+            "name": "c2_tarjeta",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "2"
+        },
+        {
+            "name": "c3_proccode",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "3"
+        },
+        {
+            "name": "c4_monto",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "4",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c5_monto_settlement",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "5"
+        },
+        {
+            "name": "c6_monto_cardbill",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "6"
+        },
+        {
+            "name": "c7_datetime",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "7"
+        },
+        {
+            "name": "c8_monto_cardbillfee",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "8"
+        },
+        {
+            "name": "c9_conver_rate_settlement",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "9"
+        },
+        {
+            "name": "c10_conver_rate_cardbill",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "10"
+        },
+        {
+            "name": "c11_audit_number",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "11"
+        },
+        {
+            "name": "c12_hora_tran",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "12"
+        },
+        {
+            "name": "c13_fecha_tran",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "13"
+        },
+        {
+            "name": "c14_exp_date",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "14"
+        },
+        {
+            "name": "c15_date_settlement",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "15"
+        },
+        {
+            "name": "c16_date_conversion",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "16"
+        },
+        {
+            "name": "c17_date_capture",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "17"
+        },
+        {
+            "name": "c18_merchant_type",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "18"
+        },
+        {
+            "name": "c19_adq_inst_coutry_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "19"
+        },
+        {
+            "name": "c20_pan_country_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "20"
+        },
+        {
+            "name": "c21_forw_inst_country_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "21"
+        },
+        {
+            "name": "c22_pos_entry_mode",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "22"
+        },
+        {
+            "name": "c23_card_seq_number",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "23"
+        },
+        {
+            "name": "c24_network_id",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "24"
+        },
+        {
+            "name": "c25_pos_cond_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "25"
+        },
+        {
+            "name": "c26_pos_pin_capture_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "26"
+        },
+        {
+            "name": "c27_auth_response_length",
+            "Len": "9",
+            "formatoCampo": "display",
+            "bit": "27"
+        },
+        {
+            "name": "c28_monto_trans_fee",
+            "Len": "9",
+            "formatoCampo": "display",
+            "bit": "28"
+        },
+        {
+            "name": "c29_monto_settlement_fee",
+            "Len": "9",
+            "formatoCampo": "display",
+            "bit": "29"
+        },
+        {
+            "name": "c30_monto_trans_proc_fee",
+            "Len": "9",
+            "formatoCampo": "display",
+            "bit": "30"
+        },
+        {
+            "name": "c31_monto_settlement_proc_fee",
+            "Len": "9",
+            "formatoCampo": "display",
+            "bit": "31"
+        },
+        {
+            "name": "c32_acq_inst_id",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bcdrellenoZero": "true",
+            "bit": "32"
+        },
+        {
+            "name": "c33_forw_inst_id",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "33"
+        },
+        {
+            "name": "c34_pan_extended",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "34"
+        },
+        {
+            "name": "c35_track2",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "35",
+            "Proteger": "false"
+        },
+        {
+            "name": "c36_track3",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "36"
+        },
+        {
+            "name": "c37_reference_number",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "37"
+        },
+        {
+            "name": "c38_autorizacion",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "38"
+        },
+        {
+            "name": "c39_resp_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "39",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c40_serv_restriction_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "40"
+        },
+        {
+            "name": "c41_terminal_id",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "41"
+        },
+        {
+            "name": "c42_card_acceptor_id",
+            "Len": "15",
+            "formatoCampo": "display",
+            "bit": "42"
+        },
+        {
+            "name": "c43_card_acceptor_name_loc",
+            "Len": "40",
+            "formatoCampo": "display",
+            "bit": "43"
+        },
+        {
+            "name": "c44_additional_resp_data",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "44"
+        },
+        {
+            "name": "c45_track1",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "45",
+            "Proteger": "true"
+        },
+        {
+            "name": "c46_additional_data_iso_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "46"
+        },
+        {
+            "name": "c47_additional_data_nat_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "47"
+        },
+        {
+            "name": "c48_additional_data_priv_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "48",
+            "Proteger": "false"
+        },
+        {
+            "name": "c49_currency_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "49"
+        },
+        {
+            "name": "c50_currency_code_settlement",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "50"
+        },
+        {
+            "name": "c51_currency_code_cardbill",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "51"
+        },
+        {
+            "name": "c52_pin_data",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "52"
+        },
+        {
+            "name": "c53_security_relate_inf",
+            "Len": "16",
+            "formatoCampo": "display",
+            "bit": "53"
+        },
+        {
+            "name": "c54_additional_amounts",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "54"
+        },
+        {
+            "name": "c55_icc_system",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "bin",
+            "bit": "55"
+        },
+        {
+            "name": "c56_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "56"
+        },
+        {
+            "name": "c57_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "57"
+        },
+        {
+            "name": "c58_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "58"
+        },
+        {
+            "name": "c59_nat_geo_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "59"
+        },
+        {
+            "name": "c60_advice_reason_code",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "60"
+        },
+        {
+            "name": "c61_pos_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "61"
+        },
+        {
+            "name": "c62_int_network_facility_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "62"
+        },
+        {
+            "name": "c63_banknet_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "63"
+        },
+        {
+            "name": "c64_message_auth_code",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "64"
+        },
+        {
+            "name": "c65_bitmap_extended",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "65"
+        },
+        {
+            "name": "c66_settlement_code",
+            "Len": "1",
+            "formatoCampo": "display",
+            "bit": "66"
+        },
+        {
+            "name": "c67_extended_payment_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "67"
+        },
+        {
+            "name": "c68_recv_inst_country_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "68"
+        },
+        {
+            "name": "c69_settl_inst_country_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "69"
+        },
+        {
+            "name": "c70_net_information_code",
+            "Len": "3",
+            "tipoDato": "N",
+            "formatoCampo": "display",
+            "bit": "70"
+        },
+        {
+            "name": "c71_message_number",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "71"
+        },
+        {
+            "name": "c72_message_number_last",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "72"
+        },
+        {
+            "name": "c73_date_action",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "73"
+        },
+        {
+            "name": "c74_credits_number",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "74"
+        },
+        {
+            "name": "c75_credits_reversal_number",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "75"
+        },
+        {
+            "name": "c76_debits_number",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "76"
+        },
+        {
+            "name": "c77_debits_reversal_number",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "77"
+        },
+        {
+            "name": "c78_transfers_number",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "78"
+        },
+        {
+            "name": "c79_transfers_reversal_number",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "79"
+        },
+        {
+            "name": "c80_inquiries_number3_date_action",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "80"
+        },
+        {
+            "name": "c81_authorization_number",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "81"
+        },
+        {
+            "name": "c82_credits_proc_fee_amount",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "82"
+        },
+        {
+            "name": "c83_credits_tran_fee_amount",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "83"
+        },
+        {
+            "name": "c84_debits_proc_fee_amount",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "84"
+        },
+        {
+            "name": "c85_debits_tran_fee_amount",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "85"
+        },
+        {
+            "name": "c86_credits_amount",
+            "Len": "16",
+            "formatoCampo": "display",
+            "bit": "86"
+        },
+        {
+            "name": "c87_credits_reversal_amount",
+            "Len": "16",
+            "formatoCampo": "display",
+            "bit": "87"
+        },
+        {
+            "name": "c88_debits_amount",
+            "Len": "16",
+            "formatoCampo": "display",
+            "bit": "88"
+        },
+        {
+            "name": "c89_debits_reversal_amount",
+            "Len": "16",
+            "formatoCampo": "display",
+            "bit": "89"
+        },
+        {
+            "name": "c90_original_data",
+            "Len": "42",
+            "formatoCampo": "display",
+            "bit": "90"
+        },
+        {
+            "name": "c91_file_update_code",
+            "Len": "1",
+            "formatoCampo": "display",
+            "bit": "91"
+        },
+        {
+            "name": "c92_file_security_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "92"
+        },
+        {
+            "name": "c93_response_indicator",
+            "Len": "5",
+            "formatoCampo": "display",
+            "bit": "93"
+        },
+        {
+            "name": "c94_service_indicator",
+            "Len": "7",
+            "formatoCampo": "display",
+            "bit": "94"
+        },
+        {
+            "name": "c95_replacement_amounts",
+            "Len": "42",
+            "formatoCampo": "display",
+            "bit": "95"
+        },
+        {
+            "name": "c96_message_security_code",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "96"
+        },
+        {
+            "name": "c97_amount_net_settlement",
+            "Len": "17",
+            "formatoCampo": "display",
+            "bit": "97"
+        },
+        {
+            "name": "c98_payee",
+            "Len": "25",
+            "formatoCampo": "display",
+            "bit": "98"
+        },
+        {
+            "name": "c99_settlement_inst_code",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "99"
+        },
+        {
+            "name": "c100_recv_inst_code",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "100"
+        },
+        {
+            "name": "c101_file_name",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "101"
+        },
+        {
+            "name": "c102_account_id1",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "102"
+        },
+        {
+            "name": "c103_account_id2",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "103"
+        },
+        {
+            "name": "c104_trans_description",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "104"
+        },
+        {
+            "name": "c105_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "105"
+        },
+        {
+            "name": "c106_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "106"
+        },
+        {
+            "name": "c107_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "107"
+        },
+        {
+            "name": "c108_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "108"
+        },
+        {
+            "name": "c109_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "109"
+        },
+        {
+            "name": "c110_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "110"
+        },
+        {
+            "name": "c111_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "111"
+        },
+        {
+            "name": "c112_additional_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "112"
+        },
+        {
+            "name": "c113_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "113"
+        },
+        {
+            "name": "c114_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "114"
+        },
+        {
+            "name": "c115_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "115"
+        },
+        {
+            "name": "c116_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "116"
+        },
+        {
+            "name": "c117_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "117"
+        },
+        {
+            "name": "c118_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "118"
+        },
+        {
+            "name": "c119_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "119"
+        },
+        {
+            "name": "c120_record_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "120"
+        },
+        {
+            "name": "c121_authoring_agent_id",
+            "sizeLen": "1",
+            "formatoLen": "bcd",
+            "formatoCampo": "display",
+            "bit": "121"
+        },
+        {
+            "name": "c122_additional_record_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "122"
+        },
+        {
+            "name": "c123_reserved",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "123"
+        },
+        {
+            "name": "c124_reserved",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "124"
+        },
+        {
+            "name": "c125_reserved",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "125"
+        },
+        {
+            "name": "c126_private_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "126"
+        }
+    ]
+,
+
+    "VISA": [
+        {
+            "name": "len",
+            "Len": "4",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrlen",
+            "Len": "1",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrflagformat",
+            "Len": "1",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrtextformat",
+            "Len": "1",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrtotallen",
+            "Len": "2",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrdeststationid",
+            "Len": "3",
+            "formatoCampo": "bcd"
+        },
+        {
+            "name": "hdrsourcestationid",
+            "Len": "3",
+            "formatoCampo": "bcd"
+        },
+        {
+            "name": "hdrroundtrip",
+            "Len": "1",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrbaseIflag",
+            "Len": "2",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrmsgstaflag",
+            "Len": "3",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrbatchnum",
+            "Len": "1",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdrreserved",
+            "Len": "3",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "hdruserinfo",
+            "Len": "1",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "msgType",
+            "Len": "2",
+            "formatoCampo": "bcd"
+        },
+        {
+            "name": "bitmap1",
+            "Len": "8",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "bitmap2",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "1"
+        },
+        {
+            "name": "siaidcd",
+            "Len": "19",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "tipo",
+            "Len": "1",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "fechora",
+            "Len": "17",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "maquina",
+            "Len": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "idtm",
+            "Len": "4",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "mapaext",
+            "Len": "192",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "c2_tarjeta",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "2"
+        },
+        {
+            "name": "c3_proccode",
+            "Len": "6",
+            "formatoCampo": "bcd",
+            "bit": "3"
+        },
+        {
+            "name": "c4_monto",
+            "Len": "12",
+            "formatoCampo": "bcd",
+            "bit": "4",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c5_monto_settlement",
+            "Len": "12",
+            "formatoCampo": "bcd",
+            "bit": "5"
+        },
+        {
+            "name": "c6_monto_cardbill",
+            "Len": "12",
+            "formatoCampo": "bcd",
+            "bit": "6"
+        },
+        {
+            "name": "c7_datetime",
+            "Len": "10",
+            "formatoCampo": "bcd",
+            "bit": "7"
+        },
+        {
+            "name": "c10_conver_rate_cardbill",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "10"
+        },
+        {
+            "name": "c11_audit_number",
+            "Len": "6",
+            "formatoCampo": "bcd",
+            "bit": "11"
+        },
+        {
+            "name": "c12_hora_tran",
+            "Len": "6",
+            "formatoCampo": "bcd",
+            "bit": "12"
+        },
+        {
+            "name": "c13_fecha_tran",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bit": "13"
+        },
+        {
+            "name": "c14_exp_date",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bit": "14"
+        },
+        {
+            "name": "c15_date_settlement",
+            "Len": "6",
+            "formatoCampo": "bcd",
+            "bit": "15"
+        },
+        {
+            "name": "c18_merchant_type",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bit": "18"
+        },
+        {
+            "name": "c19_adq_inst_coutry_code",
+            "Len": "3",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "19"
+        },
+        {
+            "name": "c20_pan_country_code",
+            "Len": "3",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "20"
+        },
+        {
+            "name": "c22_pos_entry_mode",
+            "Len": "12",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bcdrellenofinal": "true",
+            "bit": "22"
+        },
+        {
+            "name": "c23_card_seq_number",
+            "Len": "3",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "23"
+        },
+        {
+            "name": "c25_pos_cond_code",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bit": "25"
+        },
+        {
+            "name": "c26_pos_pin_capture_code",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bit": "26"
+        },
+        {
+            "name": "c28_monto_trans_fee",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "28"
+        },
+        {
+            "name": "c32_acq_inst_id",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "32"
+        },
+        {
+            "name": "c33_forw_inst_id",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "33"
+        },
+        {
+            "name": "c34_pan_number",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "34"
+        },
+        {
+            "name": "c35_track2",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "35",
+            "Proteger": "true"
+        },
+        {
+            "name": "c37_reference_number",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "37"
+        },
+        {
+            "name": "c38_autorizacion",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "38"
+        },
+        {
+            "name": "c39_resp_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "39",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c41_terminal_id",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "41"
+        },
+        {
+            "name": "c42_card_acceptor_id",
+            "Len": "15",
+            "formatoCampo": "display",
+            "bit": "42"
+        },
+        {
+            "name": "c43_card_acceptor_name_loc",
+            "Len": "40",
+            "formatoCampo": "display",
+            "bit": "43"
+        },
+        {
+            "name": "c44_additional_resp_data",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "44"
+        },
+        {
+            "name": "c45_track1",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "45",
+            "Proteger": "true"
+        },
+        {
+            "name": "c48_additional_data_priv_use",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bcdLeninbytes": "true",
+            "bcdrellenoZero": "true",
+            "bcdrellenofinal": "true",
+            "bit": "48"
+        },
+        {
+            "name": "c49_currency_code",
+            "Len": "3",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "49"
+        },
+        {
+            "name": "c51_currency_code_cardbill",
+            "Len": "3",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "51"
+        },
+        {
+            "name": "c52_pin_data",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "52",
+            "Proteger": "true"
+        },
+        {
+            "name": "c53_security_relate_inf",
+            "Len": "16",
+            "formatoCampo": "bcd",
+            "bit": "53"
+        },
+        {
+            "name": "c54_additional_amounts",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "54"
+        },
+        {
+            "name": "c55_icc_system",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "55"
+        },
+        {
+            "name": "c56_pay_date",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "56"
+        },
+        {
+            "name": "c59_nat_geo_data",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "59"
+        },
+        {
+            "name": "c60_advice_reason_code",
+            "sizeLen": "2",
+            "bcdLeninbytes": "true",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": "60"
+        },
+        {
+            "name": "c61_pos_data",
+            "sizeLen": "2",
+            "bcdLeninbytes": "true",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": "61"
+        },
+        {
+            "name": "c62_int_network_facility_data",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "62"
+        },
+        {
+            "name": "c63_banknet_data",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "63"
+        },
+        {
+            "name": "c70_net_information_code",
+            "Len": "4",
+            "formatoCampo": "bcd",
+            "bcdrellenoZero": "true",
+            "bit": "70"
+        },
+        {
+            "name": "c73_date_action",
+            "Len": "6",
+            "formatoCampo": "bcd",
+            "bit": "73"
+        },
+        {
+            "name": "c90_original_data",
+            "Len": "42",
+            "formatoCampo": "bcd",
+            "bit": "90"
+        },
+        {
+            "name": "c91_file_update_code",
+            "Len": "1",
+            "formatoCampo": "display",
+            "bit": "91"
+        },
+        {
+            "name": "c92_file_security_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "92"
+        },
+        {
+            "name": "c95_replacement_amounts",
+            "Len": "42",
+            "formatoCampo": "display",
+            "bit": "95"
+        },
+        {
+            "name": "c100_recv_inst_code",
+            "sizeLen": "2",
+            "bcdLeninbytes": "true",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": "100"
+        },
+        {
+            "name": "c101_file_name",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "101"
+        },
+        {
+            "name": "c102_account_id1",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "102"
+        },
+        {
+            "name": "c103_account_id2",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "103"
+        },
+        {
+            "name": "c104_trans_description",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "104"
+        },
+        {
+            "name": "c110_key_data",
+            "sizeLen": "4",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "110"
+        },
+        {
+            "name": "c114_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "114"
+        },
+        {
+            "name": "c115_add_trace_info",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "115"
+        },
+        {
+            "name": "c116_card_iss_reference",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "116"
+        },
+        {
+            "name": "c117_national_use_data",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "117"
+        },
+        {
+            "name": "c118_internal_data_country",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "118"
+        },
+        {
+            "name": "c120_record_data",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "120"
+        },
+        {
+            "name": "c121_authoring_agent_id",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "121"
+        },
+        {
+            "name": "c123_reserved",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "123"
+        },
+        {
+            "name": "c125_secon_info",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "125"
+        },
+        {
+            "name": "c126_visa_private_data",
+            "Len": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "bin",
+            "bit": "126",
+            "Proteger": "true"
+        },
+        {
+            "name": "c127_file_data",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "127"
+        },
+        {
+            "name": "c130_capacity_terminal",
+            "Len": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "130"
+        },
+        {
+            "name": "c131_res_ver_terminal",
+            "Len": "5",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "131"
+        },
+        {
+            "name": "c132_umprevisible_number",
+            "Len": "4",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "132"
+        },
+        {
+            "name": "c133_serie_term_number",
+            "Len": "8",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "133"
+        },
+        {
+            "name": "c134_visa_discre_data",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "134"
+        },
+        {
+            "name": "c135_visa_discre_data",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "135"
+        },
+        {
+            "name": "c136_criptogram",
+            "Len": "8",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "136"
+        },
+        {
+            "name": "c137_app_transac_counter",
+            "Len": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "137"
+        },
+        {
+            "name": "c138_exch_transac_profile",
+            "Len": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "138"
+        },
+        {
+            "name": "c139_opt_issuers_acquiring",
+            "Len": "10",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "139"
+        },
+        {
+            "name": "c142_sender_script",
+            "sizeLen": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "142"
+        },
+        {
+            "name": "c143_sender_script_result",
+            "sizeLen": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "143"
+        },
+        {
+            "name": "c144_type_crypto_transac",
+            "Len": "1",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "144"
+        },
+        {
+            "name": "c145_terminal_country_code",
+            "Len": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "145"
+        },
+        {
+            "name": "c146_terminal_transacc_date",
+            "Len": "3",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "146"
+        },
+        {
+            "name": "c147_crypto_import",
+            "Len": "6",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "147"
+        },
+        {
+            "name": "c148_crypto_money",
+            "Len": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "148"
+        },
+        {
+            "name": "c149_crypto_cash_import",
+            "Len": "6",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "149"
+        },
+        {
+            "name": "c152_new_pinlblock",
+            "Len": "8",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": "152"
+        },
+        {
+            "name": "codres",
+            "Len": "35",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": ""
+        },
+        {
+            "name": "desres",
+            "Len": "30",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": ""
+        },
+        {
+            "name": "canal",
+            "Len": "30",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": ""
+        },
+        {
+            "name": "cuenta",
+            "Len": "30",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": ""
+        },
+        {
+            "name": "paisadq",
+            "Len": "387",
+            "formatoLen": "bin",
+            "formatoCampo": "display",
+            "bit": ""
+        }
+    ]
+,
+
+    "MASTERCARD": [
+        {
+            "name": "len",
+            "Len": "2",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "msgType",
+            "Len": "4",
+            "formatoCampo": "display"
+        },
+        {
+            "name": "bitmap1",
+            "Len": "8",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "bitmap2",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "1"
+        },
+        {
+            "name": "siaidc",
+            "Len": "19",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "tipo",
+            "Len": "1",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "fechora",
+            "Len": "17",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "maquina",
+            "Len": "2",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "idtm",
+            "Len": "4",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "mapaext",
+            "Len": "192",
+            "formatoLen": "bin",
+            "formatoCampo": "bcd",
+            "bit": ""
+        },
+        {
+            "name": "c2_tarjeta",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "2"
+        },
+        {
+            "name": "c3_proccode",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "3"
+        },
+        {
+            "name": "c4_monto",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "4",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c5_monto_settlement",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "5"
+        },
+        {
+            "name": "c6_monto_cardbill",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "6"
+        },
+        {
+            "name": "c7_datetime",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "7"
+        },
+        {
+            "name": "c8_monto_cardbillfee",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "8"
+        },
+        {
+            "name": "c9_conver_rate_settlement",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "9"
+        },
+        {
+            "name": "c10_conver_rate_cardbill",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "10"
+        },
+        {
+            "name": "c11_audit_number",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "11"
+        },
+        {
+            "name": "c12_hora_tran",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "12"
+        },
+        {
+            "name": "c13_fecha_tran",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "13"
+        },
+        {
+            "name": "c14_exp_date",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "14"
+        },
+        {
+            "name": "c15_date_settlement",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "15"
+        },
+        {
+            "name": "c16_date_conversion",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "16"
+        },
+        {
+            "name": "c18_merchant_type",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "18"
+        },
+        {
+            "name": "c20_pan_country_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "20"
+        },
+        {
+            "name": "c22_pos_entry_mode",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "22"
+        },
+        {
+            "name": "c23_card_seq_number",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "23"
+        },
+        {
+            "name": "c26_pos_pin_capture_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "26"
+        },
+        {
+            "name": "c28_monto_trans_fee",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "28"
+        },
+        {
+            "name": "c32_acq_inst_id",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "32"
+        },
+        {
+            "name": "c33_forw_inst_id",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "33"
+        },
+        {
+            "name": "c35_track2",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "35",
+            "Proteger": "true"
+        },
+        {
+            "name": "c37_reference_number",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "37"
+        },
+        {
+            "name": "c38_autorizacion",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "38"
+        },
+        {
+            "name": "c39_resp_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "39",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c41_terminal_id",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "41"
+        },
+        {
+            "name": "c42_card_acceptor_id",
+            "Len": "15",
+            "formatoCampo": "display",
+            "bit": "42"
+        },
+        {
+            "name": "c43_card_acceptor_name_loc",
+            "Len": "40",
+            "formatoCampo": "display",
+            "bit": "43"
+        },
+        {
+            "name": "c44_additional_resp_data",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "44"
+        },
+        {
+            "name": "c45_track1",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "45",
+            "Proteger": "true"
+        },
+        {
+            "name": "c46_additional_data_iso_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "46"
+        },
+        {
+            "name": "c48_additional_data_priv_use",
+            "Len": "2616",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "48",
+            "Proteger": "true"
+        },
+        {
+            "name": "c49_currency_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "49"
+        },
+        {
+            "name": "c50_currency_code_settlement",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "50"
+        },
+        {
+            "name": "c51_currency_code_cardbill",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "51"
+        },
+        {
+            "name": "c52_pin_data",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "52"
+        },
+        {
+            "name": "c53_security_relate_inf",
+            "Len": "16",
+            "formatoCampo": "display",
+            "bit": "53"
+        },
+        {
+            "name": "c54_additional_amounts",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "54"
+        },
+        {
+            "name": "c55_icc_system",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "bin",
+            "bit": "55"
+        },
+        {
+            "name": "c56_reserved_iso",
+            "Len": "40",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "56"
+        },
+        {
+            "name": "c60_advice_reason_code",
+            "Len": "63",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "60"
+        },
+        {
+            "name": "c61_pos_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "61"
+        },
+        {
+            "name": "c62_int_network_facility_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "62"
+        },
+        {
+            "name": "c63_banknet_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "63"
+        },
+        {
+            "name": "c64_message_auth_code",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "64"
+        },
+        {
+            "name": "c65_bitmap_extended",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "65"
+        },
+        {
+            "name": "c70_net_information_code",
+            "Len": "3",
+            "tipoDato": "N",
+            "formatoCampo": "display",
+            "bit": "70"
+        },
+        {
+            "name": "c90_original_data",
+            "Len": "42",
+            "formatoCampo": "display",
+            "bit": "90"
+        },
+        {
+            "name": "c91_file_update_code",
+            "Len": "1",
+            "formatoCampo": "display",
+            "bit": "91"
+        },
+        {
+            "name": "c94_service_indicator",
+            "Len": "7",
+            "formatoCampo": "display",
+            "bit": "94"
+        },
+        {
+            "name": "c95_replacement_amounts",
+            "Len": "42",
+            "formatoCampo": "display",
+            "bit": "95"
+        },
+        {
+            "name": "c96_message_security_code",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "96"
+        },
+        {
+            "name": "c100_recv_inst_code",
+            "Len": "13",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "100"
+        },
+        {
+            "name": "c101_file_name",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "101"
+        },
+        {
+            "name": "c102_account_id1",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "102"
+        },
+        {
+            "name": "c103_account_id2",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "103"
+        },
+        {
+            "name": "c104_trans_description",
+            "Len": "467",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "104"
+        },
+        {
+            "name": "c108_reserved_iso",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "108"
+        },
+        {
+            "name": "c110_reserved_iso",
+            "Len": "115",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "110"
+        },
+        {
+            "name": "c112_additional_data",
+            "Len": "52",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "112"
+        },
+        {
+            "name": "c120_record_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "120"
+        },
+        {
+            "name": "c121_authoring_agent_id",
+            "Len": "9",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "121"
+        },
+        {
+            "name": "c122_additional_record_data",
+            "Len": "1002",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "122"
+        },
+        {
+            "name": "c124_reserved",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "124"
+        },
+        {
+            "name": "c125_reserved",
+            "Len": "8",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "125"
+        },
+        {
+            "name": "c126_private_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "126"
+        },
+        {
+            "name": "c127_private_use_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "127"
+        },
+        {
+            "name": "c128_mac",
+            "Len": "8",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "128"
+        },
+        {
+            "name": "codres",
+            "Len": "35",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": ""
+        },
+        {
+            "name": "desres",
+            "Len": "35",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": ""
+        },
+        {
+            "name": "canal",
+            "Len": "30",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": ""
+        },
+        {
+            "name": "cuenta",
+            "Len": "30",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": ""
+        },
+        {
+            "name": "paisadq",
+            "Len": "209",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": ""
+        }
+    ]
+,
+
+    "UPAY": [
+        {
+            "name": "len",
+            "Len": "4",
+            "formatoCampo": "display"
+        },
+        {
+            "name": "header",
+            "Len": "46",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "msgType",
+            "Len": "4",
+            "formatoCampo": "display"
+        },
+        {
+            "name": "bitmap1",
+            "Len": "8",
+            "formatoCampo": "bin"
+        },
+        {
+            "name": "bitmap2",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "1"
+        },
+        {
+            "name": "len",
+            "Len": "4",
+            "formatoCampo": "display"
+        },
+        {
+            "name": "c2_tarjeta",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "2"
+        },
+        {
+            "name": "c3_proccode",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "3"
+        },
+        {
+            "name": "c4_monto",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "4",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c5_monto_settlement",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "5"
+        },
+        {
+            "name": "c6_monto_cardbill",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "6"
+        },
+        {
+            "name": "c7_datetime",
+            "Len": "10",
+            "formatoCampo": "display",
+            "bit": "7"
+        },
+        {
+            "name": "c9_conver_rate_settlement",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "9"
+        },
+        {
+            "name": "c10_conver_rate_cardbill",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "10"
+        },
+        {
+            "name": "c11_audit_number",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "11"
+        },
+        {
+            "name": "c12_hora_tran",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "12"
+        },
+        {
+            "name": "c13_fecha_tran",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "13"
+        },
+        {
+            "name": "c14_exp_date",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "14"
+        },
+        {
+            "name": "c15_date_settlement",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "15"
+        },
+        {
+            "name": "c16_date_conversion",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "16"
+        },
+        {
+            "name": "c18_merchant_type",
+            "Len": "4",
+            "formatoCampo": "display",
+            "bit": "18"
+        },
+        {
+            "name": "c19_adq_inst_coutry_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "19"
+        },
+        {
+            "name": "c22_pos_entry_mode",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "22"
+        },
+        {
+            "name": "c23_card_seq_number",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "23"
+        },
+        {
+            "name": "c25_pos_cond_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "25"
+        },
+        {
+            "name": "c26_pos_pin_capture_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "26"
+        },
+        {
+            "name": "c28_monto_trans_fee",
+            "Len": "9",
+            "formatoCampo": "display",
+            "bit": "28"
+        },
+        {
+            "name": "c32_acq_inst_id",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "32"
+        },
+        {
+            "name": "c33_forw_inst_id",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "33"
+        },
+        {
+            "name": "c35_track2",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "35"
+        },
+        {
+            "name": "c36_track3",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "36"
+        },
+        {
+            "name": "c37_reference_number",
+            "Len": "12",
+            "formatoCampo": "display",
+            "bit": "37"
+        },
+        {
+            "name": "c38_autorizacion",
+            "Len": "6",
+            "formatoCampo": "display",
+            "bit": "38"
+        },
+        {
+            "name": "c39_resp_code",
+            "Len": "2",
+            "formatoCampo": "display",
+            "bit": "39",
+            "tipoDato": "N"
+        },
+        {
+            "name": "c41_terminal_id",
+            "Len": "8",
+            "formatoCampo": "display",
+            "bit": "41"
+        },
+        {
+            "name": "c42_card_acceptor_id",
+            "Len": "15",
+            "formatoCampo": "display",
+            "bit": "42"
+        },
+        {
+            "name": "c43_card_acceptor_name_loc",
+            "Len": "40",
+            "formatoCampo": "display",
+            "bit": "43"
+        },
+        {
+            "name": "c44_additional_resp_data",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "44"
+        },
+        {
+            "name": "c45_track1",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "45"
+        },
+        {
+            "name": "c48_additional_data_priv_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "bin",
+            "bit": "48"
+        },
+        {
+            "name": "c49_currency_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "49"
+        },
+        {
+            "name": "c50_currency_code_settlement",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "50"
+        },
+        {
+            "name": "c51_currency_code_cardbill",
+            "Len": "3",
+            "formatoCampo": "display",
+            "bit": "51"
+        },
+        {
+            "name": "c52_pin_data",
+            "Len": "8",
+            "formatoCampo": "bcd",
+            "bit": "52"
+        },
+        {
+            "name": "c53_security_relate_inf",
+            "Len": "16",
+            "formatoCampo": "display",
+            "bit": "53"
+        },
+        {
+            "name": "c54_additional_amounts",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "54"
+        },
+        {
+            "name": "c55_icc_system",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "bin",
+            "bit": "55"
+        },
+        {
+            "name": "c57_reserved_national_use",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "57"
+        },
+        {
+            "name": "c59_nat_geo_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "59"
+        },
+        {
+            "name": "c60_advice_reason_code",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "60"
+        },
+        {
+            "name": "c61_pos_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "61"
+        },
+        {
+            "name": "c62_int_network_facility_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "62"
+        },
+        {
+            "name": "c63_banknet_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "63"
+        },
+        {
+            "name": "c70_net_information_code",
+            "Len": "3",
+            "formatoCampo": "display",
+            "tipoDato": "N",
+            "bit": "70"
+        },
+        {
+            "name": "c90_original_data",
+            "Len": "42",
+            "formatoCampo": "display",
+            "bit": "90"
+        },
+        {
+            "name": "c96_message_security_code",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "96"
+        },
+        {
+            "name": "c100_recv_inst_code",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "100"
+        },
+        {
+            "name": "c102_account_id1",
+            "sizeLen": "2",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "102"
+        },
+        {
+            "name": "c121_authoring_agent_id",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "121"
+        },
+        {
+            "name": "c122_additional_record_data",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "122"
+        },
+        {
+            "name": "c123_reserved",
+            "sizeLen": "3",
+            "formatoLen": "display",
+            "formatoCampo": "display",
+            "bit": "123"
+        },
+        {
+            "name": "c128_messag_auth_code",
+            "Len": "8",
+            "formatoCampo": "bin",
+            "bit": "128"
+        }
+    ]
+}

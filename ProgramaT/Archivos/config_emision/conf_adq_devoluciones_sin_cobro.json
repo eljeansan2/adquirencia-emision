@@ -1,0 +1,185 @@
+{
+    "detalle": [
+        
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Tipo de registro",
+                "s_description": "Valor Fijo ",
+                "s_tipo": "Alfanumérico",
+                "i_long": 2,
+                "i_dec": 0,
+                "i_pos_inicial": 3,
+                "i_pos_final": 6
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Producto 1",
+                "s_description": "Corresponde el número de la Tarjeta del Cliente que realizó la Transacción internacional que generó el IVA",
+                "s_tipo": "Alfanumérico",
+                "i_long": 22,
+                "i_dec": 0,
+                "i_pos_inicial": 6,
+                "i_pos_final": 29
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Producto 2",
+                "s_description": "Corresponde al número de Contrato asociada a la Tarjeta que realizó la transacción internacional que generó el IVA ",
+                "s_tipo": "Alfanumérico",
+                "i_long": 20,
+                "i_dec": 0,
+                "i_pos_inicial": 29,
+                "i_pos_final": 50
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "RUT Del Cliente Titular",
+                "s_description": "Corresponde al RUT asociado a la Cuenta informada",
+                "s_tipo": "Alfanumérico",
+                "i_long": 22,
+                "i_dec": 0,
+                "i_pos_inicial": 50,
+                "i_pos_final": 73
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Signo de monto de TRX en dólares",
+                "s_description": "Corresponde el signo del monto de la transacción internacional en dólar (posibles valores ‘+’ o ‘-‘)",
+                "s_tipo": "Alfanumérico",
+                "i_long": 1,
+                "i_dec": 0,
+                "i_pos_inicial": 73,
+                "i_pos_final": 75
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Monto de TRX en dólares ",
+                "s_description": "Corresponde el monto de la transacción internacional en dólar",
+                "s_tipo": "Numérico",
+                "i_long": 17,
+                "i_dec": 0,
+                "i_pos_inicial": 75,
+                "i_pos_final": 93
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Signo de monto de TRX  ",
+                "s_description": "Corresponde el signo del monto de la ",
+                "s_tipo": "Alfanumérico",
+                "i_long": 1,
+                "i_dec": 0,
+                "i_pos_inicial": 93,
+                "i_pos_final": 95
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Monto de TRX ",
+                "s_description": "Corresponde el monto de la transacción internacional  ",
+                "s_tipo": "Numérico",
+                "i_long": 17,
+                "i_dec": 0,
+                "i_pos_inicial": 95,
+                "i_pos_final": 113
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Fecha efectiva ",
+                "s_description": "Corresponde a la fecha efectiva en la cual se realizó la transacción internacional",
+                "s_tipo": "Numérico",
+                "i_long": 8,
+                "i_dec": 0,
+                "i_pos_inicial": 113,
+                "i_pos_final": 122
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Fecha posteo ",
+                "s_description": "Corresponde a la fecha de proceso de la transacción internacional ",
+                "s_tipo": "Numérico",
+                "i_long": 8,
+                "i_dec": 0,
+                "i_pos_inicial": 122,
+                "i_pos_final": 131
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Código de Comercio ",
+                "s_description": "Corresponde al código de comercio, de largo ",
+                "s_tipo": "Alfanumérico",
+                "i_long": 15,
+                "i_dec": 0,
+                "i_pos_inicial": 131,
+                "i_pos_final": 147
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Moneda de Origen ",
+                "s_description": "Corresponde al código de la Moneda de Origen informado para la transacción internacional (en formato ISO 4217 numérico) ",
+                "s_tipo": "Numérico",
+                "i_long": 3,
+                "i_dec": 0,
+                "i_pos_inicial": 147,
+                "i_pos_final": 151
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Número o código de la referencia internacional ",
+                "s_description": "N° referencia o microfilm de la transacción. Número único asociado a la transacción ",
+                "s_tipo": "Numérico",
+                "i_long": 23,
+                "i_dec": 0,
+                "i_pos_inicial": 151,
+                "i_pos_final": 175
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Nombre del comercio ",
+                "s_description": "Nombre del comercio, según la información enviada por SII para el correspondiente código de comercio en el listado : ",
+                "s_tipo": "Alfanumérico",
+                "i_long": 27,
+                "i_dec": 0,
+                "i_pos_inicial": 175,
+                "i_pos_final": 203
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Código país de comercio ",
+                "s_description": "Corresponde al código de país de origen informado para la transacción internacional. En formato ISO 3166-1, Alpha-3; o en su defecto Alpha-2 ",
+                "s_tipo": "Alfanumérico",
+                "i_long": 3,
+                "i_dec": 0,
+                "i_pos_inicial": 203,
+                "i_pos_final": 207
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "Número o código de la referencia bancaria internacional ",
+                "s_description": "N° referencia o microfilm de la transacción. Número único asociado a la transacción internacional bancaria ",
+                "s_tipo": "Numérico",
+                "i_long": 23,
+                "i_dec": 0,
+                "i_pos_inicial": 207,
+                "i_pos_final": 231
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "MCC(Merchant category code) ",
+                "s_description": "Código de rubro ",
+                "s_tipo": "Numérico",
+                "i_long": 4,
+                "i_dec": 0,
+                "i_pos_inicial": 231,
+                "i_pos_final": 236
+            },
+            {
+                "s_tipo_registro": "DV",
+                "s_nombre": "FILLER ",
+                "s_description": " ",
+                "s_tipo": "Alfanumérico",
+                "i_long": 65,
+                "i_dec": 0,
+                "i_pos_inicial": 236,
+                "i_pos_final": 302
+            }
+        ]
+    }

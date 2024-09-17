@@ -1,0 +1,136 @@
+{
+    "detalle": [
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "i_empresa",
+            "s_descripcion": "",
+            "s_tipo": "int",
+            "i_long": "10",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "1"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "d_fec_proceso",
+            "s_descripcion": "",
+            "s_tipo": "datetime",
+            "i_long": "23",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "2"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "i_cod_comercio",
+            "s_descripcion": "",
+            "s_tipo": "int",
+            "i_long": "10",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "3"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "s_cod_ser_pos",
+            "s_descripcion": "",
+            "s_tipo": "varchar(15)",
+            "i_long": "15",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "4"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "d_fec_creacion",
+            "s_descripcion": "",
+            "s_tipo": "datetime",
+            "i_long": "23",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "5"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "d_fec_activacion",
+            "s_descripcion": "",
+            "s_tipo": "datetime",
+            "i_long": "23",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "6"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "d_fec_bloqueo",
+            "s_descripcion": "",
+            "s_tipo": "datetime",
+            "i_long": "23",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "7"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "s_est_pos",
+            "s_descripcion": "",
+            "s_tipo": "varchar(1)",
+            "i_long": "1",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "8"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "i_secuencia",
+            "s_descripcion": "",
+            "s_tipo": "int",
+            "i_long": "10",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "9"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "s_tip_servicio",
+            "s_descripcion": "",
+            "s_tipo": "varchar(1)",
+            "i_long": "1",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "10"
+        },
+        {
+            "s_tipo_registro": "",
+            "s_nombre": "d_co_fec_eliminacion",
+            "s_descripcion": "",
+            "s_tipo": "datetime",
+            "i_long": "23",
+            "i_dec": "0",
+            "s_nulo": "no",
+            "i_pos_inicial": "",
+            "i_pos_final": "",
+            "i_posicion": "11"
+        }
+    ]
+}
