@@ -40,7 +40,7 @@ def validarTodo(ruta,varOpcion):
     elif(varOpcion=="Operaciones diarias a Comercios Emision"):PriEstru(r"ProgramaT\Archivos\config_emision\conf_adq_operaciones_diarias_comercio_emision.json",155,157)
     elif(varOpcion=="Notificaciones Emision"):SegEstru(r"ProgramaT\Archivos\config_emision\conf_adq_notificaciones.json",0,2,"NT")
     elif(varOpcion=="Devoluciones Emision"):SegEstru(r"ProgramaT\Archivos\config_emision\conf_adq_devoluciones_sin_cobro.json",0,2,"DV")
-    elif(varOpcion=="Comunicaciones Emision"):PriEstru(r"ProgramaT\Archivos\config_emision\conf_adq_comunicaciones_clientes.json",35,36)
+    elif(varOpcion=="Comunicaciones Emision"):PriEstru(r"ProgramaT\Archivos\config_emision\conf_adq_comunicaciones_clientes.json",143,144)
     elif(varOpcion=="Posiciones contrato Emision"):PriEstru(r"ProgramaT\Archivos\config_emision\conf_adq_posicion_contrato.json",20,22)
     elif(varOpcion=="Extractos comercios Emision"):PriEstru(r"ProgramaT\Archivos\config_emision\conf_adq_extractos_comercios.json",42,44)
     elif(varOpcion=="Operaciones diarias Emision"):PriEstru(r"ProgramaT\Archivos\config_emision\conf_adq_operacion_diaria_emisor.json",42,44)

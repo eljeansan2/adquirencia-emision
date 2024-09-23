@@ -7,8 +7,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 1,
-            "i_pos_final": 6
+            "i_pos_inicial": 109,
+            "i_pos_final": 114
         },
         {
             "s_tipo_registro": "1",
@@ -17,8 +17,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 6,
-            "i_pos_final": 9
+            "i_pos_inicial": 114,
+            "i_pos_final": 117
         },
         {
             "s_tipo_registro": "1",
@@ -27,8 +27,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 8,
             "i_dec": 0,
-            "i_pos_inicial": 9,
-            "i_pos_final": 18
+            "i_pos_inicial": 117,
+            "i_pos_final": 126
         },
         {
             "s_tipo_registro": "1",
@@ -37,8 +37,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 18,
-            "i_pos_final": 23
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
         },
         {
             "s_tipo_registro": "1",
@@ -47,8 +47,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 12,
             "i_dec": 0,
-            "i_pos_inicial": 23,
-            "i_pos_final": 36
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
         },
         {
             "s_tipo_registro": "1",
@@ -57,8 +57,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 36,
-            "i_pos_final": 38
+            "i_pos_inicial": 144,
+            "i_pos_final": 146
         },
         {
             "s_tipo_registro": "1",
@@ -67,8 +67,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 38,
-            "i_pos_final": 43
+            "i_pos_inicial": 146,
+            "i_pos_final": 151
         },
         {
             "s_tipo_registro": "1",
@@ -77,18 +77,8 @@
             "s_tipo": "Numérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 43,
-            "i_pos_final": 45
-        },
-        {
-            "s_tipo_registro": "1",
-            "s_nombre": "DATOS",
-            "s_description": "DATOS VARIABLES",
-            "s_tipo": "Alfanumérico",
-            "i_long": 254,
-            "i_dec": 0,
-            "i_pos_inicial": 45,
-            "i_pos_final": 300
+            "i_pos_inicial": 151,
+            "i_pos_final": 153
         },
         {
             "s_tipo_registro": "1",
@@ -97,8 +87,8 @@
             "s_tipo": "Numérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 300,
-            "i_pos_final": 303
+            "i_pos_inicial": 153,
+            "i_pos_final": 156
         },
         {
             "s_tipo_registro": "1",
@@ -107,8 +97,8 @@
             "s_tipo": "Numérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 303,
-            "i_pos_final": 306
+            "i_pos_inicial": 156,
+            "i_pos_final": 159
         },
         {
             "s_tipo_registro": "1",
@@ -117,8 +107,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 22,
             "i_dec": 0,
-            "i_pos_inicial": 306,
-            "i_pos_final": 329
+            "i_pos_inicial": 159,
+            "i_pos_final": 182
         },
         {
             "s_tipo_registro": "1",
@@ -127,8 +117,8 @@
             "s_tipo": "Numérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 329,
-            "i_pos_final": 334
+            "i_pos_inicial": 182,
+            "i_pos_final": 187
         },
         {
             "s_tipo_registro": "1",
@@ -137,8 +127,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 16,
             "i_dec": 0,
-            "i_pos_inicial": 334,
-            "i_pos_final": 351
+            "i_pos_inicial": 187,
+            "i_pos_final": 204
         },
         {
             "s_tipo_registro": "1",
@@ -147,8 +137,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 351,
-            "i_pos_final": 354
+            "i_pos_inicial": 204,
+            "i_pos_final": 207
         },
         {
             "s_tipo_registro": "1",
@@ -157,8 +147,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 206,
             "i_dec": 0,
-            "i_pos_inicial": 354,
-            "i_pos_final": 561
+            "i_pos_inicial": 207,
+            "i_pos_final": 414
         },
         {
             "s_tipo_registro": "2",
@@ -167,8 +157,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 0,
-            "i_pos_final": 5
+            "i_pos_inicial": 109,
+            "i_pos_final": 114
         },
         {
             "s_tipo_registro": "2",
@@ -177,8 +167,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 5,
-            "i_pos_final": 8
+            "i_pos_inicial": 114,
+            "i_pos_final": 117
         },
         {
             "s_tipo_registro": "2",
@@ -187,8 +177,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 8,
             "i_dec": 0,
-            "i_pos_inicial": 8,
-            "i_pos_final": 17
+            "i_pos_inicial": 117,
+            "i_pos_final": 126
         },
         {
             "s_tipo_registro": "2",
@@ -197,8 +187,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 17,
-            "i_pos_final": 22
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
         },
         {
             "s_tipo_registro": "2",
@@ -207,8 +197,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 12,
             "i_dec": 0,
-            "i_pos_inicial": 22,
-            "i_pos_final": 35
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
         },
         {
             "s_tipo_registro": "2",
@@ -217,8 +207,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 35,
-            "i_pos_final": 37
+            "i_pos_inicial": 144,
+            "i_pos_final": 146
         },
         {
             "s_tipo_registro": "2",
@@ -227,8 +217,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 37,
-            "i_pos_final": 42
+            "i_pos_inicial": 146,
+            "i_pos_final": 151
         },
         {
             "s_tipo_registro": "2",
@@ -237,18 +227,8 @@
             "s_tipo": "Numérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 42,
-            "i_pos_final": 44
-        },
-        {
-            "s_tipo_registro": "2",
-            "s_nombre": "DATOS",
-            "s_description": "DATOS VARIABLES",
-            "s_tipo": "Alfanumérico",
-            "i_long": 254,
-            "i_dec": 0,
-            "i_pos_inicial": 44,
-            "i_pos_final": 299
+            "i_pos_inicial": 151,
+            "i_pos_final": 153
         },
         {
             "s_tipo_registro": "2",
@@ -257,8 +237,8 @@
             "s_tipo": "Numérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 299,
-            "i_pos_final": 302
+            "i_pos_inicial": 153,
+            "i_pos_final": 156
         },
         {
             "s_tipo_registro": "2",
@@ -267,8 +247,8 @@
             "s_tipo": "Numérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 302,
-            "i_pos_final": 305
+            "i_pos_inicial": 156,
+            "i_pos_final": 159
         },
         {
             "s_tipo_registro": "2",
@@ -277,8 +257,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 22,
             "i_dec": 0,
-            "i_pos_inicial": 305,
-            "i_pos_final": 328
+            "i_pos_inicial": 159,
+            "i_pos_final": 182
         },
         {
             "s_tipo_registro": "2",
@@ -287,8 +267,8 @@
             "s_tipo": "Fecha",
             "i_long": 10,
             "i_dec": 0,
-            "i_pos_inicial": 328,
-            "i_pos_final": 339
+            "i_pos_inicial": 182,
+            "i_pos_final": 193
         },
         {
             "s_tipo_registro": "2",
@@ -297,8 +277,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 218,
             "i_dec": 0,
-            "i_pos_inicial": 339,
-            "i_pos_final": 558
+            "i_pos_inicial": 193,
+            "i_pos_final": 412
         },
         {
             "s_tipo_registro": "3",
@@ -307,8 +287,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 0,
-            "i_pos_final": 5
+            "i_pos_inicial": 109,
+            "i_pos_final": 114
         },
         {
             "s_tipo_registro": "3",
@@ -317,8 +297,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 5,
-            "i_pos_final": 8
+            "i_pos_inicial": 114,
+            "i_pos_final": 117
         },
         {
             "s_tipo_registro": "3",
@@ -327,8 +307,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 8,
             "i_dec": 0,
-            "i_pos_inicial": 8,
-            "i_pos_final": 17
+            "i_pos_inicial": 117,
+            "i_pos_final": 126
         },
         {
             "s_tipo_registro": "3",
@@ -337,8 +317,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 17,
-            "i_pos_final": 22
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
         },
         {
             "s_tipo_registro": "3",
@@ -347,8 +327,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 12,
             "i_dec": 0,
-            "i_pos_inicial": 22,
-            "i_pos_final": 35
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
         },
         {
             "s_tipo_registro": "3",
@@ -357,8 +337,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 35,
-            "i_pos_final": 37
+            "i_pos_inicial": 144,
+            "i_pos_final": 146
         },
         {
             "s_tipo_registro": "3",
@@ -367,8 +347,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 37,
-            "i_pos_final": 42
+            "i_pos_inicial": 146,
+            "i_pos_final": 151
         },
         {
             "s_tipo_registro": "3",
@@ -377,18 +357,8 @@
             "s_tipo": "Numérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 42,
-            "i_pos_final": 44
-        },
-        {
-            "s_tipo_registro": "3",
-            "s_nombre": "DATOS",
-            "s_description": "DATOS VARIABLES",
-            "s_tipo": "Alfanumérico",
-            "i_long": 254,
-            "i_dec": 0,
-            "i_pos_inicial": 44,
-            "i_pos_final": 299
+            "i_pos_inicial": 151,
+            "i_pos_final": 153
         },
         {
             "s_tipo_registro": "3",
@@ -397,8 +367,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 22,
             "i_dec": 0,
-            "i_pos_inicial": 299,
-            "i_pos_final": 322
+            "i_pos_inicial": 153,
+            "i_pos_final": 176
         },
         {
             "s_tipo_registro": "3",
@@ -407,8 +377,8 @@
             "s_tipo": "Numérico ",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 322,
-            "i_pos_final": 325
+            "i_pos_inicial": 176,
+            "i_pos_final": 179
         },
         {
             "s_tipo_registro": "3",
@@ -417,8 +387,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 30,
             "i_dec": 0,
-            "i_pos_inicial": 325,
-            "i_pos_final": 356
+            "i_pos_inicial": 179,
+            "i_pos_final": 210
         },
         {
             "s_tipo_registro": "3",
@@ -427,8 +397,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 356,
-            "i_pos_final": 358
+            "i_pos_inicial": 210,
+            "i_pos_final": 212
         },
         {
             "s_tipo_registro": "3",
@@ -437,8 +407,8 @@
             "s_tipo": "Fecha",
             "i_long": 10,
             "i_dec": 0,
-            "i_pos_inicial": 358,
-            "i_pos_final": 369
+            "i_pos_inicial": 212,
+            "i_pos_final": 223
         },
         {
             "s_tipo_registro": "3",
@@ -447,8 +417,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 8,
             "i_dec": 0,
-            "i_pos_inicial": 369,
-            "i_pos_final": 378
+            "i_pos_inicial": 223,
+            "i_pos_final": 232
         },
         {
             "s_tipo_registro": "3",
@@ -457,8 +427,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 181,
             "i_dec": 0,
-            "i_pos_inicial": 378,
-            "i_pos_final": 560
+            "i_pos_inicial": 232,
+            "i_pos_final": 414
         },
         {
             "s_tipo_registro": "4",
@@ -467,8 +437,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 0,
-            "i_pos_final": 5
+            "i_pos_inicial": 109,
+            "i_pos_final": 114
         },
         {
             "s_tipo_registro": "4",
@@ -477,8 +447,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 5,
-            "i_pos_final": 8
+            "i_pos_inicial": 114,
+            "i_pos_final": 117
         },
         {
             "s_tipo_registro": "4",
@@ -487,8 +457,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 8,
             "i_dec": 0,
-            "i_pos_inicial": 8,
-            "i_pos_final": 17
+            "i_pos_inicial": 117,
+            "i_pos_final": 126
         },
         {
             "s_tipo_registro": "4",
@@ -497,8 +467,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 17,
-            "i_pos_final": 22
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
         },
         {
             "s_tipo_registro": "4",
@@ -507,8 +477,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 12,
             "i_dec": 0,
-            "i_pos_inicial": 22,
-            "i_pos_final": 35
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
         },
         {
             "s_tipo_registro": "4",
@@ -517,8 +487,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 35,
-            "i_pos_final": 37
+            "i_pos_inicial": 144,
+            "i_pos_final": 146
         },
         {
             "s_tipo_registro": "4",
@@ -527,8 +497,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 37,
-            "i_pos_final": 42
+            "i_pos_inicial": 146,
+            "i_pos_final": 151
         },
         {
             "s_tipo_registro": "4",
@@ -537,18 +507,8 @@
             "s_tipo": "Numérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 42,
-            "i_pos_final": 44
-        },
-        {
-            "s_tipo_registro": "4",
-            "s_nombre": "DATOS",
-            "s_description": "DATOS VARIABLES",
-            "s_tipo": "Alfanumérico",
-            "i_long": 254,
-            "i_dec": 0,
-            "i_pos_inicial": 44,
-            "i_pos_final": 299
+            "i_pos_inicial": 151,
+            "i_pos_final": 153
         },
         {
             "s_tipo_registro": "4",
@@ -557,8 +517,8 @@
             "s_tipo": "Fecha",
             "i_long": 10,
             "i_dec": 0,
-            "i_pos_inicial": 299,
-            "i_pos_final": 310
+            "i_pos_inicial": 153,
+            "i_pos_final": 164
         },
         {
             "s_tipo_registro": "4",
@@ -567,8 +527,8 @@
             "s_tipo": "Numérico con Signo",
             "i_long": 17,
             "i_dec": 0,
-            "i_pos_inicial": 310,
-            "i_pos_final": 328
+            "i_pos_inicial": 164,
+            "i_pos_final": 182
         },
         {
             "s_tipo_registro": "4",
@@ -577,8 +537,8 @@
             "s_tipo": "Numérico con Signo",
             "i_long": 17,
             "i_dec": 0,
-            "i_pos_inicial": 328,
-            "i_pos_final": 346
+            "i_pos_inicial": 182,
+            "i_pos_final": 200
         },
         {
             "s_tipo_registro": "4",
@@ -587,8 +547,8 @@
             "s_tipo": "Numérico",
             "i_long": 3,
             "i_dec": 0,
-            "i_pos_inicial": 346,
-            "i_pos_final": 350
+            "i_pos_inicial": 200,
+            "i_pos_final": 204
         },
         {
             "s_tipo_registro": "4",
@@ -597,8 +557,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 207,
             "i_dec": 0,
-            "i_pos_inicial": 350,
-            "i_pos_final": 558
+            "i_pos_inicial": 204,
+            "i_pos_final": 412
         },
         {
             "s_tipo_registro": "6",
@@ -607,8 +567,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 0,
-            "i_pos_final": 5
+            "i_pos_inicial": 109,
+            "i_pos_final": 114
         },
         {
             "s_tipo_registro": "6",
@@ -617,8 +577,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 5,
-            "i_pos_final": 8
+            "i_pos_inicial": 114,
+            "i_pos_final": 117
         },
         {
             "s_tipo_registro": "6",
@@ -627,8 +587,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 8,
             "i_dec": 0,
-            "i_pos_inicial": 8,
-            "i_pos_final": 17
+            "i_pos_inicial": 117,
+            "i_pos_final": 126
         },
         {
             "s_tipo_registro": "6",
@@ -637,8 +597,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 17,
-            "i_pos_final": 22
+            "i_pos_inicial": 126,
+            "i_pos_final": 131
         },
         {
             "s_tipo_registro": "6",
@@ -647,8 +607,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 12,
             "i_dec": 0,
-            "i_pos_inicial": 22,
-            "i_pos_final": 35
+            "i_pos_inicial": 131,
+            "i_pos_final": 144
         },
         {
             "s_tipo_registro": "6",
@@ -657,8 +617,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 35,
-            "i_pos_final": 37
+            "i_pos_inicial": 144,
+            "i_pos_final": 146
         },
         {
             "s_tipo_registro": "6",
@@ -667,8 +627,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 4,
             "i_dec": 0,
-            "i_pos_inicial": 37,
-            "i_pos_final": 42
+            "i_pos_inicial": 146,
+            "i_pos_final": 151
         },
         {
             "s_tipo_registro": "6",
@@ -677,18 +637,8 @@
             "s_tipo": "Numérico",
             "i_long": 1,
             "i_dec": 0,
-            "i_pos_inicial": 42,
-            "i_pos_final": 44
-        },
-        {
-            "s_tipo_registro": "6",
-            "s_nombre": "DATOS",
-            "s_description": "DATOS VARIABLES",
-            "s_tipo": "Alfanumérico",
-            "i_long": 254,
-            "i_dec": 0,
-            "i_pos_inicial": 44,
-            "i_pos_final": 299
+            "i_pos_inicial": 151,
+            "i_pos_final": 153
         },
         {
             "s_tipo_registro": "6",
@@ -697,8 +647,8 @@
             "s_tipo": "Numérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 299,
-            "i_pos_final": 302
+            "i_pos_inicial": 153,
+            "i_pos_final": 156
         },
         {
             "s_tipo_registro": "6",
@@ -707,8 +657,8 @@
             "s_tipo": "Numérico",
             "i_long": 2,
             "i_dec": 0,
-            "i_pos_inicial": 302,
-            "i_pos_final": 305
+            "i_pos_inicial": 156,
+            "i_pos_final": 159
         },
         {
             "s_tipo_registro": "6",
@@ -717,8 +667,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 22,
             "i_dec": 0,
-            "i_pos_inicial": 305,
-            "i_pos_final": 328
+            "i_pos_inicial": 159,
+            "i_pos_final": 182
         },
         {
             "s_tipo_registro": "6",
@@ -727,8 +677,8 @@
             "s_tipo": "Numérico",
             "i_long": 6,
             "i_dec": 0,
-            "i_pos_inicial": 328,
-            "i_pos_final": 335
+            "i_pos_inicial": 182,
+            "i_pos_final": 189
         },
         {
             "s_tipo_registro": "6",
@@ -737,8 +687,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 3,
             "i_dec": 0,
-            "i_pos_inicial": 335,
-            "i_pos_final": 339
+            "i_pos_inicial": 189,
+            "i_pos_final": 193
         },
         {
             "s_tipo_registro": "6",
@@ -747,8 +697,8 @@
             "s_tipo": "Alfanumérico",
             "i_long": 219,
             "i_dec": 0,
-            "i_pos_inicial": 339,
-            "i_pos_final": 559
+            "i_pos_inicial": 193,
+            "i_pos_final": 413
         }
     ]
 }
